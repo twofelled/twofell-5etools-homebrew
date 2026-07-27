@@ -1,0 +1,4504 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "TwofellIdolCompendium",
+				"abbreviation": "IDOL",
+				"full": "The Idol Compendium",
+				"version": "1.1.1",
+				"authors": [
+					"Twofell"
+				],
+				"convertedBy": [
+					"Twofell"
+				],
+				"dateReleased": "2026-07-26",
+				"url": "https://homebrewery.naturalcrit.com/share/Caw0m3qu1aRS#p16",
+				"color": "852261",
+				"colorNight": "E346AD"
+			}
+		],
+		"optionalFeatureTypes": {
+			"PS": "Pact Song"
+		},
+		"edition": "classic",
+		"status": "ready",
+		"dateAdded": 1785178255,
+		"dateLastModified": 1785188234
+	},
+	"book": [
+		{
+			"name": "The Idol Compendium",
+			"id": "TwofellIdolCompendium",
+			"source": "TwofellIdolCompendium",
+			"group": "homebrew",
+			"author": "Twofell",
+			"published": "2026-07-27",
+			"contents": [
+				{
+					"name": "Introduction",
+					"headers": [
+						"The Agency"
+					],
+					"ordinal": {
+						"type": "section",
+						"identifier": 1
+					}
+				},
+				{
+					"name": "Production Index",
+					"headers": [
+						"Using This Compendium"
+					],
+					"ordinal": {
+						"type": "section",
+						"identifier": 2
+					}
+				},
+				{
+					"name": "The Idol Agency",
+					"headers": [
+						"Hype",
+						"Fan",
+						"Idol Agency Features"
+					],
+					"ordinal": {
+						"type": "section",
+						"identifier": 3
+					}
+				},
+				{
+					"name": "Pact of the Song",
+					"headers": [
+						"Performance Rights",
+						"Pact Song",
+						"Pact Songs"
+					],
+					"ordinal": {
+						"type": "section",
+						"identifier": 4
+					}
+				},
+				{
+					"name": "Eldritch Invocations",
+					"ordinal": {
+						"type": "section",
+						"identifier": 5
+					}
+				},
+				{
+					"name": "Performer Backgrounds",
+					"ordinal": {
+						"type": "section",
+						"identifier": 6
+					}
+				},
+				{
+					"name": "Performer Feats",
+					"ordinal": {
+						"type": "section",
+						"identifier": 7
+					}
+				},
+				{
+					"name": "Performer Equipment",
+					"headers": [
+						"Performer Trinkets"
+					],
+					"ordinal": {
+						"type": "section",
+						"identifier": 8
+					}
+				},
+				{
+					"name": "Idol and Agency Magic Items",
+					"ordinal": {
+						"type": "section",
+						"identifier": 9
+					}
+				},
+				{
+					"name": "Rules and Compatibility Notes",
+					"ordinal": {
+						"type": "section",
+						"identifier": 10
+					}
+				},
+				{
+					"name": "Creating an Agency",
+					"ordinal": {
+						"type": "section",
+						"identifier": 11
+					}
+				},
+				{
+					"name": "Lavender Reverie Entertainment",
+					"headers": [
+						"Lavender Reverie: Behind the Dream"
+					],
+					"ordinal": {
+						"type": "section",
+						"identifier": 12
+					}
+				},
+				{
+					"name": "Agency and Contract Flavor",
+					"ordinal": {
+						"type": "section",
+						"identifier": 13
+					}
+				},
+				{
+					"name": "Credits",
+					"ordinal": {
+						"type": "section",
+						"identifier": 14
+					}
+				}
+			]
+		}
+	],
+	"bookData": [
+		{
+			"id": "TwofellIdolCompendium",
+			"source": "TwofellIdolCompendium",
+			"data": [
+				{
+					"type": "section",
+					"name": "Introduction",
+					"entries": [
+						"The Idol Compendium is a collection of player options and campaign material themed around idols, magical performers, and the industries that shape them. Its centerpiece is the Idol Agency Otherworldly Patron, a support-focused warlock subclass that keeps allies healthy and inspired with hype, alongside Pact of the Song, a pact boon that lets any warlock lead allies through supernatural singing, dancing, and performance. The compendium also includes performer backgrounds, feats, equipment, magic items, and tools for creating an Agency of your own.",
+						{
+							"type": "entries",
+							"name": "The Agency",
+							"entries": [
+								"The Agency may be a supernatural entertainment company, fey talent label, celestial production house, cursed idol office, eldritch management corporation or soul-draining industry with impeccable branding.",
+								"It promises to nurture your hidden talent, make your dreams come true and bloom you into an unforgettable performer. In return, it expects obedience, loyalty and a part of your soul."
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Production Index",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Core Rules",
+							"entries": [
+								{
+									"type": "table",
+									"caption": "Core Rules",
+									"colLabels": [
+										"Section",
+										"Page"
+									],
+									"colStyles": [
+										"col-9",
+										"col-3 text-center"
+									],
+									"rows": [
+										[
+											"The Idol Agency",
+											3
+										],
+										[
+											"Idol Agency Features",
+											4
+										],
+										[
+											"Pact of the Song",
+											5
+										],
+										[
+											"Pact Songs",
+											6
+										],
+										[
+											"Eldritch Invocations",
+											9
+										]
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Player Options",
+							"entries": [
+								{
+									"type": "table",
+									"caption": "Player Options",
+									"colLabels": [
+										"Section",
+										"Page"
+									],
+									"colStyles": [
+										"col-9",
+										"col-3 text-center"
+									],
+									"rows": [
+										[
+											"Performer Backgrounds",
+											11
+										],
+										[
+											"Performer Feats",
+											14
+										],
+										[
+											"Performer Equipment",
+											16
+										],
+										[
+											"Performer Trinkets",
+											17
+										],
+										[
+											"Idol and Agency Magic Items",
+											18
+										]
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Campaign Material",
+							"entries": [
+								{
+									"type": "table",
+									"caption": "Campaign Material",
+									"colLabels": [
+										"Section",
+										"Page"
+									],
+									"colStyles": [
+										"col-9",
+										"col-3 text-center"
+									],
+									"rows": [
+										[
+											"Rules and Compatibility Notes",
+											22
+										],
+										[
+											"Creating an Agency",
+											23
+										],
+										[
+											"Lavender Reverie Entertainment",
+											24
+										],
+										[
+											"Agency and Contract Flavor",
+											26
+										],
+										[
+											"Credits",
+											28
+										]
+									]
+								}
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Using This Compendium",
+							"entries": [
+								"The Idol Agency patron and Pact of the Song are the mechanical center of this supplement, but neither is required to use its other player options. The backgrounds, feats, equipment, and most magic items can be used by characters of any class."
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Player and DM Material",
+							"entries": [
+								"Pages 3-21 contain player-facing rules and options. Pages 22-28 provide compatibility guidance and campaign material, including a complete fey Agency."
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "The Idol Agency",
+					"entries": [
+						"Otherworldly Patron for Warlocks",
+						"Support Your Fans - Build Hype - Survive the Show",
+						{
+							"type": "statblock",
+							"prop": "subclass",
+							"name": "Idol Agency",
+							"shortName": "Idol Agency",
+							"source": "TwofellIdolCompendium",
+							"className": "Warlock",
+							"classSource": "PHB"
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Pact of the Song",
+					"entries": [
+						{
+							"type": "statblock",
+							"tag": "optfeature",
+							"name": "Pact of the Song",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "entries",
+							"name": "Pact Songs",
+							"entries": [
+								{
+									"type": "statblock",
+									"tag": "optfeature",
+									"name": "Killer Melody",
+									"source": "TwofellIdolCompendium"
+								},
+								{
+									"type": "statblock",
+									"tag": "optfeature",
+									"name": "Patch Me Up!",
+									"source": "TwofellIdolCompendium"
+								},
+								{
+									"type": "statblock",
+									"tag": "optfeature",
+									"name": "Glassheart",
+									"source": "TwofellIdolCompendium"
+								},
+								{
+									"type": "statblock",
+									"tag": "optfeature",
+									"name": "Step-Step-Go",
+									"source": "TwofellIdolCompendium"
+								},
+								{
+									"type": "statblock",
+									"tag": "optfeature",
+									"name": "Lucky Signal",
+									"source": "TwofellIdolCompendium"
+								},
+								{
+									"type": "statblock",
+									"tag": "optfeature",
+									"name": "Aim Towards the Sky",
+									"source": "TwofellIdolCompendium"
+								},
+								{
+									"type": "statblock",
+									"tag": "optfeature",
+									"name": "Crowd Battery",
+									"source": "TwofellIdolCompendium"
+								},
+								{
+									"type": "statblock",
+									"tag": "optfeature",
+									"name": "Beat of the Heart",
+									"source": "TwofellIdolCompendium"
+								},
+								{
+									"type": "statblock",
+									"tag": "optfeature",
+									"name": "Call Me, Answer Me",
+									"source": "TwofellIdolCompendium"
+								},
+								{
+									"type": "statblock",
+									"tag": "optfeature",
+									"name": "Overdrive",
+									"source": "TwofellIdolCompendium"
+								},
+								{
+									"type": "statblock",
+									"tag": "optfeature",
+									"name": "Center of My World",
+									"source": "TwofellIdolCompendium"
+								},
+								{
+									"type": "statblock",
+									"tag": "optfeature",
+									"name": "Vocal Spark",
+									"source": "TwofellIdolCompendium"
+								},
+								{
+									"type": "statblock",
+									"tag": "optfeature",
+									"name": "Patchwork Halo",
+									"source": "TwofellIdolCompendium"
+								},
+								{
+									"type": "statblock",
+									"tag": "optfeature",
+									"name": "Last Stand",
+									"source": "TwofellIdolCompendium"
+								},
+								{
+									"type": "statblock",
+									"tag": "optfeature",
+									"name": "Ghostlight Parade",
+									"source": "TwofellIdolCompendium"
+								},
+								{
+									"type": "statblock",
+									"tag": "optfeature",
+									"name": "Smile Until Dawn",
+									"source": "TwofellIdolCompendium"
+								},
+								{
+									"type": "statblock",
+									"tag": "optfeature",
+									"name": "Syndrome",
+									"source": "TwofellIdolCompendium"
+								},
+								{
+									"type": "statblock",
+									"tag": "optfeature",
+									"name": "No Bad Takes",
+									"source": "TwofellIdolCompendium"
+								},
+								{
+									"type": "statblock",
+									"tag": "optfeature",
+									"name": "Only Love Me~",
+									"source": "TwofellIdolCompendium"
+								},
+								{
+									"type": "statblock",
+									"tag": "optfeature",
+									"name": "Sold-Out",
+									"source": "TwofellIdolCompendium"
+								},
+								{
+									"type": "statblock",
+									"tag": "optfeature",
+									"name": "Drop Like a Meteor",
+									"source": "TwofellIdolCompendium"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Eldritch Invocations",
+					"entries": [
+						{
+							"type": "statblock",
+							"tag": "optfeature",
+							"name": "Long-Distance Cue",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "optfeature",
+							"name": "Battle Cue",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "optfeature",
+							"name": "Quick Cue",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "optfeature",
+							"name": "Remixed Debut",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "optfeature",
+							"name": "Extended Discography",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "optfeature",
+							"name": "Opening Number",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "optfeature",
+							"name": "Feel it in the Heart!",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "optfeature",
+							"name": "Extended Encore",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "optfeature",
+							"name": "Stereo Audio",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "optfeature",
+							"name": "Music Player",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "optfeature",
+							"name": "Premium Subscription",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "optfeature",
+							"name": "Protect Me!",
+							"source": "TwofellIdolCompendium"
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Performer Backgrounds",
+					"entries": [
+						{
+							"type": "statblock",
+							"tag": "background",
+							"name": "Amateur Performer",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "background",
+							"name": "Agency Trainee",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "background",
+							"name": "Backstage Hand",
+							"source": "TwofellIdolCompendium"
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Performer Feats",
+					"entries": [
+						{
+							"type": "statblock",
+							"tag": "feat",
+							"name": "Trained Performer",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "feat",
+							"name": "Quick-Change Artist",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "feat",
+							"name": "Stage Presence",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "feat",
+							"name": "Vocal Impressionist",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "feat",
+							"name": "Public Persona",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "feat",
+							"name": "Ensemble Player",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "feat",
+							"name": "Perfect Timing",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "feat",
+							"name": "Opening Act",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "feat",
+							"name": "Media Trained",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "feat",
+							"name": "Choreographed Partners",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "feat",
+							"name": "Unshakable Smile",
+							"source": "TwofellIdolCompendium"
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Performer Equipment",
+					"entries": [
+						{
+							"type": "table",
+							"caption": "Performer Equipment",
+							"colLabels": [
+								"Item",
+								"Cost",
+								"Weight"
+							],
+							"colStyles": [
+								"col-6",
+								"col-3 text-center",
+								"col-3 text-center"
+							],
+							"rows": [
+								[
+									"Agency badge",
+									"10 gp",
+									"—"
+								],
+								[
+									"Agency meal packet",
+									"2 gp",
+									"1 lb."
+								],
+								[
+									"Autograph cards (20)",
+									"1 gp",
+									"—"
+								],
+								[
+									"Campaign fan",
+									"5 sp",
+									"—"
+								],
+								[
+									"Costume, performance",
+									"5 gp",
+									"4 lb."
+								],
+								[
+									"Costume repair kit",
+									"2 gp",
+									"1 lb."
+								],
+								[
+									"Cue cards (20)",
+									"5 sp",
+									"1 lb."
+								],
+								[
+									"Glowstick",
+									"1 gp",
+									"—"
+								],
+								[
+									"Makeup kit",
+									"25 gp",
+									"3 lb."
+								],
+								[
+									"Microphone, acoustic",
+									"5 gp",
+									"1 lb."
+								],
+								[
+									"Publicity portraits (10)",
+									"2 gp",
+									"—"
+								],
+								[
+									"Rehearsal markers (10)",
+									"5 sp",
+									"1 lb."
+								],
+								[
+									"Stage-smoke pellet",
+									"10 gp",
+									"—"
+								]
+							]
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Agency Badge",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Agency Meal Packet",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Autograph Cards (20)",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Campaign Fan",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Costume, Performance",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Costume Repair Kit",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Cue Cards (20)",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Glowstick",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Makeup Kit",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Microphone, Acoustic",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Publicity Portraits (10)",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Rehearsal Markers (10)",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Stage-Smoke Pellet",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "entries",
+							"name": "Performer Trinkets",
+							"entries": [
+								{
+									"type": "statblock",
+									"tag": "table",
+									"name": "Performer Trinkets",
+									"source": "TwofellIdolCompendium"
+								},
+								{
+									"type": "inset",
+									"name": "Performer Tools in Play",
+									"entries": [
+										"These trinkets can remain decorative or become minor adventure hooks. A future ticket might identify a time traveler, an event yet to occur, or someone from another dimension. A censored page might complete a ritual song, while a mysterious key might lead into an Agency’s private backstage halls. Like the trinkets found in Ravenloft, they are intended to remain strange, suggestive, and not always fully explained."
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Idol and Agency Magic Items",
+					"entries": [
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Animated Photocard",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Applause in a Bottle",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Centerpiece Crown",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Contract Pen",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Costume of a Thousand Roles",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Echoing Microphone",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Encore Blade",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Finale Baton",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Glowstick of Encouragement",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Harmony Blades",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Idol’s Emergency Hairpin",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Makeup of the Unfaltering Smile",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Manager’s Clipboard",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Mascot Head of Joy",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Noncompete Choker",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Producer’s Earpiece",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Redacted Contract Seal",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Regalia of the Unforgettable Star",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Resonant Stage Gem",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Shoes of the Marked Stage",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Spotlight Coat",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Spotlight Knife",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Stageguard Leathers",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "item",
+							"name": "Understudy Costume",
+							"source": "TwofellIdolCompendium"
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Rules and Compatibility Notes",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Hype",
+							"entries": [
+								"Hype is a special kind of temporary hit points granted by your Idol Agency features, pact songs, or spells given or modified by this subclass.",
+								"When a creature that already has hype from you gains hype from you, the new hype is added to the old hype, instead of replacing it."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Fan",
+							"entries": [
+								"A creature with hype from you is one of your fans. When a creature has no hype from you, it stops being your fan.",
+								"A creature’s maximum hype from you equals twice your warlock level + your Charisma modifier + your proficiency bonus (min. 1)."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Hype and Temporary Hit Points",
+							"entries": [
+								"Hype functions as temporary hit points except where its rules say otherwise. It does not restore consciousness, and any damage left after hype is depleted carries over to hit points.",
+								"Hype granted by different warlocks does not add together. A creature chooses which warlock’s hype to keep, just as it chooses between different sources of temporary hit points."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Fans Are Not Charmed",
+							"entries": [
+								"Being your fan is a rules term. It does not make a creature admire you, obey you or regard you as friendly. A hostile willing creature could technically become a fan, although most hype features require willing targets."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Pact Songs Are Not Spells",
+							"entries": [
+								"A pact song is magical but is not a spell. It cannot be counterspelled or dispelled unless a feature specifically says otherwise, and it does not require concentration. It still ends if you are {@condition incapacitated} or begin another pact song.",
+								"A fan must satisfy the song’s requirements to gain its benefits. A fan that can neither see nor hear you cannot benefit unless a feature says otherwise."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Multiclass Characters",
+							"entries": [
+								"Whenever this document refers to your warlock level, use only your levels in the warlock class. Use your warlock spell save DC for a pact song or invocation that calls for a saving throw."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Adjudicating Performances",
+							"entries": [
+								"A character does not need to make a Performance check every time a pact song begins. The magic comes from the pact, not from proving artistic quality. Use ability checks only when the surrounding fiction creates uncertainty, such as winning over an audience, hiding a coded message in a dance or maintaining a mundane performance during a disaster."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Instruments and Silence",
+							"entries": [
+								"A pact song can be a dance, gesture or visual routine, so magical silence does not automatically end it. Silence prevents fans from hearing it, and darkness, blindness or blocked sight may prevent them from seeing it. The performer decides the song’s usual form when learning it, but can present it differently when the fiction reasonably allows."
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Suggested Content Boundaries",
+							"entries": [
+								"Agency stories can involve exploitation, overwork, coercive contracts and loss of identity. Before using those themes heavily, establish which elements belong in the game, which should remain off-screen and which should not appear."
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Creating an Agency",
+					"entries": [
+						"Building an Idol Company for Your Campaign",
+						{
+							"type": "entries",
+							"name": "Step 1: Choose the Public Face",
+							"entries": [
+								"{@b What the World Sees}",
+								"Decide how the Agency presents itself. It might be a glamorous talent company, magical academy, philanthropic arts foundation, adventuring guild, religious choir, or fashionable lifestyle brand.",
+								"The public face determines how easily the Agency attracts recruits, earns trust, and conceals harmful practices behind respectable language and polished presentation.",
+								"It is useful to create one or more NPCs who serve as the face of the company, such as its CEO, star idol, recruiters, or trainers."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Step 2: Choose the Core Promise",
+							"entries": [
+								"{@b What Recruits Believe They Will Gain}",
+								"Every Agency sells its recruits something. Choose what it promises: fame, beauty, belonging, power, escape from obscurity, reinvention, or the chance to become the person someone always wished to be. An Agency can make one central promise or several related promises.",
+								"This promise is the emotional foundation of the Agency. It explains why people would willingly accept its help and endure the hardships that come with such work."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Step 3: Choose the True Nature",
+							"entries": [
+								"{@b What Exists Behind the Brand}",
+								"Determine who or what truly controls the Agency. It might be an eldritch being, an Archfey, a celestial chorus, an infernal board of directors, a sentient contract, a ghostly producer, or an ordinary company supported by mundane or supernatural investors.",
+								"The Agency’s true nature explains its impossible resources, magical contracts, unusual performers, and the internal rules that must be followed."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Step 4: Choose the Price of Success",
+							"entries": [
+								"{@b What the Agency Takes}",
+								"Decide what performers surrender in exchange for their success. The price might be as ordinary as time and effort or as supernatural as obedience, loyalty, memories, names, emotions, years of life, or part of a soul. Any of these can serve as fuel for the Agency.",
+								"The price establishes the central danger of the Agency. It should make success desirable while ensuring that achieving it creates a meaningful personal cost."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Step 5: Choose the Internal Structure",
+							"entries": [
+								"{@b How the Company Operates}",
+								"Choose two or three departments or systems that define daily life within the Agency. Common examples include scouting, training, publicity, legal enforcement, costume design, magical development, security, fan relations.",
+								"This gives the Agency a recognizable culture, creating staff roles, locations, terminology, and recurring situations that characters can investigate or exploit. An Agency can instead operate as a deliberate black box whose methods remain unknown even when it produces reliable results."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Step 6: Choose the Method of Control",
+							"entries": [
+								"{@b How Performers Are Kept Compliant}",
+								"Determine how the Agency keeps its idols compliant. It might rely on debt, blackmail, magical contracts, public image pressure, mind control, selective information, isolation, surveillance, or the threat of immediate replacement. Its performers might instead remain through loyalty, professional pride, or genuine care from their employers. Not every Agency rules through fear or manipulates its talent.",
+								"This distinguishes the Agency from an ordinary demanding employer. Its method of control should be visible enough for the characters to understand, resist, or eventually undermine."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Step 7: Connect the Party",
+							"entries": [
+								"{@b Why Every Character Is Involved}",
+								"Tie one or more members of the party to the Agency when possible. One character might be a performer, another a bodyguard, and a third a friend trying to rescue someone inside or simply a fan of the Agency’s music.",
+								"If it is the focus of the campaign, the Agency should create a shared conflict rather than a story that matters to only one character. If it is secondary, it can provide respite from the main plot or reinforce its themes."
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Lavender Reverie Entertainment",
+					"entries": [
+						"Example Fey Agency",
+						"Lavender Reverie Entertainment is a magical-idol company styled around elegant witches, floral arrangements, and polished modern branding. It promises to turn every recruit into “the idol of their dreams.” The promise is genuine, but LRE modifies those dreams to fit its own agenda, stripping away individuality to manufacture perfect idols.",
+						{
+							"type": "entries",
+							"name": "Alvilda",
+							"entries": [
+								"{@b Faerie Lady of Dreams}",
+								"Alvilda is a poised and refined faerie noble who holds dominion over dreams.",
+								"She founded the company to help her daughter achieve her ambitions. She remained after discovering how delicate youthful dreams can be, and how entertaining it is to reshape them into her vision of what an idol should be.",
+								{
+									"type": "table",
+									"caption": "LRE CEO",
+									"colLabels": [
+										"Category",
+										"Details"
+									],
+									"colStyles": [
+										"col-3",
+										"col-9"
+									],
+									"rows": [
+										[
+											"Public Role",
+											"CEO and Faerie Lady of Dreams"
+										],
+										[
+											"Nature",
+											"An Archfey who rules over dreams and longs to understand her own"
+										],
+										[
+											"Aesthetic",
+											"Lavender, moonlight, witch hats, ribbons, charms, stars, and accessories"
+										],
+										[
+											"Public Goal",
+											"Help anyone become the idol they have always dreamed of being"
+										]
+									]
+								},
+								"{@i “Your old self was only the first draft. Let me show you the version that shines.”}"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Public Face",
+							"entries": [
+								"Lavender Reverie presents itself as an exclusive label for aspiring idols. Its performers combine song, dance, illusion magic, and witch-themed stagecraft with carefully managed public personas.",
+								"Its releases are structured like mysteries. Lyrics contain hidden messages and collectible merchandise reveals fragments of fictional dream lore. Fans are encouraged to decode the group’s story together. To outsiders, the Agency appears unusual but prestigious."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Core Promise",
+							"entries": [
+								"Lavender Reverie promises to uncover the recruit’s ideal self: the idol they imagined becoming, or the magical heroine hidden beneath fear and inexperience.",
+								"Alvilda believes that most people are trapped inside incomplete versions of themselves. She sees no cruelty in removing the memories, relationships, or values that prevent someone from reaching their more beautiful form."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "True Nature",
+							"entries": [
+								"Lavender Reverie is an Archfey-owned entertainment company that draws power from unrealized possibility and the emotional weight of dreams.",
+								"Contracts are both legal agreements and binding scripts. Rehearsals continue during sleep. Transformation sequences double as rituals. A debut is the moment when the public persona becomes real enough to begin competing with the person underneath it.",
+								"The Agency does not erase an identity all at once. It changes portions of it over time. A performer might remember their childhood but not the name they used during it. They might recognize a former friend without remembering why that person was important. They might retain an old ambition while believing the Agency was responsible for giving it to them."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Price of Success",
+							"entries": [
+								"Lavender Reverie’s contracts commonly claim one or more of the following:",
+								{
+									"type": "list",
+									"items": [
+										"The performer’s old name, which gradually disappears from memories and written records.",
+										"The right to “improve” dreams.",
+										"Ownership of the performer’s stage name, recorded voice, costume, and magical transformation.",
+										"The right to create an understudy capable of inheriting the same public identity.",
+										"A portion of the performer’s unrealized dreams, which Alvilda stores and reshapes for later projects."
+									]
+								},
+								"Most performers do not realize how much has changed until they attempt to describe who they were before joining the Agency, only to find that they lack the words to speak about their old selves."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lavender Reverie: Behind the Dream",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Internal Structure",
+									"entries": [
+										"Lavender Reverie resembles a fashionable entertainment company, but its departments combine corporate management with fey dreamcraft.",
+										"{@b Dream Scouting.} Recruiters observe the dreams of gifted, lonely, dissatisfied, or ambitious people. Prospects often receive invitations tailored to their desires.",
+										"{@b Image Curation.} Stylists, composers, and minor faeries let each recruit choose from a collection of magical motifs, costumes, and signature colors, but the Agency assigns the stage name.",
+										"{@b Sleep Rehearsal.} Performers continue rehearsing inside their dreams. Training can feel like a full night of work even when only a few waking hours pass.",
+										"{@b Narrative Development.} Each group receives an unfolding mystery told through songs, performances, interviews, and merchandise. The members themselves may not know the solution.",
+										"{@b Retention and Recovery.} Performers who resist their assigned identity are offered rest, meaning an extended hiatus from which they return noticeably different.",
+										"{@b Understudy Development.} The Agency quietly trains replacements capable of inheriting the role, visual motif, voice, and even stage name. No one is ever safe."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Method of Control",
+									"entries": [
+										"Lavender Reverie relies on dependence and partial identity rewrite rather than direct physical violence.",
+										"A performer’s new identity is reinforced by magical costumes, dreams, public recognition, fan expectations, and staff who use only the approved stage name. Their old life becomes increasingly difficult to access or remember.",
+										"Personal doubts are classified as nightmares. Their exhaustion is deemed as failure and resistance to transformation. Their objections, reframed as fear of becoming one’s true self.",
+										"The Agency also uses some… less than savory methods:",
+										{
+											"type": "list",
+											"items": [
+												"Moral debt created by providing aspiring idols with training, housing, fame, and food to the needy.",
+												"Dream surveillance presented as wellness checks, suppressing dissents when detected.",
+												"Controlled scandals used to discipline uncooperative performers.",
+												"Replacement performers prepared before the original has been dismissed."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Immediate Pressure",
+									"entries": [
+										"Lavender Reverie’s flagship witch-idol unit is preparing a major comeback whose lore centers on reclaiming dreams from an unnamed darkness.",
+										"One member has begun hearing their old name in dreams, where it accuses them of abandoning the person they once were. Another remembers a childhood that clashes with what they know of themselves. Their newest song contains lyrics that appear to reverse part of the Agency’s binding process.",
+										"At the same time, Alvilda’s daughter has begun questioning whether the company is helping its performers or replacing them with more convenient versions of themselves.",
+										"Alvilda finds the conflict fascinating. She has not decided whether to suppress it, encourage it, or turn it into the group’s next mystery."
+									]
+								},
+								{
+									"type": "statblock",
+									"tag": "table",
+									"name": "Lavender Reverie Party Connections",
+									"source": "TwofellIdolCompendium"
+								},
+								{
+									"type": "entries",
+									"name": "Signature Themes",
+									"entries": [
+										"Lavender Reverie’s performers are styled as modern magical girls and elegant witches, using hats, ribbons, brooches, wands, and charms. Their songs explore diverse subjects but frequently return to identity, memory, and growth through hardship. Groups move with unnatural synchronization, while fans gather in forums to unravel mysteries by decoding lyrics, tracing recurring symbols, and comparing collectible dream fragments."
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Agency and Contract Flavor",
+					"entries": [
+						{
+							"type": "inset",
+							"name": "Running the Agency",
+							"entries": [
+								"For a lighter game, the Agency can be a pushy magical label with suspicious but mostly harmless branding. For a darker game, make it akin to a black company: everything is polished, everyone is replaceable and every kindness creates a debt."
+							]
+						},
+						{
+							"type": "statblock",
+							"tag": "table",
+							"name": "Agency Representatives",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "table",
+							"name": "Agency Departments",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "table",
+							"name": "Contract Clauses",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "table",
+							"name": "Industry Omens",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "table",
+							"name": "Exploitative Practices",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "table",
+							"name": "Current Scandal",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "table",
+							"name": "Escape Clauses",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "table",
+							"name": "Rival Acts and Groups",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "table",
+							"name": "Public Personas",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "statblock",
+							"tag": "table",
+							"name": "What the Agency Wants Now",
+							"source": "TwofellIdolCompendium"
+						},
+						{
+							"type": "inset",
+							"name": "The Agency as a Patron",
+							"entries": [
+								"The Agency should create adventures, temptations, and difficult choices. It should not be used as an excuse to routinely overrule a player character’s decisions or diminish them. Even a soul contract is most useful when the character can resist, reinterpret, expose, or eventually break it.",
+								"Other characters can also interact with the Agency. It does not need to be exclusively the warlock’s problem."
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Credits",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Production Credits",
+							"entries": [
+								"{@b Executive Producer:} Twofell",
+								"{@b System:} Dungeons & Dragons 5th Edition, 2014 rules.",
+								"{@b Inspired by:} The Undertomes & Weapart"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Artist Credits",
+							"entries": [
+								"{@b Page Background:} shiinochi - VGen",
+								"{@b Alvilda Art:} CatsDontDraw - VGen"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "The Agency",
+							"entries": [
+								"{@b Legal Department: Please Read}",
+								"This document is unofficial fan content. It is not affiliated with, endorsed, sponsored or approved by Wizards of the Coast LLC.",
+								"This work may reference material from the System Reference Document 5.1, licensed under the Creative Commons Attribution 4.0 International License.",
+								"Dungeons & Dragons, D&D, Wizards of the Coast and related marks are property of Wizards of the Coast LLC. No challenge to those rights is intended."
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Important Reminder",
+							"entries": [
+								"This document is a homebrew player and campaign supplement for the 2014 version of Dungeons & Dragons 5th Edition. Balance should be adjusted by your DM whenever possible and definitely not by grumpy fans or mysterious companies."
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"subclass": [
+		{
+			"name": "Idol Agency",
+			"shortName": "Idol Agency",
+			"source": "TwofellIdolCompendium",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"page": 3,
+			"edition": "classic",
+			"subclassFeatures": [
+				"Idol Agency|Warlock|PHB|Idol Agency|TwofellIdolCompendium|1",
+				"We Rehearsed This!|Warlock|PHB|Idol Agency|TwofellIdolCompendium|6",
+				"Uncancellable|Warlock|PHB|Idol Agency|TwofellIdolCompendium|10",
+				"One Last Song!|Warlock|PHB|Idol Agency|TwofellIdolCompendium|14"
+			],
+			"subclassSpells": [
+				"guidance",
+				"false life",
+				"bless",
+				"heroism",
+				"aid",
+				"enthrall",
+				"motivational speech|AI",
+				"sending",
+				"compulsion",
+				"freedom of movement",
+				"mass cure wounds",
+				"seeming"
+			],
+			"additionalSpells": [
+				{
+					"name": "Expanded Spell List",
+					"expanded": {
+						"s1": [
+							"bless",
+							"heroism"
+						],
+						"s2": [
+							"aid",
+							"enthrall"
+						],
+						"s3": [
+							"motivational speech|AI",
+							"sending"
+						],
+						"s4": [
+							"compulsion",
+							"freedom of movement"
+						],
+						"s5": [
+							"mass cure wounds",
+							"seeming"
+						]
+					}
+				},
+				{
+					"name": "Agency Training",
+					"known": {
+						"_": [
+							"guidance"
+						]
+					}
+				},
+				{
+					"name": "Cheer Up!",
+					"known": {
+						"_": [
+							"false life"
+						]
+					}
+				}
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Idol Agency",
+			"source": "TwofellIdolCompendium",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Idol Agency",
+			"subclassSource": "TwofellIdolCompendium",
+			"level": 1,
+			"page": 3,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Hype",
+					"entries": [
+						"Hype is a special kind of temporary hit points granted by your Idol Agency features, pact songs, or spells given or modified by this subclass.",
+						"When a creature that already has hype from you gains hype from you, the new hype is added to the old hype, instead of replacing it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fan",
+					"entries": [
+						"A creature with hype from you is one of your fans. When a creature has no hype from you, it stops being your fan.",
+						"A creature’s maximum hype from you equals twice your warlock level + your Charisma modifier + your proficiency bonus (min. 1)."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Separate Sources",
+					"entries": [
+						"Each creature that grants hype tracks that hype separately. A creature can’t have hype from, or be a fan of, more than one creature at a time. When it gains hype from a new source, it chooses whether to keep its current hype or replace it with the new hype, using the new source’s maximum, duration, and associated effects."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Hype Rules Reference",
+					"entries": [
+						"Hype functions as temporary hit points except where these rules state otherwise.",
+						"Hype doesn’t stack with temporary hit points from sources other than you.",
+						"When a creature with hype from you gains temporary hit points from another source, it chooses whether to keep its hype or gain those temporary hit points, as normal.",
+						"If hype from a spell or feature has a duration, that hype disappears when its duration ends.",
+						"Unless the effect granting hype states otherwise, the hype disappears when the creature finishes a long rest."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Public Image Department",
+					"entries": [
+						"The rules use the words hype and fan, but the character does not need to be famous or possess significant social standing. Hype can represent morale, euphoria, courage, devotion, or another emotion the performer inspires. Use whatever presentation best fits your version of the story."
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Expanded Spell List|Warlock|PHB|Idol Agency|TwofellIdolCompendium|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Agency Training|Warlock|PHB|Idol Agency|TwofellIdolCompendium|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Cheer Up!|Warlock|PHB|Idol Agency|TwofellIdolCompendium|1"
+				}
+			]
+		},
+		{
+			"name": "Expanded Spell List",
+			"source": "TwofellIdolCompendium",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Idol Agency",
+			"subclassSource": "TwofellIdolCompendium",
+			"level": 1,
+			"header": 1,
+			"page": 4,
+			"entries": [
+				"The Idol Agency lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+				{
+					"type": "table",
+					"caption": "Idol Agency Expanded Spells",
+					"colLabels": [
+						"Spell Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell bless}, {@spell heroism}"
+						],
+						[
+							"2nd",
+							"{@spell aid}, {@spell enthrall}"
+						],
+						[
+							"3rd",
+							"{@spell motivational speech|AI}, {@spell sending}"
+						],
+						[
+							"4th",
+							"{@spell compulsion}, {@spell freedom of movement}"
+						],
+						[
+							"5th",
+							"{@spell mass cure wounds}, {@spell seeming}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Agency Training",
+			"source": "TwofellIdolCompendium",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Idol Agency",
+			"subclassSource": "TwofellIdolCompendium",
+			"level": 1,
+			"header": 1,
+			"page": 4,
+			"skillProficiencies": [
+				{
+					"performance": true
+				}
+			],
+			"entries": [
+				"You gain proficiency in the {@skill Performance} skill. If you already have this proficiency, your proficiency bonus is doubled for any ability check you make that uses Performance.",
+				"You also learn the {@spell guidance} cantrip. It counts as a warlock cantrip for you, but it doesn’t count against your number of cantrips known.",
+				"You can use a musical instrument or any object associated with your performances, such as a microphone, fan, mask, glowstick or performance costume, as a spellcasting focus for your warlock spells. The object must be worth at least 1 gp, and you must hold or wear it to use it in this way."
+			]
+		},
+		{
+			"name": "Cheer Up!",
+			"source": "TwofellIdolCompendium",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Idol Agency",
+			"subclassSource": "TwofellIdolCompendium",
+			"level": 1,
+			"header": 1,
+			"page": 4,
+			"entries": [
+				"You learn the {@spell false life} spell. It counts as a warlock spell for you, but it doesn’t count against your number of warlock spells known.",
+				"When you cast {@spell false life}, you can cast it as though it had a range of 30 feet, targeting a willing creature within range instead of yourself.",
+				"When you cast {@spell false life} using a warlock spell slot, you can target a number of willing creatures within 30 feet of you equal to your proficiency bonus. Roll separately for each target.",
+				"Temporary hit points granted by {@spell false life} in this way are hype.",
+				{
+					"type": "inset",
+					"name": "Only false life cast by expending a spell slot can grant Hype.",
+					"entries": [
+						"{@spell false life} cast without expending a spell slot, such as through the {@optfeature Fiendish Vigor} invocation, does not grant hype."
+					]
+				}
+			]
+		},
+		{
+			"name": "We Rehearsed This!",
+			"source": "TwofellIdolCompendium",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Idol Agency",
+			"subclassSource": "TwofellIdolCompendium",
+			"level": 6,
+			"page": 4,
+			"entries": [
+				"When a creature you can see within 60 feet of you is hit by an attack or fails a saving throw, you can use your reaction to add your proficiency bonus to its AC against the triggering attack or to its saving throw, potentially causing the attack to miss or the saving throw to succeed.",
+				"If the creature is one of your fans, it can also move up to 10 feet without provoking opportunity attacks.",
+				"Once you use this feature, you can’t use it again until you finish a short or long rest."
+			],
+			"header": 2
+		},
+		{
+			"name": "Uncancellable",
+			"source": "TwofellIdolCompendium",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Idol Agency",
+			"subclassSource": "TwofellIdolCompendium",
+			"level": 10,
+			"page": 4,
+			"entries": [
+				"You gain resistance to psychic damage and you have advantage on saving throws against being {@condition charmed}.",
+				"Your fans also gain these benefits while they have hype from you.",
+				"In addition, when you cast {@spell guidance} on one of your fans, the die rolled for the spell becomes a {@dice d6} instead of a {@dice d4}.",
+				"When one of your fans would lose all of its hype as a result of taking damage, it retains 1 hype instead. Once a creature benefits from this feature, it can’t do so again until it finishes a short or long rest."
+			],
+			"header": 2
+		},
+		{
+			"name": "One Last Song!",
+			"source": "TwofellIdolCompendium",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Idol Agency",
+			"subclassSource": "TwofellIdolCompendium",
+			"level": 14,
+			"page": 4,
+			"entries": [
+				"You can begin an encore. As an action, you can choose up to six creatures within 60 feet of you, including yourself. Each chosen creature gains hype equal to twice your warlock level + your Charisma modifier + your proficiency bonus.",
+				"Hype granted by this feature lasts for 1 minute.",
+				"For the duration, your fans who have hype from this feature gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Their speed increases by 10 feet.",
+						"Their movement does not provoke opportunity attacks.",
+						"Once per turn, before making an attack roll, ability check, or saving throw, a fan can spend 5 hype to roll {@dice 1d6} and add the number rolled to the result."
+					]
+				},
+				"Encore ends early if you are {@condition incapacitated} or die.",
+				"Once you use this feature, you can’t use it again until you finish a long rest."
+			],
+			"header": 2
+		}
+	],
+	"optionalfeature": [
+		{
+			"name": "Pact of the Song",
+			"source": "TwofellIdolCompendium",
+			"page": 5,
+			"featureType": [
+				"PB"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Performance Rights",
+					"entries": [
+						"Your patron grants you a song, melody, chant, dance routine, battle hymn, or fan call that becomes magical when performed. Every pact song is considered registered property of your patron.",
+						"When you choose this Pact Boon at 3rd level, you learn two pact songs of your choice. You learn one additional pact song of your choice at 7th level, and one more at 12th level.",
+						"A remix is an enhanced version of a pact song. You don’t learn a remix as part of this Pact Boon, but eldritch invocations and other features can grant access to one."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Pact Song",
+					"entries": [
+						"As a bonus action, you can begin one pact song you know. A pact song lasts for 1 minute. It ends early if you are {@condition incapacitated} or if you begin another pact song.",
+						"Your pact song creates an aura centered on you, as shown in the Pact Song Aura table.",
+						{
+							"type": "table",
+							"caption": "Pact Song Aura",
+							"colLabels": [
+								"Warlock Level",
+								"Aura Radius"
+							],
+							"colStyles": [
+								"col-6 text-center",
+								"col-6 text-center"
+							],
+							"rows": [
+								[
+									"3rd",
+									"30 feet"
+								],
+								[
+									"7th",
+									"45 feet"
+								],
+								[
+									"12th",
+									"60 feet"
+								]
+							]
+						},
+						"When you begin a pact song, choose a number of willing creatures within the aura, up to your Charisma modifier (min. 1). Each chosen creature gains hype equal to your Charisma modifier + your proficiency bonus.",
+						"You can begin a pact song a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. If you have no uses remaining, you can expend a warlock spell slot to begin a pact song.",
+						"Hype gained from a pact song lasts until the song ends or until the hype is depleted."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Fan Benefits",
+					"entries": [
+						"A fan benefits from your pact song only while it has hype from you, is within your pact song aura, and can see or hear you.",
+						"Leaving the aura doesn’t remove this hype, but the fan can’t benefit from the pact song until it is within your pact song aura again and can see or hear you."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Remix Tracks",
+					"entries": [
+						"A remix improves one pact song you know. You can benefit from a pact song’s remix only while that pact song is active.",
+						"Learning a pact song doesn’t automatically grant its remix. The {@optfeature Remixed Debut|TwofellIdolCompendium} eldritch invocation is the most common way to learn one."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "One Song at a Time",
+					"entries": [
+						"Unless a feature says otherwise, a creature can benefit from only one pact song at a time. If it would benefit from a different pact song, it chooses which one to keep."
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Pact of the Song Progression",
+					"colLabels": [
+						"Warlock Level",
+						"Songs Known",
+						"Aura Radius"
+					],
+					"colStyles": [
+						"col-4 text-center",
+						"col-4 text-center",
+						"col-4 text-center"
+					],
+					"rows": [
+						[
+							"3rd",
+							2,
+							"30 feet"
+						],
+						[
+							"7th",
+							3,
+							"45 feet"
+						],
+						[
+							"12th",
+							4,
+							"60 feet"
+						]
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Pact Songs and Other Patrons",
+					"entries": [
+						"Pact of the Song is available to warlocks of any patron. A warlock whose patron is not the Idol Agency still uses the hype and fan rules in this document for hype granted by pact songs, but gains no other Idol Agency feature.",
+						"The performance should reflect the patron or their nature. An Archfey warlock might dance through glamour and dreamlike music, a Celestial warlock might sing hymns and inspire allies, a Fiend warlock might play rock, and a Great Old One warlock might produce harmonies that should not fit mortal conventions. Fathomless warlocks may perform sea shanties, Genie warlocks reciting fables and poetry, Hexblade warlocks executing weapon forms, and Undead or Undying warlocks may sing dirges and epics.",
+						"A pact song does not have to be literal music. It can be a dance, poem, prayer, speech, martial forms, weapon drills, fan call or other repeated performance. Its rules remain unchanged."
+					]
+				}
+			],
+			"optionalfeatureProgression": [
+				{
+					"name": "Pact Songs",
+					"featureType": [
+						"PS"
+					],
+					"progression": {
+						"3": 2,
+						"7": 1,
+						"12": 1
+					}
+				}
+			]
+		},
+		{
+			"name": "Killer Melody",
+			"source": "TwofellIdolCompendium",
+			"page": 6,
+			"featureType": [
+				"PS"
+			],
+			"entries": [
+				"The first time on each of its turns that a fan hits with an attack, the attack deals extra psychic damage equal to your Charisma modifier (min. 1).",
+				"{@b Remix.} The extra damage becomes {@damage 1d4} + your Charisma modifier (min. 1). The fan can lose hype up to its Charisma modifier (min. 1) to increase the extra damage by the amount of hype lost."
+			]
+		},
+		{
+			"name": "Patch Me Up!",
+			"source": "TwofellIdolCompendium",
+			"page": 6,
+			"featureType": [
+				"PS"
+			],
+			"entries": [
+				"At the start of each fan‘s turn, if that fan has at least 1 hit point and no more than half its hit point maximum, it loses any amount of hype up to your Charisma modifier (min. 1), then regains hit points equal to the hype lost.",
+				"This song can’t restore a creature to more than half its hit point maximum.",
+				"{@b Remix.} The maximum hype it can lose this way becomes twice your Charisma modifier + your proficiency bonus (min. 1)."
+			]
+		},
+		{
+			"name": "Glassheart",
+			"source": "TwofellIdolCompendium",
+			"page": 6,
+			"featureType": [
+				"PS"
+			],
+			"entries": [
+				"Fans gain a +1 bonus to AC.",
+				"{@b Remix.} This bonus increases to +2."
+			]
+		},
+		{
+			"name": "Step-Step-Go",
+			"source": "TwofellIdolCompendium",
+			"page": 6,
+			"featureType": [
+				"PS"
+			],
+			"entries": [
+				"Once on each of its turns, a fan can use a bonus action to move up to 10 feet without provoking opportunity attacks.",
+				"{@b Remix.} This movement increases to 15 feet, and the fan ignores difficult terrain during this movement."
+			]
+		},
+		{
+			"name": "Lucky Signal",
+			"source": "TwofellIdolCompendium",
+			"page": 6,
+			"featureType": [
+				"PS"
+			],
+			"entries": [
+				"Once per round, when a fan makes an ability check or saving throw, it can roll {@dice 1d4} and add the number rolled to the result. A creature can’t add this die and a die from the {@spell bless} spell to the same roll.",
+				"The fan can roll the die before or after making the d20 roll, but before the DM says whether the roll succeeds or fails.",
+				"{@b Remix.} The die becomes a {@dice d6}."
+			]
+		},
+		{
+			"name": "Aim Towards the Sky",
+			"source": "TwofellIdolCompendium",
+			"page": 6,
+			"featureType": [
+				"PS"
+			],
+			"entries": [
+				"Once per round, when a fan makes an attack roll, it can roll {@dice 1d4} and add the number rolled to the result. A creature can’t add this die and a die from the {@spell bless} spell to the same roll.",
+				"The fan can roll the die before or after making the d20 roll, but before the DM says whether the attack hits or misses.",
+				"{@b Remix.} The die becomes a {@dice d6}."
+			]
+		},
+		{
+			"name": "Crowd Battery",
+			"source": "TwofellIdolCompendium",
+			"page": 6,
+			"featureType": [
+				"PS"
+			],
+			"entries": [
+				"At the start of each of your turns, choose one fan within your pact song aura. That fan gains hype equal to your proficiency bonus.",
+				"Hype gained from this pact song disappears when the pact song ends.",
+				"{@b Remix.} You can choose two different fans within your pact song aura instead of one."
+			]
+		},
+		{
+			"name": "Beat of the Heart",
+			"source": "TwofellIdolCompendium",
+			"page": 6,
+			"featureType": [
+				"PS"
+			],
+			"prerequisite": [
+				{
+					"level": 7
+				}
+			],
+			"entries": [
+				"Fans have advantage on saving throws against being {@condition blinded} or {@condition deafened}.",
+				"When a fan makes a Constitution saving throw to maintain concentration, it adds your proficiency bonus to the roll.",
+				"{@b Remix.} When a fan fails a Constitution saving throw to maintain concentration, it can choose to succeed instead.",
+				"Once a fan succeeds in this way, it can’t do so again until it finishes a long rest."
+			]
+		},
+		{
+			"name": "Call Me, Answer Me",
+			"source": "TwofellIdolCompendium",
+			"page": 6,
+			"featureType": [
+				"PS"
+			],
+			"prerequisite": [
+				{
+					"level": 7
+				}
+			],
+			"entries": [
+				"When a fan takes the {@action Help} action to aid another fan, the helped fan gains hype equal to your Charisma modifier + your proficiency bonus (min. 1).",
+				"The helped fan can also roll {@dice 1d4} and add the number rolled to the first attack roll or ability check it makes before the end of its next turn.",
+				"{@b Remix.} Once before the start of each of your turns, one fan can take the {@action Help} action as a bonus action, but only to aid another fan. The bonus die becomes a {@dice d6}."
+			]
+		},
+		{
+			"name": "Overdrive",
+			"source": "TwofellIdolCompendium",
+			"page": 7,
+			"featureType": [
+				"PS"
+			],
+			"prerequisite": [
+				{
+					"level": 7
+				}
+			],
+			"entries": [
+				"Fans gain a 10-foot bonus to speed.",
+				"When a fan takes the {@action Dash} or {@action Disengage} action, it gains hype equal to your Charisma modifier + your proficiency bonus (min. 1).",
+				"{@b Remix.} A fan can take the {@action Dash} or {@action Disengage} action as a bonus action. Once a creature benefits from this remix, it can’t benefit from this remix again until it finishes a long rest."
+			]
+		},
+		{
+			"name": "Center of My World",
+			"source": "TwofellIdolCompendium",
+			"page": 7,
+			"featureType": [
+				"PS"
+			],
+			"prerequisite": [
+				{
+					"level": 7
+				}
+			],
+			"entries": [
+				"When you start this song, choose one fan as the Focus.",
+				"When the Focus hits with an attack on its turn, it can lose 1 hype. If it does, the attack deals extra psychic or radiant damage, the Focus’s choice, equal to your Charisma modifier (min. 1).",
+				"At the start of each of your turns while the song lasts, you can choose a different fan within your pact song aura to be the Focus.",
+				"{@b Remix.} When the Focus deals this extra damage, it can lose 2 hype instead of 1. If it does, the extra damage becomes {@damage 1d6} + your Charisma modifier + your proficiency bonus (min. 1)."
+			]
+		},
+		{
+			"name": "Vocal Spark",
+			"source": "TwofellIdolCompendium",
+			"page": 7,
+			"featureType": [
+				"PS"
+			],
+			"prerequisite": [
+				{
+					"level": 7
+				}
+			],
+			"entries": [
+				"Once per turn, when you cast a warlock cantrip and target only one creature with it, one fan within your pact song aura can use its reaction to empower the spell.",
+				"If the spell hits or the target fails its saving throw, the spell deals extra psychic damage equal to your Charisma modifier.",
+				"{@b Remix.} The extra damage becomes {@damage 1d6} + your Charisma modifier, and the fan that used its reaction gains hype equal to your proficiency bonus."
+			]
+		},
+		{
+			"name": "Patchwork Halo",
+			"source": "TwofellIdolCompendium",
+			"page": 7,
+			"featureType": [
+				"PS"
+			],
+			"prerequisite": [
+				{
+					"level": 12
+				}
+			],
+			"entries": [
+				"When a fan within your pact song aura takes damage, another fan within your pact song aura that can see or hear the damaged fan can use its reaction to reduce the damage by {@dice 1d10} + your Charisma modifier + your proficiency bonus. Only one fan can use its reaction for each instance of damage.",
+				"{@b Remix.} Once before the start of each of your turns, after a fan reduces damage with this pact song, both fans gain hype equal to your Charisma modifier."
+			]
+		},
+		{
+			"name": "Last Stand",
+			"source": "TwofellIdolCompendium",
+			"page": 7,
+			"featureType": [
+				"PS"
+			],
+			"prerequisite": [
+				{
+					"level": 12
+				}
+			],
+			"entries": [
+				"The first time a fan would be reduced to 0 hit points while this song is active, the fan is reduced to 1 hit point instead.",
+				"Once a creature benefits from this song, it can’t benefit from this song again until it finishes a long rest.",
+				"{@b Remix.} When a fan is reduced to 1 hit point by this song, it also gains hype equal to your warlock level."
+			]
+		},
+		{
+			"name": "Ghostlight Parade",
+			"source": "TwofellIdolCompendium",
+			"page": 7,
+			"featureType": [
+				"PS"
+			],
+			"prerequisite": [
+				{
+					"level": 12
+				}
+			],
+			"entries": [
+				"Fans have advantage on saving throws against being {@condition frightened}.",
+				"While a fan is within your pact song aura, invisible creatures don’t have advantage on attack rolls against that fan as a result of being invisible.",
+				"{@b Remix.} Fans can see invisible creatures within 10 feet of them, provided the invisible creature is also within your pact song aura."
+			]
+		},
+		{
+			"name": "Smile Until Dawn",
+			"source": "TwofellIdolCompendium",
+			"page": 7,
+			"featureType": [
+				"PS"
+			],
+			"prerequisite": [
+				{
+					"level": 15
+				}
+			],
+			"entries": [
+				"When a fan starts its turn with no more than half its hit point maximum, it has advantage on the first attack roll or saving throw it makes before the start of its next turn.",
+				"{@b Remix.} The first time the fan hits with an attack before the start of its next turn, it adds your Charisma modifier to the attack’s damage roll."
+			]
+		},
+		{
+			"name": "Syndrome",
+			"source": "TwofellIdolCompendium",
+			"page": 8,
+			"featureType": [
+				"PS"
+			],
+			"prerequisite": [
+				{
+					"level": 15
+				}
+			],
+			"entries": [
+				"Once before the start of each of your turns, when a fan within your pact song aura misses with an attack roll or fails an ability check or saving throw, another fan within your pact song aura can use its reaction to harmonize with it.",
+				"The triggering fan rolls {@dice 1d4} and adds the number rolled to the result, potentially turning the miss or failure into a hit or success.",
+				"{@b Remix.} The die becomes a {@dice d6}. If the triggering roll hits or succeeds after adding this die, both fans gain hype equal to your Charisma modifier."
+			]
+		},
+		{
+			"name": "No Bad Takes",
+			"source": "TwofellIdolCompendium",
+			"page": 8,
+			"featureType": [
+				"PS"
+			],
+			"prerequisite": [
+				{
+					"level": 15
+				}
+			],
+			"entries": [
+				"Once on each of its turns, when a fan fails an attack roll, ability check, or saving throw, it can lose hype equal to your proficiency bonus to reroll the d20. It must use the new roll.",
+				"{@b Remix.} The fan loses only 1 hype when it rerolls the d20 in this way."
+			]
+		},
+		{
+			"name": "Only Love Me~",
+			"source": "TwofellIdolCompendium",
+			"page": 8,
+			"featureType": [
+				"PS"
+			],
+			"prerequisite": [
+				{
+					"level": 15
+				}
+			],
+			"entries": [
+				"At the start of each fan‘s turn, if that fan is {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, or {@condition poisoned}, it can immediately repeat one saving throw against one of those effects, ending that effect on itself on a success.",
+				"A fan can repeat a saving throw in this way only once per turn.",
+				"{@b Remix.} When a fan succeeds on a saving throw granted by this pact song, it gains hype equal to your Charisma modifier + your proficiency bonus."
+			]
+		},
+		{
+			"name": "Sold-Out",
+			"source": "TwofellIdolCompendium",
+			"page": 8,
+			"featureType": [
+				"PS"
+			],
+			"prerequisite": [
+				{
+					"level": 15
+				}
+			],
+			"entries": [
+				"Fans have advantage on ability checks and saving throws made to avoid being {@condition grappled}, {@condition restrained}, knocked {@condition prone}, or moved against their will.",
+				"Once on each of its turns, when a fan escapes a grapple, stands up from prone, or ends the restrained condition on itself, it can move up to 10 feet without provoking opportunity attacks.",
+				"{@b Remix.} This movement increases to 20 feet. After the fan moves in this way, it gains hype equal to your Charisma modifier."
+			]
+		},
+		{
+			"name": "Drop Like a Meteor",
+			"source": "TwofellIdolCompendium",
+			"page": 8,
+			"featureType": [
+				"PS"
+			],
+			"prerequisite": [
+				{
+					"level": 15
+				}
+			],
+			"entries": [
+				"Once on each of its turns, when a fan hits a creature with an attack, the fan can force the target to make a Wisdom saving throw against your warlock spell save DC.",
+				"On a failed save, the target’s speed is halved, it can’t make opportunity attacks and it has disadvantage on the next attack roll it makes before the start of the fan‘s next turn.",
+				"{@b Remix.} On a failed save, the target also takes psychic damage equal to your Charisma modifier + your proficiency bonus."
+			]
+		},
+		{
+			"name": "Long-Distance Cue",
+			"source": "TwofellIdolCompendium",
+			"page": 9,
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"patron": "Idol Agency"
+				}
+			],
+			"entries": [
+				"When you cast {@spell guidance} on one of your fans, the spell’s range becomes 60 feet.",
+				"The target must be able to see or hear you."
+			]
+		},
+		{
+			"name": "Battle Cue",
+			"source": "TwofellIdolCompendium",
+			"page": 9,
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 5,
+					"spell": [
+						"guidance#c"
+					]
+				}
+			],
+			"entries": [
+				"When you cast {@spell guidance}, you can alter the spell so that it doesn’t require concentration and its die can be added to one attack roll, ability check, or saving throw made before the spell ends. The spell ends immediately after the die is rolled.",
+				"If the die causes the roll to hit or succeed, the target gains hype equal to your proficiency bonus.",
+				"You can alter {@spell guidance} in this way a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Quick Cue",
+			"source": "TwofellIdolCompendium",
+			"page": 9,
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 5,
+					"spell": [
+						"guidance#c"
+					]
+				}
+			],
+			"entries": [
+				"You can cast {@spell guidance} as a bonus action, the spell has a range of 30 feet, and the target must be able to see or hear you.",
+				"You can cast {@spell guidance} in this way a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Remixed Debut",
+			"source": "TwofellIdolCompendium",
+			"page": 9,
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"pact": "Pact of the Song"
+				}
+			],
+			"entries": [
+				"Choose one pact song you know. You learn that song’s remix.",
+				"Whenever you gain a warlock level, you can replace the chosen remix with the remix of another pact song you know.",
+				"You can choose this invocation more than once, choosing a different pact song each time."
+			]
+		},
+		{
+			"name": "Extended Discography",
+			"source": "TwofellIdolCompendium",
+			"page": 9,
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"pact": "Pact of the Song"
+				}
+			],
+			"entries": [
+				"You learn one additional pact song of your choice.",
+				"You can choose this invocation more than once, choosing a different pact song each time."
+			],
+			"optionalfeatureProgression": [
+				{
+					"name": "Pact Song",
+					"featureType": [
+						"PS"
+					],
+					"progression": {
+						"*": 1
+					}
+				}
+			]
+		},
+		{
+			"name": "Opening Number",
+			"source": "TwofellIdolCompendium",
+			"page": 9,
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 5,
+					"pact": "Pact of the Song"
+				}
+			],
+			"entries": [
+				"When you roll initiative, you can immediately begin a pact song you know without using an action. Beginning a pact song in this way expends a use as normal.",
+				"Once you use this invocation, you can’t use it again until you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Feel it in the Heart!",
+			"source": "TwofellIdolCompendium",
+			"page": 9,
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 9,
+					"pact": "Pact of the Song"
+				}
+			],
+			"entries": [
+				"The radius of your pact song aura increases by 15 feet.",
+				"Your fans don’t need to see you to benefit from your pact song, provided they can hear you."
+			]
+		},
+		{
+			"name": "Extended Encore",
+			"source": "TwofellIdolCompendium",
+			"page": 9,
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 12,
+					"pact": "Pact of the Song"
+				}
+			],
+			"entries": [
+				"When your pact song would end after lasting for 1 minute, you can extend it for 1 additional minute.",
+				"Once you extend a pact song this way, you can’t do so again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Stereo Audio",
+			"source": "TwofellIdolCompendium",
+			"page": 9,
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 15,
+					"pact": "Pact of the Song"
+				}
+			],
+			"entries": [
+				"When you begin a pact song by expending a warlock spell slot, you can choose two pact songs you know instead of one. Both songs are active at the same time.",
+				"For the duration, a fan can benefit from both active pact songs at the same time. This overrides One Song at a Time for these two songs.",
+				"Once you use this invocation, you can’t do so again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Music Player",
+			"source": "TwofellIdolCompendium",
+			"page": 10,
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"pact": "Pact of the Song"
+				}
+			],
+			"entries": [
+				"When you finish a long rest, you can create a Tiny magical device and store one pact song you know within it. The stored song remains until you finish another long rest or create a new Music Player.",
+				"A willing creature holding or wearing the device can use a bonus action to activate it. The creature gains hype equal to your Charisma modifier + your proficiency bonus, and for 1 minute it gains the benefits of the stored pact song as if it were one of your fans within your pact song aura and could see and hear you. The effect ends early if the creature is {@condition incapacitated}, can no longer hear the device or ends it as a bonus action.",
+				"The device affects only the activating creature and doesn’t create an aura. If the song requires you to choose a fan when it begins, the activating creature is the chosen fan. An effect of the stored song that requires another fan can’t be used or triggered.",
+				"The stored song counts as one of your pact songs for the activating creature, including for the purpose of One Song at a Time.",
+				"Once the device is activated, it can’t be activated again until you finish a long rest. You can have only one Music Player at a time. If you create another, the previous one becomes nonmagical."
+			]
+		},
+		{
+			"name": "Premium Subscription",
+			"source": "TwofellIdolCompendium",
+			"page": 10,
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 9,
+					"pact": "Pact of the Song",
+					"optionalfeature": [
+						"Music Player|TwofellIdolCompendium"
+					]
+				}
+			],
+			"entries": [
+				"Your Music Player has 3 charges, and activating it expends 1 charge. These charges replace its normal once-per-long-rest activation. The device can’t be activated while its stored pact song is already active, and it regains all expended charges when you finish a long rest.",
+				"When a creature activates the device, the hype it gains equals your warlock level + your Charisma modifier, instead of the normal amount.",
+				"If you know the remix of the stored pact song, the activating creature can also gain the remix‘s benefit for the duration."
+			]
+		},
+		{
+			"name": "Protect Me!",
+			"source": "TwofellIdolCompendium",
+			"page": 10,
+			"featureType": [
+				"EI"
+			],
+			"prerequisite": [
+				{
+					"level": 7,
+					"patron": "Idol Agency"
+				}
+			],
+			"entries": [
+				"When you are hit by an attack, one of your fans within 30 feet of you that can see or hear you can use its reaction and lose 5 hype to protect you.",
+				"The fan teleports to an unoccupied space within 5 feet of you and becomes the target of the triggering attack instead. The attack hits the fan regardless of its AC, and the attack’s damage and other effects are resolved against that fan.",
+				"Once a fan protects you in this way, it can’t do so again until it finishes a long rest.",
+				"This invocation can be used a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+			]
+		}
+	],
+	"background": [
+		{
+			"name": "Amateur Performer",
+			"source": "TwofellIdolCompendium",
+			"page": 11,
+			"edition": "classic",
+			"skillProficiencies": [
+				{
+					"performance": true,
+					"persuasion": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"anyMusicalInstrument": 1,
+					"disguise kit": true
+				}
+			],
+			"entries": [
+				"You sang in taverns, danced at festivals, performed street magic, acted in local plays or chased any open stage that would give you the chance. You have talent and ambition, but no established reputation, and a dream of one day making it big.",
+				"{@b Skill Proficiencies:} Performance, Persuasion",
+				"{@b Tool Proficiencies:} One type of musical instrument, makeup kit",
+				"{@b Equipment:} A musical instrument of your choice, a makeup kit, a performance costume, 10 autograph cards, a handbill advertising one of your performances, and a pouch containing 10 gp",
+				{
+					"type": "entries",
+					"name": "Feature: Local Act",
+					"entries": [
+						"Due to your skills and experience asking around, you can usually find a modest venue willing to let you perform, provided entertainment is welcome there. While you perform regularly, you can earn enough to support yourself at a modest lifestyle. The venue’s workers and other local performers are generally willing to share rumors and gossip about the audience, patrons and recent trouble with you."
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Artistic Act",
+					"colLabels": [
+						"d8",
+						"Act"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							1,
+							"Tavern singer"
+						],
+						[
+							2,
+							"Festival dancer"
+						],
+						[
+							3,
+							"Street magician"
+						],
+						[
+							4,
+							"Puppeteer"
+						],
+						[
+							5,
+							"Storyteller"
+						],
+						[
+							6,
+							"Community singer"
+						],
+						[
+							7,
+							"Variety performer"
+						],
+						[
+							8,
+							"Aspiring idol"
+						]
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Personality Traits",
+					"colLabels": [
+						"d8",
+						"Personality Trait"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							1,
+							"I turn almost any task into a performance."
+						],
+						[
+							2,
+							"I remember every person who applauded me on my first show."
+						],
+						[
+							3,
+							"I practice introductions before meeting people."
+						],
+						[
+							4,
+							"I pretend not to care when someone ignores my work."
+						],
+						[
+							5,
+							"I collect cheap decorations and make them look expensive."
+						],
+						[
+							6,
+							"I eagerly trade techniques with other performers."
+						],
+						[
+							7,
+							"When on stage, I am a different person."
+						],
+						[
+							8,
+							"I always have a new act that is almost ready, but never finish it."
+						]
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Ideals",
+					"colLabels": [
+						"d6",
+						"Ideal"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							1,
+							"Expression. Art should say what ordinary words cannot. (Chaotic)"
+						],
+						[
+							2,
+							"Joy. A good performance should leave people happier. (Good)"
+						],
+						[
+							3,
+							"Recognition. I have worked too hard to remain unknown. (Any)"
+						],
+						[
+							4,
+							"Tradition. The old songs and stories must be preserved. (Lawful)"
+						],
+						[
+							5,
+							"Freedom. No patron or audience owns my voice. (Chaotic)"
+						],
+						[
+							6,
+							"Influence. Attention is power, and I intend to earn it by any means. (Evil)"
+						]
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Bonds",
+					"colLabels": [
+						"d6",
+						"Bond"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							1,
+							"The first person who paid to see me perform still has my loyalty."
+						],
+						[
+							2,
+							"My old troupe is the closest thing I have to a family."
+						],
+						[
+							3,
+							"I carry an unfinished work dedicated to someone I lost."
+						],
+						[
+							4,
+							"I promised my home that I would return famous."
+						],
+						[
+							5,
+							"A rival and I pushed each other to become better."
+						],
+						[
+							6,
+							"I perform under a name given to me by someone important."
+						]
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Flaws",
+					"colLabels": [
+						"d6",
+						"Flaw"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							1,
+							"I cannot resist an audience, even when performing is a bad idea."
+						],
+						[
+							2,
+							"I spend money as though my next show will be a success."
+						],
+						[
+							3,
+							"I become bitter when someone else receives attention I wanted."
+						],
+						[
+							4,
+							"I exaggerate my reputation until I believe my own stories."
+						],
+						[
+							5,
+							"I treat useful criticism as a personal attack."
+						],
+						[
+							6,
+							"I will accept almost any challenge to prove that I have talent."
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Agency Trainee",
+			"source": "TwofellIdolCompendium",
+			"page": 12,
+			"edition": "classic",
+			"skillProficiencies": [
+				{
+					"acrobatics": true,
+					"insight": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"anyMusicalInstrument": 1,
+					"disguise kit": true
+				}
+			],
+			"entries": [
+				"You spent months or years enduring strict schedules, lessons, evaluations, and rules. You might have been preparing for a debut, working toward an audition or simply hoping not to be cut from the program.",
+				"{@b Skill Proficiencies:} Acrobatics, Insight",
+				"{@b Tool Proficiencies:} One type of musical instrument, makeup kit",
+				"{@b Equipment:} A set of training clothes, a makeup kit, a musical instrument of your choice, an old rehearsal schedule or unsigned contract, an agency meal packet, and a pouch containing 10 gp",
+				{
+					"type": "entries",
+					"name": "Feature: Rehearsal Discipline",
+					"entries": [
+						"You recognize the routines, terminology and working habits of professional performers. In a settlement with an entertainment industry, you can usually identify instructors, agents and low-level staff by looking at them. Other trainees and working performers tend to treat you as a peer unless you give them reason not to."
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Training Specialty",
+					"colLabels": [
+						"d8",
+						"Specialty"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							1,
+							"Singing and breath control"
+						],
+						[
+							2,
+							"Dance and physical conditioning"
+						],
+						[
+							3,
+							"Acting and emotional presentation"
+						],
+						[
+							4,
+							"Public speaking and interviews"
+						],
+						[
+							5,
+							"Instrumental performance"
+						],
+						[
+							6,
+							"Stage combat and stunt work"
+						],
+						[
+							7,
+							"Language and etiquette"
+						],
+						[
+							8,
+							"A little of everything"
+						]
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Personality Traits",
+					"colLabels": [
+						"d8",
+						"Personality Trait"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							1,
+							"I rehearse simple tasks until I can do them perfectly."
+						],
+						[
+							2,
+							"I instinctively find the focal point in any room."
+						],
+						[
+							3,
+							"I apologize before anyone has explained what went wrong."
+						],
+						[
+							4,
+							"I smile through discomfort and never complain."
+						],
+						[
+							5,
+							"I track food and sleep as though both will be evaluated."
+						],
+						[
+							6,
+							"I can fall asleep almost anywhere when given permission."
+						],
+						[
+							7,
+							"I put other people’s work before my own."
+						],
+						[
+							8,
+							"I become intensely competitive when someone doubts my training."
+						]
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Ideals",
+					"colLabels": [
+						"d6",
+						"Ideal"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							1,
+							"Discipline. Talent means nothing without work. (Lawful)"
+						],
+						[
+							2,
+							"Teamwork. Nothing succeeds because of one person alone. (Good)"
+						],
+						[
+							3,
+							"Perfection. Mistakes are weaknesses that can be trained away. (Any)"
+						],
+						[
+							4,
+							"Escape. I will never again let an institution define my worth. (Chaotic)"
+						],
+						[
+							5,
+							"Status. I endured suffering, others should too. (Evil)"
+						],
+						[
+							6,
+							"Responsibility. I must protect those who are still trapped inside. (Good)"
+						]
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Bonds",
+					"colLabels": [
+						"d6",
+						"Bond"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							1,
+							"A former trainer believed in me when no one else did."
+						],
+						[
+							2,
+							"I still exchange secret letters with a friend who was left behind."
+						],
+						[
+							3,
+							"Another trainee took the blame for my worst mistake."
+						],
+						[
+							4,
+							"My unsigned debut contract is proof that I almost made it."
+						],
+						[
+							5,
+							"I owe my health or freedom to a staff member who helped me."
+						],
+						[
+							6,
+							"I promised a former partner that one of us would reach the stage."
+						]
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Flaws",
+					"colLabels": [
+						"d6",
+						"Flaw"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							1,
+							"I hide injuries and exhaustion until I collapse."
+						],
+						[
+							2,
+							"I assume every kindness should be repaid."
+						],
+						[
+							3,
+							"I need permission before resting, even when no one is in charge."
+						],
+						[
+							4,
+							"I compare myself to everyone around me."
+						],
+						[
+							5,
+							"I find it difficult to tell where my persona ends."
+						],
+						[
+							6,
+							"I obey confident instructions without questioning them."
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Backstage Hand",
+			"source": "TwofellIdolCompendium",
+			"page": 13,
+			"edition": "classic",
+			"skillProficiencies": [
+				{
+					"investigation": true,
+					"sleight of hand": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"disguise kit": true,
+					"anyArtisansTool": 1
+				}
+			],
+			"entries": [
+				"You worked behind the curtain on important productions as a dresser, carpenter, prop handler, makeup artist, runner, or general assistant. You learned that a smooth performance is usually held together by people the audience never notices.",
+				"{@b Skill Proficiencies:} Investigation, Sleight of hand",
+				"{@b Tool Proficiencies:} Makeup kit, one type of artisan’s tools",
+				"{@b Equipment:} A makeup kit, a set of artisan’s tools with which you are proficient, common clothes, a battered backstage pass, 10 feet of string, a piece of chalk, and a pouch containing 10 gp",
+				{
+					"type": "entries",
+					"name": "Feature: Backstage Access",
+					"entries": [
+						"You know how theaters, halls, and stages are organized. You can usually identify staff entrances, storage rooms, rigging access, and other practical routes through a performance venue, as well as how to blend in when uninvited. When a production is in town, you can generally secure work for yourself in exchange for helping backstage."
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Backstage Role",
+					"colLabels": [
+						"d8",
+						"Role"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							1,
+							"Dresser or costume repairer"
+						],
+						[
+							2,
+							"Makeup artist"
+						],
+						[
+							3,
+							"Rigger or set builder"
+						],
+						[
+							4,
+							"Lighting or special-effects assistant"
+						],
+						[
+							5,
+							"Prop handler"
+						],
+						[
+							6,
+							"Personal assistant"
+						],
+						[
+							7,
+							"Security worker"
+						],
+						[
+							8,
+							"Generalist"
+						]
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Personality Traits",
+					"colLabels": [
+						"d8",
+						"Personality Trait"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							1,
+							"I notice when backstage has been messed with."
+						],
+						[
+							2,
+							"I solve problems before anyone sees them."
+						],
+						[
+							3,
+							"I know exactly how long five minutes is."
+						],
+						[
+							4,
+							"I keep spare pins, string, chalk and snacks for emergencies."
+						],
+						[
+							5,
+							"I know better than anyone who says a job will be easy."
+						],
+						[
+							6,
+							"I speak more bluntly to famous people than they expect."
+						],
+						[
+							7,
+							"I collect gossip but sometimes make my own."
+						],
+						[
+							8,
+							"I feel uncomfortable when people thank me directly."
+						]
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Ideals",
+					"colLabels": [
+						"d6",
+						"Ideal"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							1,
+							"Reliability. The work will be finished because I said I would. (Lawful)"
+						],
+						[
+							2,
+							"Safety. No performance is worth a worker’s life. (Good)"
+						],
+						[
+							3,
+							"Craft. The invisible details matter most. (Any)"
+						],
+						[
+							4,
+							"Solidarity. On a team everyone should protect each other. (Good)"
+						],
+						[
+							5,
+							"Access. A locked door is an invitation to learn what is behind it. (Chaotic)"
+						],
+						[
+							6,
+							"Leverage. Secrets are the only payment that never loses value. (Evil)"
+						]
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Bonds",
+					"colLabels": [
+						"d6",
+						"Bond"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							1,
+							"My old crew remembers me, no matter how far away I am."
+						],
+						[
+							2,
+							"I carry a tool that belonged to a worker who never came home."
+						],
+						[
+							3,
+							"A performer once protected me from my boss, and I owe them."
+						],
+						[
+							4,
+							"I know a scandal that could destroy an important person."
+						],
+						[
+							5,
+							"I planned a perfect show and dream of seeing it performed."
+						],
+						[
+							6,
+							"Someone is still using the hidden route I created through an old venue."
+						]
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Flaws",
+					"colLabels": [
+						"d6",
+						"Flaw"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							1,
+							"I assume every leader is hiding something."
+						],
+						[
+							2,
+							"I take tools, keys and documents because they might be useful."
+						],
+						[
+							3,
+							"I cannot leave a faulty mechanism alone, even when time is short."
+						],
+						[
+							4,
+							"I resent performers who ignore the people supporting them."
+						],
+						[
+							5,
+							"I accept dangerous work and don’t admit I cannot handle it."
+						],
+						[
+							6,
+							"I use private information as leverage."
+						]
+					]
+				}
+			]
+		}
+	],
+	"feat": [
+		{
+			"name": "Trained Performer",
+			"source": "TwofellIdolCompendium",
+			"page": 14,
+			"entries": [
+				"You have developed your talent through lessons, rehearsal and repeated public performances. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency in the {@skill Performance} skill. If you are already proficient in it, your proficiency bonus is doubled for any ability check you make that uses Performance.",
+						"You gain proficiency with one musical instrument or a makeup kit.",
+						"You have advantage on ability checks made to continue a performance through distractions, heckling, or poor weather."
+					]
+				}
+			],
+			"ability": [
+				{
+					"cha": 1
+				}
+			],
+			"skillProficiencies": [
+				{
+					"performance": true
+				}
+			]
+		},
+		{
+			"name": "Quick-Change Artist",
+			"source": "TwofellIdolCompendium",
+			"page": 14,
+			"entries": [
+				"You can alter your presentation with exceptional speed. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency with a makeup kit. When you make an ability check using a makeup kit, you can use Dexterity in place of the ability normally used for the check.",
+						"You can prepare a disguise using a makeup kit over the course of 10 minutes. Thereafter, you can don or remove that disguise as an action.",
+						"When a creature you can see makes a Wisdom ({@skill Insight}) check to see through a disguise you created, you can use your reaction to impose disadvantage on the check."
+					]
+				}
+			],
+			"ability": [
+				{
+					"dex": 1
+				}
+			],
+			"toolProficiencies": [
+				{
+					"disguise kit": true
+				}
+			]
+		},
+		{
+			"name": "Stage Presence",
+			"source": "TwofellIdolCompendium",
+			"page": 14,
+			"entries": [
+				"Your practiced voice and bearing naturally draw attention. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Your voice can be heard clearly at twice the distance it normally could, provided you are not whispering.",
+						"After speaking or performing before one or more creatures for at least 1 minute, you have advantage on the next Charisma ({@skill Performance}) or Charisma ({@skill Persuasion}) check you make to influence those creatures within the next 10 minutes."
+					]
+				},
+				"A creature that cannot see or hear you, or that was hostile throughout the performance, is unaffected by this benefit."
+			],
+			"ability": [
+				{
+					"cha": 1
+				}
+			]
+		},
+		{
+			"name": "Vocal Impressionist",
+			"source": "TwofellIdolCompendium",
+			"page": 14,
+			"entries": [
+				"You have trained your ear and voice to reproduce what you hear. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You can mimic the speech of another person or the sounds made by a creature. You must have heard the person or creature for at least 1 minute. A listener can determine that the sound is imitated with a successful Wisdom ({@skill Insight}) check contested by your Charisma ({@skill Deception}) check.",
+						"After studying a written speech, song or script for 10 minutes, you can recite up to 100 words from it without error for the next 24 hours."
+					]
+				}
+			]
+		},
+		{
+			"name": "Public Persona",
+			"source": "TwofellIdolCompendium",
+			"page": 14,
+			"entries": [
+				"You have built a practiced identity that is easier to remember than the person beneath it. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Choose a stage name, title and recognizable mannerism. You have advantage on Charisma ({@skill Deception}) and Charisma ({@skill Performance}) checks made to present yourself as this persona.",
+						"A creature that knows you only through your persona does not automatically recognize you while you are not using it. When a creature attempts to recognize your true self, make a Charisma ({@skill Deception}) check contested by its Wisdom ({@skill Insight}) check. The creature has disadvantage on its check."
+					]
+				}
+			],
+			"ability": [
+				{
+					"cha": 1
+				}
+			]
+		},
+		{
+			"name": "Ensemble Player",
+			"source": "TwofellIdolCompendium",
+			"page": 14,
+			"entries": [
+				"You excel at making another person look their best.",
+				"When you take the {@action Help} action to aid a creature with an ability check, the creature also gains temporary hit points equal to your proficiency bonus. Once a creature gains temporary hit points from this feat, it can’t do so again until it finishes a short or long rest.",
+				"In addition, you can take the {@action Help} action as a bonus action. You can do so a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Perfect Timing",
+			"source": "TwofellIdolCompendium",
+			"page": 15,
+			"entries": [
+				"You know when a small cue can prevent a mistake and how to deliver it to prevent it.",
+				"When a creature you can see within 30 feet of you makes an attack roll or ability check, you can use your reaction to add your proficiency bonus to the roll. You can use this reaction after seeing the roll but before the DM says whether it succeeds or fails.",
+				"You can use this feat a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Opening Act",
+			"source": "TwofellIdolCompendium",
+			"page": 15,
+			"entries": [
+				"You know how to establish momentum before anyone else can seize the room. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"When you roll initiative, choose yourself or one creature within 30 feet of you that can see or hear you. The chosen creature gains temporary hit points equal to your proficiency bonus + your Charisma modifier."
+					]
+				},
+				"You can grant temporary hit points in this way a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			]
+		},
+		{
+			"name": "Media Trained",
+			"source": "TwofellIdolCompendium",
+			"page": 15,
+			"entries": [
+				"You know how to survive questioning, rumors and hostile interactions. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency in {@skill Insight} or {@skill Persuasion}. If you already have proficiency in the chosen skill, your proficiency bonus is doubled for checks you make with it.",
+						"After a creature speaks with you for at least 1 minute, you can make a Wisdom ({@skill Insight}) check contested by its Charisma ({@skill Deception}) check. On a success, you learn whether it is primarily trying to inform, embarrass, provoke or recruit you. You do not learn whether any individual statement said during conversation is true."
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"insight",
+							"persuasion"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Choreographed Partners",
+			"source": "TwofellIdolCompendium",
+			"page": 15,
+			"entries": [
+				"You have practiced moving around your allies without breaking their rhythm. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"When you move through the space of a willing creature, that space does not count as difficult terrain for you.",
+						"When a willing creature you can see ends its turn within 5 feet of you, you can use your reaction to allow both you and that creature to move up to 10 feet. This movement does not provoke opportunity attacks.",
+						"During a short or long rest, you can rehearse with one willing creature. Until the start of your next short or long rest, each of you has advantage on the first ability check you make to perform, dance, create or maintain a disguise, or coordinate with the other creature."
+					]
+				}
+			],
+			"prerequisite": [
+				{
+					"other": "Dexterity or Charisma 13 or higher"
+				}
+			]
+		},
+		{
+			"name": "Unshakable Smile",
+			"source": "TwofellIdolCompendium",
+			"page": 15,
+			"entries": [
+				"You have been trained to maintain your composure under pressure. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You have advantage on saving throws against effects that would force you to speak, laugh, cry or otherwise display an involuntary emotion.",
+						"Other creatures have disadvantage on Wisdom ({@skill Insight}) checks made to determine your current emotional state from your expression or voice."
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			]
+		}
+	],
+	"item": [
+		{
+			"name": "Agency Badge",
+			"source": "TwofellIdolCompendium",
+			"page": 16,
+			"rarity": "none",
+			"entries": [
+				"This marked badge identifies a performer, trainee or worker as belonging to a particular company. A convincing false badge can be created with a {@item forgery kit|PHB} if the maker has seen an authentic one before."
+			],
+			"type": "G",
+			"value": 1000
+		},
+		{
+			"name": "Agency Meal Packet",
+			"source": "TwofellIdolCompendium",
+			"page": 16,
+			"rarity": "none",
+			"entries": [
+				"Each packet contains only half the food a creature needs for one day and no water. The food keeps for one year, tastes faintly medicinal, and includes propaganda for an organization."
+			],
+			"type": "FD",
+			"value": 200,
+			"weight": 1
+		},
+		{
+			"name": "Autograph Cards (20)",
+			"source": "TwofellIdolCompendium",
+			"page": 16,
+			"rarity": "none",
+			"entries": [
+				"These decorated cards provide a convenient surface for signatures, messages, illustrations or minor magical marks or sigils. A signed card can serve as proof that its holder met the person represented, though signatures can be forged."
+			],
+			"type": "G",
+			"value": 100
+		},
+		{
+			"name": "Campaign Fan",
+			"source": "TwofellIdolCompendium",
+			"page": 16,
+			"rarity": "none",
+			"entries": [
+				"This folding fan bears a symbol or set of colors. Creatures who have rehearsed together can use visible fan motions to communicate simple instructions over long distances such as cheer, advance, retreat, wait, look or begin. The signal can be understood at up to 150 feet by a creature that can see it clearly."
+			],
+			"type": "G",
+			"value": 50
+		},
+		{
+			"name": "Costume, Performance",
+			"source": "TwofellIdolCompendium",
+			"page": 16,
+			"rarity": "none",
+			"entries": [
+				"A performance costume is designed to be seen and appreciated, with a distinct style chosen for its performer. It can serve as fine clothes where its dramatic appearance is appropriate, but it is readily recognized as stagewear under close inspection."
+			],
+			"type": "G",
+			"value": 500,
+			"weight": 4
+		},
+		{
+			"name": "Costume Repair Kit",
+			"source": "TwofellIdolCompendium",
+			"page": 16,
+			"rarity": "none",
+			"entries": [
+				"This kit contains thread, wire, pins, adhesive, spare fasteners and patches. You can repair visible damage to one costume or set of clothing during a short or long rest."
+			],
+			"type": "T",
+			"value": 200,
+			"weight": 1
+		},
+		{
+			"name": "Cue Cards (20)",
+			"source": "TwofellIdolCompendium",
+			"page": 16,
+			"rarity": "none",
+			"entries": [
+				"A creature that spends 10 minutes rehearsing from these cards can memorize a speech or sequence of up to 40 words. It can repeat that sequence without error for the next 8 hours."
+			],
+			"type": "G",
+			"value": 50,
+			"weight": 1
+		},
+		{
+			"name": "Glowstick",
+			"source": "TwofellIdolCompendium",
+			"page": 16,
+			"rarity": "none",
+			"entries": [
+				"As an action, you can snap and shake this alchemical rod, causing it to shed bright light of various colors in a 5-foot radius and dim light for an additional 5 feet for 4 hours. Once activated, it cannot be extinguished or reused."
+			],
+			"type": "G",
+			"value": 100,
+			"light": [
+				{
+					"bright": 5,
+					"dim": 10
+				}
+			]
+		},
+		{
+			"name": "Makeup Kit",
+			"source": "TwofellIdolCompendium",
+			"page": 16,
+			"rarity": "none",
+			"entries": [
+				"A makeup kit is a {@item disguise kit|PHB} presented as cosmetics, brushes, adhesives and stage prosthetics. It follows all the rules for a disguise kit, and proficiency with either kit applies to checks made with the other."
+			],
+			"type": "AT",
+			"value": 2500,
+			"weight": 3
+		},
+		{
+			"name": "Microphone, Acoustic",
+			"source": "TwofellIdolCompendium",
+			"page": 16,
+			"rarity": "none",
+			"entries": [
+				"This handheld cone or resonant crystal carries the user’s voice. While speaking through it, your voice can be heard clearly at twice the distance it normally could, though it does not overcome magical silence."
+			],
+			"type": "G",
+			"value": 500,
+			"weight": 1
+		},
+		{
+			"name": "Publicity Portraits (10)",
+			"source": "TwofellIdolCompendium",
+			"page": 16,
+			"rarity": "none",
+			"entries": [
+				"A creature that studies an accurate portrait for 1 minute has advantage on the next Wisdom ({@skill Perception}) check it makes within 24 hours to recognize the depicted subject by sight. An inaccurate or outdated portrait grants no advantage."
+			],
+			"type": "G",
+			"value": 200
+		},
+		{
+			"name": "Rehearsal Markers (10)",
+			"source": "TwofellIdolCompendium",
+			"page": 16,
+			"rarity": "none",
+			"entries": [
+				"This set contains brightly colored tape, chalk and numbered tokens used to mark positions. A creature that spends 1 minute placing them has advantage on the next Intelligence check it makes within 1 hour to recall the positions of creatures, props or objects in the marked area."
+			],
+			"type": "G",
+			"value": 50,
+			"weight": 1
+		},
+		{
+			"name": "Stage-Smoke Pellet",
+			"source": "TwofellIdolCompendium",
+			"page": 16,
+			"rarity": "none",
+			"entries": [
+				"As an action, you can throw the pellet at a point on the ground within 30 feet. It creates a 5-foot cube of smoke that is lightly obscured until the end of your next turn. The pellet is then destroyed."
+			],
+			"type": "G",
+			"value": 1000
+		},
+		{
+			"name": "Animated Photocard",
+			"source": "TwofellIdolCompendium",
+			"page": 18,
+			"rarity": "common",
+			"entries": [
+				"This glossy card displays a flattering animated portrait of the creature whose name is written on its back. When a creature finishes a long rest while holding the card, it can replace the name with that of another creature it can see.",
+				"The named creature can touch the card to change the portrait’s pose and expression.",
+				"While holding the card, a creature can roll {@dice 1d4} and add the number rolled to a Charisma ({@skill Performance}) check it makes to introduce, praise or promote the named creature. Once this property is used, it can’t be used again until the next dawn."
+			],
+			"wondrous": true
+		},
+		{
+			"name": "Applause in a Bottle",
+			"source": "TwofellIdolCompendium",
+			"page": 18,
+			"rarity": "common",
+			"entries": [
+				"When this tiny bottle is opened, it produces up to 1 minute of applause, cheers, boos or the chirping of a cricket chosen by the opener. The sound can be heard from 100 feet away and is obviously artificial to a creature that examines it closely. Once used, the bottle refills at the next dawn."
+			],
+			"wondrous": true
+		},
+		{
+			"name": "Centerpiece Crown",
+			"source": "TwofellIdolCompendium",
+			"page": 18,
+			"rarity": "rare",
+			"entries": [
+				"While wearing this delicate crown, you have advantage on Charisma ({@skill Performance}) checks made as part of a group performance.",
+				"When a willing creature you can see within 30 feet of you makes an attack roll, ability check, or saving throw, you can use your reaction to add your Charisma modifier to the roll, potentially changing the result. You can use this reaction after seeing the roll, but before the DM says whether it succeeds or fails.",
+				"After the roll is resolved, you can exchange places with the creature. You and the creature teleport to each other’s spaces. Once this property is used, it can’t be used again until the next dawn."
+			],
+			"wondrous": true,
+			"reqAttune": true
+		},
+		{
+			"name": "Contract Pen",
+			"source": "TwofellIdolCompendium",
+			"page": 18,
+			"rarity": "uncommon",
+			"entries": [
+				"This black pen never runs out of ink.",
+				"When a creature signs its true name with the pen, the creature holding the signed object can choose a blank sheet of paper within 1 mile whose location it knows. An exact copy of the signed object appears on that sheet, including any writing, seals and marks present when it was signed.",
+				"Once this property is used, it can’t be used again until the next dawn."
+			],
+			"wondrous": true
+		},
+		{
+			"name": "Costume of a Thousand Roles",
+			"source": "TwofellIdolCompendium",
+			"page": 18,
+			"rarity": "rare",
+			"entries": [
+				"As a bonus action while wearing this costume, you can alter its appearance and cause it to resemble any set of clothing you have seen.",
+				"You can cast {@spell disguise self} from the costume at will.",
+				"In addition, you can cast {@spell alter self} from it without expending a spell slot. Once you cast {@spell alter self} in this way, you can’t do so again until the next dawn. Charisma is your spellcasting ability for these spells."
+			],
+			"wondrous": true,
+			"reqAttune": true,
+			"attachedSpells": [
+				"alter self",
+				"disguise self"
+			]
+		},
+		{
+			"name": "Echoing Microphone",
+			"source": "TwofellIdolCompendium",
+			"page": 18,
+			"rarity": "uncommon",
+			"entries": [
+				"You can use this microphone as a spellcasting focus. It has 3 charges.",
+				"When you cast a spell that targets only a willing creature and has a range other than Self, you can expend 1 charge to double the spell’s range. If the spell restores hit points or grants temporary hit points, the target also gains additional temporary hit points equal to your proficiency bonus.",
+				"The microphone regains {@dice 1d3} expended charges daily at dawn."
+			],
+			"wondrous": true,
+			"reqAttune": "by a spellcaster",
+			"charges": 3,
+			"recharge": "dawn",
+			"rechargeAmount": "1d3"
+		},
+		{
+			"name": "Encore Blade",
+			"source": "TwofellIdolCompendium",
+			"page": 18,
+			"rarity": "rare",
+			"entries": [
+				"You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+				"When you attack with this weapon, you can use your Charisma modifier, instead of Strength or Dexterity, for the attack and damage rolls.",
+				"Once on each of your turns when you hit a creature with the rapier, you can choose another creature within 30 feet of you that can see or hear you. The chosen creature gains temporary hit points equal to your proficiency bonus."
+			],
+			"baseItem": "rapier|PHB",
+			"weight": 2,
+			"bonusWeapon": "+1",
+			"reqAttune": "by a creature with a Charisma score of 13 or higher"
+		},
+		{
+			"name": "Finale Baton",
+			"source": "TwofellIdolCompendium",
+			"page": 19,
+			"rarity": "very rare",
+			"entries": [
+				"You can use this baton as a spellcasting focus. While holding it, you gain a +1 bonus to spell attack rolls and to the saving throw DCs of your spells.",
+				"The baton has 5 charges. When a creature you can see within 60 feet misses with an attack roll or fails an ability check or saving throw, you can use your reaction and expend 1 charge to roll {@dice 1d6} and add the number rolled to the triggering roll, potentially causing it to hit or succeed. If the roll hits or succeeds, the creature also gains temporary hit points equal to your Charisma modifier + your proficiency bonus.",
+				"The baton regains {@dice 1d4 + 1} expended charges daily at dawn. If you expend the last charge, roll a {@dice d20}. On a 1, the baton plays a final triumphant chord and becomes nonmagical."
+			],
+			"type": "RD",
+			"reqAttune": "by a bard, cleric, paladin or warlock",
+			"charges": 5,
+			"recharge": "dawn",
+			"rechargeAmount": "1d4 + 1",
+			"bonusSpellAttack": "+1",
+			"bonusSpellSaveDc": "+1"
+		},
+		{
+			"name": "Glowstick of Encouragement",
+			"source": "TwofellIdolCompendium",
+			"page": 19,
+			"rarity": "common",
+			"entries": [
+				"This glowstick can be extinguished or relit as a bonus action and never runs out of light.",
+				"As a bonus action, you can wave it toward one creature you can see within 30 feet. The creature gains 1 temporary hit point."
+			],
+			"wondrous": true
+		},
+		{
+			"name": "Harmony Blades",
+			"source": "TwofellIdolCompendium",
+			"page": 19,
+			"rarity": "very rare",
+			"entries": [
+				"These paired magic daggers count as one magic item for the purpose of attunement. You are proficient with them while attuned, and you gain a +2 bonus to attack and damage rolls made with them.",
+				"When you attack with either dagger, you can use your Charisma modifier, instead of Strength or Dexterity, for the attack and damage rolls.",
+				"Once on each of your turns when you hit a creature with one of the daggers, choose one willing creature within 30 feet of you that can see or hear you. The first time that creature hits the same target before the start of your next turn, its attack deals an extra {@damage 1d8} psychic damage."
+			],
+			"baseItem": "dagger|PHB",
+			"weight": 2,
+			"bonusWeapon": "+2",
+			"reqAttune": true
+		},
+		{
+			"name": "Idol’s Emergency Hairpin",
+			"source": "TwofellIdolCompendium",
+			"page": 19,
+			"rarity": "common",
+			"entries": [
+				"While wearing this decorated pin, your hair, ribbons and costume accessories remain arranged despite wind, rain and movement. As an action, you can cause one tear, stain or scuff on your clothing to become invisible for 1 hour."
+			],
+			"wondrous": true
+		},
+		{
+			"name": "Makeup of the Unfaltering Smile",
+			"source": "TwofellIdolCompendium",
+			"page": 19,
+			"rarity": "uncommon",
+			"entries": [
+				"This elegant makeup never runs or smears. While wearing it, magical and mundane attempts to determine your emotional state from your face automatically fail.",
+				"When you fail a saving throw against being {@condition charmed} or {@condition frightened}, you can choose to succeed instead. Once you do so, you cannot remove the makeup until the next dawn, and you gain one level of {@condition exhaustion} when the effect that caused the saving throw ends. The curse is revealed only after this property is used."
+			],
+			"wondrous": true,
+			"reqAttune": true,
+			"curse": true
+		},
+		{
+			"name": "Manager’s Clipboard",
+			"source": "TwofellIdolCompendium",
+			"page": 19,
+			"rarity": "uncommon",
+			"entries": [
+				"This clipboard always displays the names of creatures you have formally assigned to a task. As an action, you can write the names of up to six willing creatures on it. Their names remain until you erase them or write a new list.",
+				"When you take the {@action Help} action to aid a listed creature with an ability check, you can do so from up to 60 feet away if it can see or hear you and your assistance could reasonably guide the task. You can use this property a number of times equal to your proficiency bonus, regaining all uses daily at dawn."
+			],
+			"wondrous": true,
+			"reqAttune": true
+		},
+		{
+			"name": "Mascot Head of Joy",
+			"source": "TwofellIdolCompendium",
+			"page": 19,
+			"rarity": "uncommon",
+			"entries": [
+				"While wearing this oversized mascot head, your voice is muffled and your face cannot be seen. You have advantage on Charisma ({@skill Performance}) checks made to entertain through broad movement, pantomime or physical comedy, but disadvantage on Wisdom ({@skill Perception}) checks that rely on sight or hearing.",
+				"The head has 3 charges. You can expend 1 charge as an action to cast {@spell silent image}, but the illusion must include the mascot in question. It regains {@dice 1d3} expended charges daily at dawn."
+			],
+			"wondrous": true,
+			"reqAttune": true,
+			"charges": 3,
+			"recharge": "dawn",
+			"rechargeAmount": "1d3",
+			"attachedSpells": [
+				"silent image"
+			]
+		},
+		{
+			"name": "Noncompete Choker",
+			"source": "TwofellIdolCompendium",
+			"page": 20,
+			"rarity": "rare",
+			"entries": [
+				"While wearing this jeweled choker, you gain a +1 bonus to Charisma ability checks and saving throws.",
+				"When you receive payment, shelter or magical aid from a creature other than the person who gave you the choker, you must succeed on a {@dc 15} Wisdom saving throw or be unable to knowingly act against the giver’s interests for 24 hours. The creature that gave you the choker is aware when you fail this save. Removing the choker does not end this effect until {@spell remove curse} is cast on you."
+			],
+			"wondrous": true,
+			"reqAttune": true,
+			"curse": true,
+			"attachedSpells": [
+				"remove curse"
+			]
+		},
+		{
+			"name": "Producer’s Earpiece",
+			"source": "TwofellIdolCompendium",
+			"page": 20,
+			"rarity": "rare",
+			"entries": [
+				"When you finish a short or long rest while wearing this earpiece, you can designate a number of willing creatures equal to your proficiency bonus. Until you use this property again, you and each designated creature can communicate telepathically with one another while within 120 feet, provided every participant is wearing or carrying an earpiece of their own.",
+				"The earpiece has 3 charges. When a designated creature you can see starts moving within 60 feet of you, you can use your reaction and expend 1 charge to guide it. The creature can move up to its speed without provoking opportunity attacks.",
+				"The earpiece regains all expended charges daily at dawn."
+			],
+			"wondrous": true,
+			"reqAttune": true,
+			"charges": 3,
+			"recharge": "dawn",
+			"rechargeAmount": 3
+		},
+		{
+			"name": "Redacted Contract Seal",
+			"source": "TwofellIdolCompendium",
+			"page": 20,
+			"rarity": "rare",
+			"entries": [
+				"Pressing this seal to a written document causes up to 100 words of your choice to become invisible. The words remain present and legally part of the document. They can be seen with {@spell see invisibility}, revealed by {@spell dispel magic} against {@dc 15}, or restored when the seal is pressed to the document again.",
+				"The seal can conceal words in this way once per dawn. A creature that spends 10 minutes examining an affected document can make a {@dc 18} Intelligence ({@skill Investigation}) check, noticing suspicious gaps or spacing on a success but not revealing the hidden words."
+			],
+			"wondrous": true,
+			"attachedSpells": [
+				"dispel magic",
+				"see invisibility"
+			]
+		},
+		{
+			"name": "Regalia of the Unforgettable Star",
+			"source": "TwofellIdolCompendium",
+			"page": 20,
+			"rarity": "legendary",
+			"entries": [
+				"You gain a +3 bonus to AC while wearing this armor.",
+				"You can’t be {@condition charmed} or {@condition frightened}, and your clothing, hair and carried decorations remain clean and arranged despite ordinary weather, movement and combat.",
+				"When you roll initiative, choose a number of creatures within 30 feet of you that can see or hear you, up to your proficiency bonus. Each chosen creature gains temporary hit points equal to 10 + your Charisma modifier.",
+				"As an action, you can begin a Grand Entrance. Each willing creature of your choice within 30 feet can immediately move up to half its speed without provoking opportunity attacks. Each creature that moves in this way has advantage on the next attack roll, ability check, or saving throw it makes before the end of its next turn.",
+				"Once you use Grand Entrance, you can’t use it again until the next dawn."
+			],
+			"baseItem": "studded leather armor|PHB",
+			"weight": 13,
+			"bonusAc": "+3",
+			"reqAttune": "by a creature with a Charisma score of 15 or higher or proficiency in Performance",
+			"conditionImmune": [
+				"charmed",
+				"frightened"
+			]
+		},
+		{
+			"name": "Resonant Stage Gem",
+			"source": "TwofellIdolCompendium",
+			"page": 20,
+			"rarity": "rare",
+			"entries": [
+				"This thumb-sized crystal pulses in time with nearby music. While a pact song is active, you can use a bonus action to place or throw the gem to an unoccupied space you can see within 60 feet. The gem has AC 15, 10 hit points and immunity to poison and psychic damage.",
+				"While you are within 60 feet of the gem, you can choose for your pact song aura to be centered on the gem instead of you. You can change the center of the aura between yourself and the gem as a bonus action. The pact song still ends if you are {@condition incapacitated}, and the gem cannot maintain the song without you.",
+				"If the gem is reduced to 0 hit points, it becomes inert until the next dawn. You can recall an intact gem to your hand as a bonus action while it is within 60 feet."
+			],
+			"wondrous": true,
+			"reqAttune": "by a warlock with the Pact of the Song feature"
+		},
+		{
+			"name": "Shoes of the Marked Stage",
+			"source": "TwofellIdolCompendium",
+			"page": 21,
+			"rarity": "uncommon",
+			"entries": [
+				"These polished shoes leave faint glowing marks that vanish after 1 minute. You can suppress or resume this effect as a bonus action.",
+				"Your walking speed increases by 5 feet. In addition, standing up costs you only 5 feet of movement, and you have advantage on Dexterity ({@skill Acrobatics}) checks made to maintain your footing during a performance or on a constructed stage."
+			],
+			"wondrous": true,
+			"reqAttune": true,
+			"modifySpeed": {
+				"bonus": {
+					"walk": 5
+				}
+			}
+		},
+		{
+			"name": "Spotlight Coat",
+			"source": "TwofellIdolCompendium",
+			"page": 21,
+			"rarity": "rare",
+			"entries": [
+				"You gain a +1 bonus to AC while wearing this armor.",
+				"As a bonus action, you can alter the coat’s colors, decorations and apparent material.",
+				"When a creature misses you with an attack, you can use your reaction to move up to 10 feet without provoking opportunity attacks from that creature."
+			],
+			"baseItem": "studded leather armor|PHB",
+			"weight": 13,
+			"bonusAc": "+1",
+			"reqAttune": true
+		},
+		{
+			"name": "Spotlight Knife",
+			"source": "TwofellIdolCompendium",
+			"page": 21,
+			"rarity": "uncommon",
+			"entries": [
+				"You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+				"As a bonus action, you can cause the dagger to shed bright light in a 10-foot radius and dim light for an additional 10 feet, or extinguish the light.",
+				"When you hit a creature while you have advantage on the attack roll, you can cause it to glow until the start of your next turn. During that time, the creature can’t benefit from being invisible, and the next attack roll made against it by a creature other than you has advantage.",
+				"Once this property is used, it can’t be used again until you finish a short or long rest."
+			],
+			"baseItem": "dagger|PHB",
+			"weight": 1,
+			"bonusWeapon": "+1",
+			"light": [
+				{
+					"bright": 10,
+					"dim": 20
+				}
+			]
+		},
+		{
+			"name": "Stageguard Leathers",
+			"source": "TwofellIdolCompendium",
+			"page": 21,
+			"rarity": "uncommon",
+			"entries": [
+				"While wearing this armor, standing up from {@condition prone} costs you only 5 feet of movement.",
+				"You also have advantage on ability checks and saving throws made to avoid being knocked {@condition prone} or moved against your will while standing on a constructed floor, platform or stage."
+			],
+			"baseItem": "studded leather armor|PHB",
+			"weight": 13
+		},
+		{
+			"name": "Understudy Costume",
+			"source": "TwofellIdolCompendium",
+			"page": 21,
+			"rarity": "uncommon",
+			"entries": [
+				"As a bonus action while wearing this costume, you can alter its colors, decorations and apparent style. The costume cannot resemble armor or equipment that it does not possess.",
+				"After observing another creature’s clothing for at least 1 minute, you can cause the costume to imitate that clothing."
+			],
+			"wondrous": true
+		}
+	],
+	"table": [
+		{
+			"name": "Performer Trinkets",
+			"source": "TwofellIdolCompendium",
+			"page": 17,
+			"type": "table",
+			"caption": "Performer Trinkets",
+			"colLabels": [
+				"d20",
+				"Trinket"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					1,
+					"A fan letter addressed to a stage name you have never used."
+				],
+				[
+					2,
+					"A cracked glowstick that glows faintly when people are singing."
+				],
+				[
+					3,
+					"A rehearsal schedule containing one date in the future."
+				],
+				[
+					4,
+					"A costume jewel that shines in the dark."
+				],
+				[
+					5,
+					"A wooden microphone carved with the names of forgotten performers."
+				],
+				[
+					6,
+					"A sealed envelope containing your own unsigned resignation."
+				],
+				[
+					7,
+					"A tiny mascot doll whose expression changes when no one is looking."
+				],
+				[
+					8,
+					"A ribbon awarded for a competition you do not remember entering."
+				],
+				[
+					9,
+					"A makeup mirror that reflects stage lighting even in darkness."
+				],
+				[
+					10,
+					"A ticket for a sold-out performance in a city that does not exist."
+				],
+				[
+					11,
+					"A songbook with most of its words illegible or censored."
+				],
+				[
+					12,
+					"A brass key that fits a dressing-room door in every theater."
+				],
+				[
+					13,
+					"A timecard stamped with hours you never worked."
+				],
+				[
+					14,
+					"A contract whose last page is signed by you."
+				],
+				[
+					15,
+					"A publicity portrait in which one member of the group is blurred out."
+				],
+				[
+					16,
+					"A bottle labeled “bath water” of unknown origin."
+				],
+				[
+					17,
+					"An agency badge that grows scorchingly hot whenever you consider quitting."
+				],
+				[
+					18,
+					"A ranking chart that always places you one position below someone else."
+				],
+				[
+					19,
+					"A broken earpiece that occasionally whispers a song."
+				],
+				[
+					20,
+					"A bouquet that remains fresh but loses one flower each dawn."
+				]
+			]
+		},
+		{
+			"name": "Lavender Reverie Party Connections",
+			"source": "TwofellIdolCompendium",
+			"page": 25,
+			"type": "table",
+			"caption": "Party Connections",
+			"colLabels": [
+				"d6",
+				"Connection"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					1,
+					"A party member performs under a Lavender Reverie contract."
+				],
+				[
+					2,
+					"A friend or relative no longer remembers the name they had before joining."
+				],
+				[
+					3,
+					"A party member worked for the Agency and discovered its dream corrections."
+				],
+				[
+					4,
+					"A party member once auditioned and still sees Alvilda during their sleep."
+				],
+				[
+					5,
+					"The party was hired to find a missing idol whose scheduled appearances have continued."
+				],
+				[
+					6,
+					"A party member knows Alvilda’s daughter and has been drawn into her conflict with the company."
+				]
+			]
+		},
+		{
+			"name": "Agency Representatives",
+			"source": "TwofellIdolCompendium",
+			"page": 26,
+			"type": "table",
+			"caption": "Agency Representatives",
+			"colLabels": [
+				"d8",
+				"Representatives"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					1,
+					"A faceless producer whose smile appears only in reflections."
+				],
+				[
+					2,
+					"A mascot familiar with soft fur and a blank stare."
+				],
+				[
+					3,
+					"A celestial choreographer who calls pain “correction.”"
+				],
+				[
+					4,
+					"A fey manager who remembers every promise you made as a child."
+				],
+				[
+					5,
+					"A cursed mirror that insists on showing your flaws."
+				],
+				[
+					6,
+					"A ghostly senior idol who insists they are “still under contract.”"
+				],
+				[
+					7,
+					"A cheerful clerk who speaks entirely with impersonal statements."
+				],
+				[
+					8,
+					"A former adventurer who now treats performers like a military unit."
+				]
+			]
+		},
+		{
+			"name": "Agency Departments",
+			"source": "TwofellIdolCompendium",
+			"page": 26,
+			"type": "table",
+			"caption": "Agency Departments",
+			"colLabels": [
+				"d8",
+				"Departments"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					1,
+					"Talent acquisition and scouting"
+				],
+				[
+					2,
+					"Training, correction and evaluation"
+				],
+				[
+					3,
+					"Costuming, makeup and bodily presentation"
+				],
+				[
+					4,
+					"Publicity, interviews and rumor control"
+				],
+				[
+					5,
+					"Fan relations and merchandise"
+				],
+				[
+					6,
+					"Security, containment and retrieval"
+				],
+				[
+					7,
+					"Legal affairs and contract enforcement"
+				],
+				[
+					8,
+					"Legacy management for retired or deceased talent"
+				]
+			]
+		},
+		{
+			"name": "Contract Clauses",
+			"source": "TwofellIdolCompendium",
+			"page": 26,
+			"type": "table",
+			"caption": "Contract Clauses",
+			"colLabels": [
+				"d8",
+				"Contract Clauses"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					1,
+					"You must never respond to your previous name."
+				],
+				[
+					2,
+					"You must smile before patrons, nobles and paying guests."
+				],
+				[
+					3,
+					"You must maintain a perfect public image."
+				],
+				[
+					4,
+					"You must win the hearts of new fans wherever you perform."
+				],
+				[
+					5,
+					"You must never speak of the previous idol."
+				],
+				[
+					6,
+					"You must answer any summons sealed with the Agency’s mark."
+				],
+				[
+					7,
+					"Your stage name, costume and recorded voice belong to the Agency."
+				],
+				[
+					8,
+					"Time spent unconscious, imprisoned or dead does not pause the contract."
+				]
+			]
+		},
+		{
+			"name": "Industry Omens",
+			"source": "TwofellIdolCompendium",
+			"page": 26,
+			"type": "table",
+			"caption": "Industry Omens",
+			"colLabels": [
+				"d8",
+				"Industry Omens"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					1,
+					"Your autograph writes itself when you touch the page."
+				],
+				[
+					2,
+					"Your dressing-room door locks whenever you consider quitting."
+				],
+				[
+					3,
+					"A fan thanks you for a performance you do not remember giving."
+				],
+				[
+					4,
+					"Your old name fades from letters, records and family ledgers."
+				],
+				[
+					5,
+					"There is a room backstage with a mannequin that eerily resembles you."
+				],
+				[
+					6,
+					"Your shadow keeps shifting after you stop moving."
+				],
+				[
+					7,
+					"A ranking board changes whenever you feel proud."
+				],
+				[
+					8,
+					"Your costume is repaired and cleaned each night, impeccable and ready to be worn."
+				]
+			]
+		},
+		{
+			"name": "Exploitative Practices",
+			"source": "TwofellIdolCompendium",
+			"page": 27,
+			"type": "table",
+			"caption": "Exploitative Practices",
+			"colLabels": [
+				"d8",
+				"Exploitative Practices"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					1,
+					"Mandatory unpaid rehearsals described as opportunities."
+				],
+				[
+					2,
+					"Injuries are concealed until the show ends."
+				],
+				[
+					3,
+					"Trainees compete for food, beds or access to healing."
+				],
+				[
+					4,
+					"Every gift is recorded as debt against future earnings."
+				],
+				[
+					5,
+					"Staff are ordered to create rumors about their own performers."
+				],
+				[
+					6,
+					"Retired talent must train replacements who use their identities."
+				],
+				[
+					7,
+					"Fan complaints are magically transferred into the performer’s dreams."
+				],
+				[
+					8,
+					"The Agency controls who may speak to a performer without supervision."
+				]
+			]
+		},
+		{
+			"name": "Current Scandal",
+			"source": "TwofellIdolCompendium",
+			"page": 27,
+			"type": "table",
+			"caption": "Current Scandal",
+			"colLabels": [
+				"d8",
+				"Current Scandal"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					1,
+					"A supposedly live performance used an illusory duplicate."
+				],
+				[
+					2,
+					"A beloved idol has been missing for months while scheduled appearances continue."
+				],
+				[
+					3,
+					"The Agency has been buying its own merchandise to falsify popularity."
+				],
+				[
+					4,
+					"A rival’s breakdown was deliberately engineered."
+				],
+				[
+					5,
+					"A trainee died during a ritual described as coaching."
+				],
+				[
+					6,
+					"Fan meetings are being used to locate magically compatible sacrifices."
+				],
+				[
+					7,
+					"Several performers share the same memories of childhood."
+				],
+				[
+					8,
+					"The Agency’s most famous song contains a hidden command word."
+				]
+			]
+		},
+		{
+			"name": "Escape Clauses",
+			"source": "TwofellIdolCompendium",
+			"page": 27,
+			"type": "table",
+			"caption": "Escape Clauses",
+			"colLabels": [
+				"d8",
+				"Escape Clauses"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					1,
+					"Complete one final performance before an impossible audience."
+				],
+				[
+					2,
+					"Find the original copy of the contract and break it."
+				],
+				[
+					3,
+					"Convince another willing creature to inherit the stage name."
+				],
+				[
+					4,
+					"Make the Agency publicly admit that it broke its own rules."
+				],
+				[
+					5,
+					"Recover every fragment of your true name."
+				],
+				[
+					6,
+					"Become more famous than the Agency itself."
+				],
+				[
+					7,
+					"Fulfill a forgotten promise made by the Agency’s founder."
+				],
+				[
+					8,
+					"End the contract in the place where it was first signed."
+				]
+			]
+		},
+		{
+			"name": "Rival Acts and Groups",
+			"source": "TwofellIdolCompendium",
+			"page": 27,
+			"type": "table",
+			"caption": "Rival Acts and Groups",
+			"colLabels": [
+				"d8",
+				"Rival Acts and Groups"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					1,
+					"A perfectly synchronized group that never speaks offstage."
+				],
+				[
+					2,
+					"A former friend who accepted the debut you rejected."
+				],
+				[
+					3,
+					"A cheerful independent troupe that the Agency wants destroyed."
+				],
+				[
+					4,
+					"An undead act performing under their lost names."
+				],
+				[
+					5,
+					"A noble-sponsored performer protected from ordinary consequences."
+				],
+				[
+					6,
+					"A masked soloist who claims to be the original you."
+				],
+				[
+					7,
+					"A monster presented as a harmless magical mascot."
+				],
+				[
+					8,
+					"A rival Agency whose working conditions are somehow worse."
+				]
+			]
+		},
+		{
+			"name": "Public Personas",
+			"source": "TwofellIdolCompendium",
+			"page": 27,
+			"type": "table",
+			"caption": "Public Personas",
+			"colLabels": [
+				"d8",
+				"Public Personas"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					1,
+					"The dependable older sibling"
+				],
+				[
+					2,
+					"The innocent newcomer"
+				],
+				[
+					3,
+					"The elegant and distant prodigy"
+				],
+				[
+					4,
+					"The reckless troublemaker"
+				],
+				[
+					5,
+					"The hardworking underdog"
+				],
+				[
+					6,
+					"The mysterious masked performer"
+				],
+				[
+					7,
+					"The cheerful mascot-like entertainer"
+				],
+				[
+					8,
+					"The reformed villain with a suspiciously clean history"
+				]
+			]
+		},
+		{
+			"name": "What the Agency Wants Now",
+			"source": "TwofellIdolCompendium",
+			"page": 27,
+			"type": "table",
+			"caption": "What the Agency Wants Now",
+			"colLabels": [
+				"d8",
+				"What the Agency Wants Now"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					1,
+					"Recruit a specific adventurer as new talent."
+				],
+				[
+					2,
+					"Recover stolen recordings from a rival."
+				],
+				[
+					3,
+					"Perform in a dangerous region to prove the Agency’s reach."
+				],
+				[
+					4,
+					"Suppress a former employee’s testimony."
+				],
+				[
+					5,
+					"Turn a recent disaster into favorable publicity."
+				],
+				[
+					6,
+					"Wear a new item that is clearly cursed."
+				],
+				[
+					7,
+					"Replace a missing performer without telling the audience."
+				],
+				[
+					8,
+					"Deliver a sealed contract without reading it."
+				]
+			]
+		}
+	]
+}
