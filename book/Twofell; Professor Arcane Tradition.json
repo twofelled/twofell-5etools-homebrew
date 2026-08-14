@@ -1,0 +1,776 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+  "_meta": {
+    "sources": [
+      {
+        "json": "TwofellProfessor",
+        "abbreviation": "TF:PAT",
+        "full": "Professor Arcane Tradition",
+        "authors": ["Twofell"],
+        "convertedBy": ["Twofell"],
+        "version": "1.0.0",
+        "color": "5aa2fe",
+        "dateReleased": "2026-08-14",
+        "url": "https://homebrewery.naturalcrit.com/share/T1HoPZbj1NfZ"
+      }
+    ],
+    "edition": "classic",
+    "dateAdded": 1786746705,
+    "dateLastModified": 1786746705,
+    "optionalFeatureTypes": {
+      "PR": "Professor Revision"
+    }
+  },
+  "subclass": [
+    {
+      "name": "Professor",
+      "shortName": "Professor",
+      "source": "TwofellProfessor",
+      "className": "Wizard",
+      "classSource": "PHB",
+      "edition": "classic",
+      "subclassFeatures": [
+        "Professor|Wizard|PHB|Professor|TwofellProfessor|2",
+        "Thesis|Wizard|PHB|Professor|TwofellProfessor|2",
+        "Shared Thesis|Wizard|PHB|Professor|TwofellProfessor|2",
+        "Established Method|Wizard|PHB|Professor|TwofellProfessor|6",
+        "Peer Review|Wizard|PHB|Professor|TwofellProfessor|10",
+        "Advanced Thesis|Wizard|PHB|Professor|TwofellProfessor|10",
+        "Magnum Opus|Wizard|PHB|Professor|TwofellProfessor|14"
+      ],
+      "page": 1,
+      "subclassTableGroups": [
+        {
+          "title": "Professor Features",
+          "colLabels": ["Revisions Known", "Revisions per Casting"],
+          "rows": [
+            ["—", "—"],
+            [3, 1],
+            [3, 1],
+            [3, 1],
+            [3, 1],
+            [5, 2],
+            [5, 2],
+            [5, 2],
+            [5, 2],
+            [7, 3],
+            [7, 3],
+            [7, 3],
+            [7, 3],
+            [9, 4],
+            [9, 4],
+            [9, 4],
+            [9, 4],
+            [9, 4],
+            [9, 4],
+            [9, 4]
+          ]
+        }
+      ]
+    }
+  ],
+  "subclassFeature": [
+    {
+      "name": "Professor",
+      "source": "TwofellProfessor",
+      "className": "Wizard",
+      "classSource": "PHB",
+      "subclassShortName": "Professor",
+      "subclassSource": "TwofellProfessor",
+      "level": 2,
+      "entries": [
+        {
+          "type": "quote",
+          "entries": [
+            "There are many ways for a Wizard to hone their intellect and better control the Weave. Some discover new spells, while others refine what already exists and share that knowledge with anyone willing to learn.",
+            "Professors belong firmly to that last group.",
+            "To them, magic is something to be tested, taught and corrected. The insights of others can reveal possibilities the Professor may never have considered alone.",
+            "Eventually, a simple spell becomes something distinctly theirs; covered in amendments and notes on what to do and not to do. Magic refined through experience and carrying the work of everyone who helped shape it."
+          ],
+          "by": "Trully, A Magnum Opus."
+        }
+      ],
+      "page": 2
+    },
+    {
+      "name": "Thesis",
+      "source": "TwofellProfessor",
+      "className": "Wizard",
+      "classSource": "PHB",
+      "subclassShortName": "Professor",
+      "subclassSource": "TwofellProfessor",
+      "level": 2,
+      "entries": [
+        "Beginning when you choose this tradition at 2nd level, choose one 1st-level wizard spell in your spellbook to be your {@filter Thesis Spell|spells|level=1|class=wizard|components & miscellaneous=!ritual;!reprinted|cast time=action}. The chosen spell must meet all of the following requirements:",
+        {
+          "type": "list",
+          "items": [
+            "It has a casting time of 1 action.",
+            "It doesn't have the ritual tag.",
+            "It doesn't consume its material components.",
+            "It doesn't summon or create a creature, and it doesn't create an object that remains after the spell ends."
+          ]
+        },
+        "Your Thesis Spell is always prepared, and it doesn't count against the number of wizard spells you can prepare.",
+        "Whenever you gain a level in this class before reaching 14th level, you can replace your Thesis Spell with another eligible spell in your spellbook. When you do so, you can also replace any number of Revisions you know with other Revisions for which you meet the prerequisites.",
+        {
+          "type": "entries",
+          "name": "Insight",
+          "entries": [
+            "You gain Insight as described in your Shared Thesis feature.",
+            "You can have a maximum number of Insight points equal to your proficiency bonus. You lose all unspent Insight when you finish a long rest."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "2nd-Level Revisions",
+          "entries": [
+            "You learn three Revisions of your choice from the Thesis Revisions presented at the end of this subclass. You learn two additional Revisions when you reach 6th, 10th, and 14th level in this class.",
+            "Whenever you gain a level in this class, you can replace one Revision you know with another Revision for which you meet the prerequisites.",
+            "When you cast your Thesis Spell, you can spend Insight to apply one or more Revisions you know to that casting. Unless a Revision states otherwise, it costs 1 Insight to apply. The maximum number of Revisions you can apply to a single casting is shown in the Professor Features table.",
+            "You can't apply the same Revision more than once to the same casting.",
+            {
+              "type": "table",
+              "caption": "Professor Features",
+              "colLabels": [
+                "Wizard Level",
+                "Revisions Known",
+                "Revisions per Casting"
+              ],
+              "colStyles": [
+                "col-4 text-center",
+                "col-4 text-center",
+                "col-4 text-center"
+              ],
+              "rows": [
+                ["2nd", 3, 1],
+                ["6th", 5, 2],
+                ["10th", 7, 3],
+                ["14th", 9, 4]
+              ]
+            },
+            {
+              "type": "options",
+              "count": 3,
+              "entries": [
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Annotation|TwofellProfessor"
+                },
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Application|TwofellProfessor"
+                },
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Conversion|TwofellProfessor"
+                },
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Correction|TwofellProfessor"
+                },
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Emphasis|TwofellProfessor"
+                },
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Precision|TwofellProfessor"
+                },
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Reach|TwofellProfessor"
+                },
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Safety|TwofellProfessor"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "page": 2
+    },
+    {
+      "name": "Shared Thesis",
+      "source": "TwofellProfessor",
+      "className": "Wizard",
+      "classSource": "PHB",
+      "subclassShortName": "Professor",
+      "subclassSource": "TwofellProfessor",
+      "level": 2,
+      "entries": [
+        "When you finish a long rest, you can create a number of physical magical copies of your Thesis Spell equal to your proficiency bonus. You can distribute these copies among willing allies that finished the rest within 30 feet of you, can understand at least one language you speak, and weren't summoned or created by a spell or class feature. An ally can receive more than one copy.",
+        "An ally can use its action to expend one of its copies and cast your Thesis Spell at its lowest level without expending a spell slot. The ally uses your spellcasting ability, spell save DC, and spell attack bonus for the spell. The ally must maintain concentration on the spell if it requires concentration, using the copy as an arcane focus for the casting.",
+        "A copy can be used only by the ally to which you gave it to, representing the task of addapting the casting to that specific creature's understanding. Any unused copies lose their magic when you finish your next long rest.",
+        "You can also use your action and expend a spell slot of a level equal to or greater than your Thesis Spell's level to create one additional copy of the spell and give it to a willing ally within your reach.",
+        "When an ally within 60 feet of you casts your Thesis Spell using one of your copies and you can see or hear that ally, you gain 1 Insight after the spell is cast."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Established Method",
+      "source": "TwofellProfessor",
+      "className": "Wizard",
+      "classSource": "PHB",
+      "subclassShortName": "Professor",
+      "subclassSource": "TwofellProfessor",
+      "level": 6,
+      "entries": [
+        "Starting at 6th level, choose one Revision you know that costs 1 Insight. That Revision becomes your Established Method.",
+        "Whenever an ally casts your Thesis Spell using one of your copies, your Established Method can be applied to that casting without spending Insight. It counts against the maximum number of Revisions you can apply to the casting.",
+        "Whenever you gain a level in this class, you can replace your Established Method with another Revision you know that meets the requirements above.",
+        {
+          "type": "entries",
+          "name": "6th-Level Revisions",
+          "entries": [
+            {
+              "type": "options",
+              "count": 2,
+              "entries": [
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Continuity|TwofellProfessor"
+                },
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Controlled|TwofellProfessor"
+                },
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Distillation|TwofellProfessor"
+                },
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Expansion|TwofellProfessor"
+                },
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Guided|TwofellProfessor"
+                },
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Residual Effect|TwofellProfessor"
+                },
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Reformulation|TwofellProfessor"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "page": 3
+    },
+    {
+      "name": "Peer Review",
+      "source": "TwofellProfessor",
+      "className": "Wizard",
+      "classSource": "PHB",
+      "subclassShortName": "Professor",
+      "subclassSource": "TwofellProfessor",
+      "level": 10,
+      "entries": [
+        "Starting at 10th level, when an ally you can see within 60 feet of you casts your Thesis Spell using one of your copies, you can use your reaction to apply one additional Revision you know to that casting. You must spend the normal amount of Insight for the Revision, and the Revision must be able to apply to that casting.",
+        "This Revision is applied in addition to your Established Method."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Advanced Thesis",
+      "source": "TwofellProfessor",
+      "className": "Wizard",
+      "classSource": "PHB",
+      "subclassShortName": "Professor",
+      "subclassSource": "TwofellProfessor",
+      "level": 10,
+      "entries": [
+        "Starting at 10th level, your {@filter Thesis Spell|spells|level=1;2|class=wizard|components & miscellaneous=!ritual;!reprinted|cast time=action} can be a 1st- or 2nd-level wizard spell in your spellbook that meets the requirements of your Thesis feature.",
+        {
+          "type": "entries",
+          "name": "10th-Level Revisions",
+          "entries": [
+            {
+              "type": "options",
+              "count": 2,
+              "entries": [
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Adaptation|TwofellProfessor"
+                },
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Multiplicity Casting|TwofellProfessor"
+                },
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Persistence|TwofellProfessor"
+                },
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Multiple Spell Application|TwofellProfessor"
+                },
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Spell Transfer|TwofellProfessor"
+                },
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Shocking Rebuttal|TwofellProfessor"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "page": 3
+    },
+    {
+      "name": "Magnum Opus",
+      "source": "TwofellProfessor",
+      "className": "Wizard",
+      "classSource": "PHB",
+      "subclassShortName": "Professor",
+      "subclassSource": "TwofellProfessor",
+      "level": 14,
+      "entries": [
+        "Starting at 14th level, your Thesis Spell becomes your Magnum Opus and can no longer be replaced.",
+        "Choose a second Revision you know that costs 1 Insight. This Revision also becomes part of your Established Method.",
+        "Whenever an ally casts your Magnum Opus using one of your copies, both Revisions that make up your Established Method can be applied to that casting without spending Insight.",
+        "Whenever you cast your Magnum Opus, both Revisions that make up your Established Method are applied to that casting without spending Insight. They count against the maximum number of Revisions you can apply to the casting.",
+        "In addition, you can cast your Magnum Opus once as a 5th-level spell without spending a spell slot. When you do so, you can apply up to four Revisions you know to the casting without spending Insight. Once you cast the spell in this way, you can't do so again until you finish a long rest.",
+        {
+          "type": "entries",
+          "name": "14th-Level Revisions",
+          "entries": [
+            {
+              "type": "options",
+              "count": 2,
+              "entries": [
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Dual Demonstration|TwofellProfessor"
+                },
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Perfectly Supported Citation|TwofellProfessor"
+                },
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Reliabla Replicable Result|TwofellProfessor"
+                },
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Infallible Arcane Formula|TwofellProfessor"
+                },
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Lasting Proof|TwofellProfessor"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "page": 3
+    }
+  ],
+  "optionalfeature": [
+    {
+      "name": "Annotation",
+      "source": "TwofellProfessor",
+      "featureType": ["PR"],
+      "prerequisite": [
+        {
+          "level": 2
+        }
+      ],
+      "entries": [
+        "When the spell affects one or more hostile creatures, choose one of them. Until the end of the next turn of the creature that cast the spell, the first time you or an ally hits the chosen creature with an attack, that attack deals extra force damage equal to your Intelligence modifier."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Application",
+      "source": "TwofellProfessor",
+      "featureType": ["PR"],
+      "prerequisite": [
+        {
+          "level": 2
+        }
+      ],
+      "entries": [
+        "When the spell affects you or an ally, that creature can immediately stand up without using any of its movement or move up to 10 feet without provoking opportunity attacks."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Conversion",
+      "source": "TwofellProfessor",
+      "featureType": ["PR"],
+      "prerequisite": [
+        {
+          "level": 2
+        }
+      ],
+      "entries": [
+        "{@b Requirement.} Your Thesis Spell deals acid, cold, fire, force, lightning, poison, or thunder damage.",
+        "When you or an ally casts the spell, that creature can change its damage type to acid, cold, fire, lightning, poison, or thunder."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Correction",
+      "source": "TwofellProfessor",
+      "featureType": ["PR"],
+      "prerequisite": [
+        {
+          "level": 2
+        }
+      ],
+      "entries": [
+        "{@b Requirement.} Your Thesis Spell requires a spell attack roll.",
+        "When a spell attack made as part of the spell misses, you or the ally that cast the spell can reroll the attack against the same target. The new roll must be used."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Emphasis",
+      "source": "TwofellProfessor",
+      "featureType": ["PR"],
+      "prerequisite": [
+        {
+          "level": 2
+        }
+      ],
+      "entries": [
+        "{@b Requirement.} Your Thesis Spell deals damage, restores hit points, or grants temporary hit points.",
+        "When the spell deals damage to, restores hit points to, or grants temporary hit points to one or more creatures, choose one of those creatures. Increase the damage dealt, hit points restored, or temporary hit points granted to that creature by your Intelligence modifier."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Precision",
+      "source": "TwofellProfessor",
+      "featureType": ["PR"],
+      "prerequisite": [
+        {
+          "level": 2
+        }
+      ],
+      "entries": [
+        "A creature gains no benefit from half cover against the spell and gains only the benefit of half cover from three-quarters cover against the spell."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Reach",
+      "source": "TwofellProfessor",
+      "featureType": ["PR"],
+      "prerequisite": [
+        {
+          "level": 2
+        }
+      ],
+      "entries": [
+        "Increase the spell's range by 30 feet. If it has a range of touch, its range becomes 15 feet instead. This Revision has no effect on a spell with a range of Self."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Safety",
+      "source": "TwofellProfessor",
+      "featureType": ["PR"],
+      "prerequisite": [
+        {
+          "level": 2
+        }
+      ],
+      "entries": [
+        "{@b Requirement.} Your Thesis Spell affects an area.",
+        "Choose one creature in the spell's area. That creature is unaffected by the spell."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Continuity",
+      "source": "TwofellProfessor",
+      "featureType": ["PR"],
+      "prerequisite": [
+        {
+          "level": 6
+        }
+      ],
+      "entries": [
+        "{@b Requirement.} Your Thesis Spell requires concentration.",
+        "When you or an ally casts the spell, the creature concentrating on it adds your Intelligence modifier to the first Constitution saving throw it makes to maintain concentration on the spell."
+      ],
+      "page": 5
+    },
+    {
+      "name": "Controlled",
+      "source": "TwofellProfessor",
+      "featureType": ["PR"],
+      "prerequisite": [
+        {
+          "level": 6
+        }
+      ],
+      "entries": [
+        "{@b Requirement.} Your Thesis Spell rolls damage or restores hit points.",
+        "When you or an ally casts the spell, that creature can reroll a number of the spell's damage or healing dice up to your Intelligence modifier. It must use the new rolls."
+      ],
+      "page": 5
+    },
+    {
+      "name": "Distillation",
+      "source": "TwofellProfessor",
+      "featureType": ["PR"],
+      "prerequisite": [
+        {
+          "level": 6
+        }
+      ],
+      "entries": [
+        "{@b Requirement.} Your Thesis Spell has a duration of at least 1 minute and no longer than 1 hour.",
+        "Double the spell's duration, to a maximum of 2 hours. If the spell requires concentration, it still requires concentration."
+      ],
+      "page": 5
+    },
+    {
+      "name": "Expansion",
+      "source": "TwofellProfessor",
+      "featureType": ["PR"],
+      "prerequisite": [
+        {
+          "level": 6
+        }
+      ],
+      "entries": [
+        "{@b Requirement.} Your Thesis Spell creates an area.",
+        "Increase the radius of the spell's area by 5 feet, the length of a cone or line by 10 feet, or each dimension of a cube or square by 5 feet."
+      ],
+      "page": 5
+    },
+    {
+      "name": "Guided",
+      "source": "TwofellProfessor",
+      "featureType": ["PR"],
+      "prerequisite": [
+        {
+          "level": 6
+        }
+      ],
+      "entries": [
+        "{@b Requirement.} Your Thesis Spell has a range of touch.",
+        "When you or an ally casts the spell, choose one willing creature that the creature casting the spell can see within 60 feet of it. The chosen creature can use its reaction to deliver the spell to one creature within its reach. The spell still uses your spellcasting ability, spell save DC, and spell attack bonus."
+      ],
+      "page": 5
+    },
+    {
+      "name": "Residual Effect",
+      "source": "TwofellProfessor",
+      "featureType": ["PR"],
+      "prerequisite": [
+        {
+          "level": 6
+        }
+      ],
+      "entries": [
+        "{@b Insight Cost.} 2 Insights.",
+        "{@b Requirement.} Your Thesis Spell forces a saving throw.",
+        "Choose one creature that succeeds on its first saving throw against the spell. Until the start of the next turn of the creature that cast the spell, the chosen creature's speed is reduced by 10 feet, and it can't take reactions."
+      ],
+      "page": 5
+    },
+    {
+      "name": "Reformulation",
+      "source": "TwofellProfessor",
+      "featureType": ["PR"],
+      "prerequisite": [
+        {
+          "level": 6
+        }
+      ],
+      "entries": [
+        "If all spell attacks made as part of the spell miss or every target succeeds on its first saving throw against it, you gain 1 Insight."
+      ],
+      "page": 5
+    },
+    {
+      "name": "Adaptation",
+      "source": "TwofellProfessor",
+      "featureType": ["PR"],
+      "prerequisite": [
+        {
+          "level": 10
+        }
+      ],
+      "entries": [
+        "{@b Requirement.} Your Thesis Spell deals damage.",
+        "Damage dealt by the spell ignores resistance to that damage. Immunity is unaffected."
+      ],
+      "page": 6
+    },
+    {
+      "name": "Multiplicity Casting",
+      "source": "TwofellProfessor",
+      "featureType": ["PR"],
+      "prerequisite": [
+        {
+          "level": 10
+        }
+      ],
+      "entries": [
+        "{@b Insight Cost.} 2 Insights.",
+        "{@b Requirement.} Your Thesis Spell can target a single creature, doesn't have a range of Self, and can't target an object.",
+        "When you or an ally casts the spell and targets only one creature with it, choose a second creature within 30 feet of the original target that is also an eligible target for the spell. The spell targets the chosen creature in addition to the original target. If the spell requires concentration, you or the ally that cast the spell concentrates on a single spell that affects both targets."
+      ],
+      "page": 6
+    },
+    {
+      "name": "Persistence",
+      "source": "TwofellProfessor",
+      "featureType": ["PR"],
+      "prerequisite": [
+        {
+          "level": 10
+        }
+      ],
+      "entries": [
+        "{@b Requirement.} Your Thesis Spell can force the same creature to make more than one saving throw over its duration.",
+        "When a creature succeeds on a saving throw against the spell after previously failing a saving throw against it, you or the ally that cast the spell can force the creature to reroll the saving throw. It must use the new roll. A creature can be affected by this Revision only once per casting."
+      ],
+      "page": 6
+    },
+    {
+      "name": "Multiple Spell Application",
+      "source": "TwofellProfessor",
+      "featureType": ["PR"],
+      "prerequisite": [
+        {
+          "level": 10
+        }
+      ],
+      "entries": [
+        "{@b Insight Cost.} 3 Insights.",
+        "{@b Requirement.} Your Thesis Spell has a range of Self and affects only the creature casting it.",
+        "When you or an ally casts the spell, choose one willing creature within 30 feet of you or that ally. The spell also affects the chosen creature for its duration."
+      ],
+      "page": 6
+    },
+    {
+      "name": "Spell Transfer",
+      "source": "TwofellProfessor",
+      "featureType": ["PR"],
+      "prerequisite": [
+        {
+          "level": 10
+        }
+      ],
+      "entries": [
+        "{@b Insight Cost.} 2 Insights.",
+        "{@b Requirement.} Your Thesis Spell has a duration longer than instantaneous, can target a willing creature, and targets only one creature.",
+        "As a bonus action while the spell lasts, the creature affected by the spell can touch another willing creature. The spell ends on the first creature and affects the second creature for the remainder of its duration."
+      ],
+      "page": 6
+    },
+    {
+      "name": "Shocking Rebuttal",
+      "source": "TwofellProfessor",
+      "featureType": ["PR"],
+      "prerequisite": [
+        {
+          "level": 10
+        }
+      ],
+      "entries": [
+        "{@b Insight Cost.} 2 Insights.",
+        "{@b Requirement.} Your Thesis Spell forces a saving throw.",
+        "Choose one creature that succeeds on its first saving throw against the spell. That creature has disadvantage on the next attack roll or ability check it makes before the start of the next turn of the creature that cast the spell."
+      ],
+      "page": 6
+    },
+    {
+      "name": "Dual Demonstration",
+      "source": "TwofellProfessor",
+      "featureType": ["PR"],
+      "prerequisite": [
+        {
+          "level": 14
+        }
+      ],
+      "entries": [
+        "{@b Insight Cost.} 2 Insights.",
+        "{@b Requirement.} Your Thesis Spell creates an area.",
+        "When you or an ally casts the spell, choose one willing creature within 60 feet of the creature that cast it and visible to that creature. The spell creates a second, identical area originating from the chosen creature's space."
+      ],
+      "page": 7
+    },
+    {
+      "name": "Perfectly Supported Citation",
+      "source": "TwofellProfessor",
+      "featureType": ["PR"],
+      "prerequisite": [
+        {
+          "level": 14
+        }
+      ],
+      "entries": [
+        "{@b Insight Cost.} 3 Insights.",
+        "The spell can't be countered by {@spell counterspell|PHB}. If the spell requires a spell attack roll, you or the ally that cast it has advantage on one spell attack roll made as part of the spell. If the spell instead forces a saving throw, choose one creature affected by it. That creature has disadvantage on its first saving throw against the spell. Once you apply this Revision, you can't apply it again until you finish a long rest."
+      ],
+      "page": 7
+    },
+    {
+      "name": "Reliabla Replicable Result",
+      "source": "TwofellProfessor",
+      "featureType": ["PR"],
+      "prerequisite": [
+        {
+          "level": 14
+        }
+      ],
+      "entries": [
+        "{@b Insight Cost.} 3 Insights.",
+        "{@b Requirement.} You cast your Thesis Spell using a spell slot.",
+        "Before the end of your next turn, you can cast the spell one additional time at its lowest level without expending a spell slot."
+      ],
+      "page": 7
+    },
+    {
+      "name": "Infallible Arcane Formula",
+      "source": "TwofellProfessor",
+      "featureType": ["PR"],
+      "prerequisite": [
+        {
+          "level": 14
+        }
+      ],
+      "entries": [
+        "{@b Insight Cost.} 3 Insights.",
+        "{@b Requirement.} Your Thesis Spell requires a spell attack roll or forces a saving throw.",
+        "If the spell requires a spell attack roll, choose one spell attack made as part of it. Treat a {@dice d20} roll of 9 or lower as a 10 for that attack. If the spell instead forces a saving throw, choose one creature affected by it. That creature can't benefit from advantage on its first saving throw against the spell."
+      ],
+      "page": 7
+    },
+    {
+      "name": "Lasting Proof",
+      "source": "TwofellProfessor",
+      "featureType": ["PR"],
+      "prerequisite": [
+        {
+          "level": 14
+        }
+      ],
+      "entries": [
+        "{@b Insight Cost.} 2 Insights.",
+        "{@b Requirement.} Your Thesis Spell has a duration of at least 1 minute and requires concentration.",
+        "The spell no longer requires concentration, and its duration becomes 1 minute."
+      ],
+      "page": 7
+    }
+  ]
+}

@@ -1,0 +1,478 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+  "_meta": {
+    "sources": [
+      {
+        "json": "TwofellTravelAgent",
+        "abbreviation": "TF:TAR",
+        "full": "Travel Agent Ranger Archetype",
+        "authors": ["Twofell"],
+        "convertedBy": ["Twofell"],
+        "version": "1.0.0",
+        "color": "b84f0c",
+        "dateReleased": "2026-08-14",
+        "url": "https://homebrewery.naturalcrit.com/share/_guXdHBsJuVf"
+      }
+    ],
+    "edition": "classic",
+    "dateAdded": 1786746705,
+    "dateLastModified": 1786746705,
+    "optionalFeatureTypes": {
+      "TADP": "Travel Agent Destination Profile"
+    }
+  },
+  "subclass": [
+    {
+      "name": "Travel Agent",
+      "shortName": "Travel Agent",
+      "source": "TwofellTravelAgent",
+      "className": "Ranger",
+      "classSource": "PHB",
+      "edition": "classic",
+      "fluff": {},
+      "subclassFeatures": [
+        "Travel Agent|Ranger|PHB|Travel Agent|TwofellTravelAgent|3",
+        "Travelogue|Ranger|PHB|Travel Agent|TwofellTravelAgent|3",
+        "Featured Destination|Ranger|PHB|Travel Agent|TwofellTravelAgent|3",
+        "Local Specialty|Ranger|PHB|Travel Agent|TwofellTravelAgent|3",
+        "On-Site Expertise|Ranger|PHB|Travel Agent|TwofellTravelAgent|7",
+        "Group Package|Ranger|PHB|Travel Agent|TwofellTravelAgent|11",
+        "Return Ticket|Ranger|PHB|Travel Agent|TwofellTravelAgent|15"
+      ],
+      "page": 1
+    }
+  ],
+  "subclassFeature": [
+    {
+      "name": "Travel Agent",
+      "source": "TwofellTravelAgent",
+      "className": "Ranger",
+      "classSource": "PHB",
+      "subclassShortName": "Travel Agent",
+      "subclassSource": "TwofellTravelAgent",
+      "level": 3,
+      "entries": [
+        "{@i \"The perfect Paradiso is always one journey away.\"}",
+        "The world is filled with places claiming to be Paradise, from tranquil beaches and enchanted forests to cities where knowing where to eat and where to shop is practically a survival skill. Those who decide to experience these places for themselves, wandering through dark woods, descending through infernal circles, climbing mountains that seem impossible to traverse, and continuing upward among the stars, are Travel Agents. Of course, they carefully note which destinations defined their travels and which deserve a return visit.",
+        {
+          "type": "entries",
+          "name": "Travel Advisory",
+          "entries": [
+            "Usually recognized by an overfilled journal, several unnecessary maps, and strong opinions regarding local accommodations and what counts as the local delicacy, Travel Agents roam in search of the perfect getaway; for themselves, their companions, or any clients brave enough to follow. They are dependable guides and enthusiastic planners, but they rarely remain anywhere for long, certain that their Paradiso awaits somewhere along the next journey."
+          ]
+        }
+      ],
+      "page": 1
+    },
+    {
+      "name": "Travelogue",
+      "source": "TwofellTravelAgent",
+      "className": "Ranger",
+      "classSource": "PHB",
+      "subclassShortName": "Travel Agent",
+      "subclassSource": "TwofellTravelAgent",
+      "level": 3,
+      "entries": [
+        "You maintain a collection of destinations you've discovered during your travels, called your Travelogue. Choose two locations you visited before becoming a Travel Agent, and assign one environment from the Travel Agent Environments table to each.",
+        "After spending at least 8 hours traveling through or exploring a distinct location, you can register the location in your Travelogue when you finish a long rest there. When you register a location, record its name and general position, and assign it one environment from the Travel Agent Environments table that appropriately describes it. The DM determines whether a location is sufficiently distinct to be registered and whether your chosen environment is appropriate.",
+        "There is no limit to the number of locations you can register. A location can't be registered more than once, and registering multiple locations with the same environment doesn't grant additional copies of that environment's benefits.",
+        "You accurately recall the appearance and general layout of each registered location, as well as the route by which you first reached it in relation to other locations in your Travelogue. While on the same plane of existence as a registered location, you know its approximate direction and distance from you.",
+        {
+          "type": "table",
+          "caption": "Travel Agent Environments",
+          "colLabels": ["Environment", "Damage"],
+          "colStyles": ["col-6", "col-6"],
+          "rows": [
+            ["Aerial", "Lightning"],
+            ["Astral", "Force"],
+            ["Arctic", "Cold"],
+            ["Coast", "Thunder"],
+            ["Desert", "Fire"],
+            ["Fey", "Psychic"],
+            ["Fiendish", "Fire"],
+            ["Forest", "Piercing"],
+            ["Grassland", "Slashing"],
+            ["Haunted", "Necrotic"],
+            ["Holy", "Radiant"],
+            ["Mountain", "Bludgeoning"],
+            ["Ruins", "Piercing"],
+            ["Shadow", "Psychic"],
+            ["Swamp", "Acid"],
+            ["Underdark", "Poison"],
+            ["Underwater", "Cold"],
+            ["Urban", "Bludgeoning"],
+            ["Volcanic", "Fire"],
+            ["Wasteland", "Necrotic"]
+          ]
+        }
+      ],
+      "page": 2
+    },
+    {
+      "name": "Featured Destination",
+      "source": "TwofellTravelAgent",
+      "className": "Ranger",
+      "classSource": "PHB",
+      "subclassShortName": "Travel Agent",
+      "subclassSource": "TwofellTravelAgent",
+      "level": 3,
+      "entries": [
+        "When you finish a long rest, you can choose one location recorded in your Travelogue to be your Featured Destination. The location remains your Featured Destination until you choose another recorded location when you finish a long rest.",
+        "While a location is your Featured Destination, you gain the Amenity and Excursion provided by its Destination Profile, and it determines the damage type of your Local Specialty.",
+        "You can use an Excursion a number of times equal to half your proficiency bonus, rounded up. You regain one expended use when you finish a short rest and all expended uses when you finish a long rest.",
+        "If an Excursion requires a saving throw, the saving throw DC equals your ranger spell save DC. Wisdom is your spellcasting ability for any spell you cast through an Excursion.",
+        {
+          "type": "entries",
+          "name": "Destination Profiles",
+          "entries": [
+            {
+              "type": "options",
+              "entries": [
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Aerial|TwofellTravelAgent"
+                },
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Astral|TwofellTravelAgent"
+                },
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Arctic|TwofellTravelAgent"
+                },
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Coast|TwofellTravelAgent"
+                },
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Desert|TwofellTravelAgent"
+                },
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Fey|TwofellTravelAgent"
+                },
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Fiendish|TwofellTravelAgent"
+                },
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Forest|TwofellTravelAgent"
+                },
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Grassland|TwofellTravelAgent"
+                },
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Haunted|TwofellTravelAgent"
+                },
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Holy|TwofellTravelAgent"
+                },
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Mountain|TwofellTravelAgent"
+                },
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Ruins|TwofellTravelAgent"
+                },
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Shadow|TwofellTravelAgent"
+                },
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Swamp|TwofellTravelAgent"
+                },
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Underdark|TwofellTravelAgent"
+                },
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Underwater|TwofellTravelAgent"
+                },
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Urban|TwofellTravelAgent"
+                },
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Volcanic|TwofellTravelAgent"
+                },
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Wasteland|TwofellTravelAgent"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "page": 2
+    },
+    {
+      "name": "Local Specialty",
+      "source": "TwofellTravelAgent",
+      "className": "Ranger",
+      "classSource": "PHB",
+      "subclassShortName": "Travel Agent",
+      "subclassSource": "TwofellTravelAgent",
+      "level": 3,
+      "entries": [
+        "You learn to draw upon the distinctive qualities of your Featured Destination in battle. Once on each of your turns, when you hit a creature with a weapon attack, you can deal an extra {@dice 1d6} damage to the target. The damage type is determined by the Destination Profile of your Featured Destination, and is considered magical for the purposes of overcoming resistances.",
+        "When you reach 11th level in this class, the extra damage increases to {@dice 2d6}."
+      ],
+      "page": 3
+    },
+    {
+      "name": "On-Site Expertise",
+      "source": "TwofellTravelAgent",
+      "className": "Ranger",
+      "classSource": "PHB",
+      "subclassShortName": "Travel Agent",
+      "subclassSource": "TwofellTravelAgent",
+      "level": 7,
+      "entries": [
+        "While you are within a location recorded in your Travelogue, you gain the Amenity provided by that location's Destination Profile in addition to the Amenity of your Featured Destination. You can also use either Destination Profile's Excursion, but both draw from the same number of Excursion uses.",
+        "Being within a recorded location doesn't change the damage type of your Local Specialty. If the location and your Featured Destination provide the same Amenity, you gain that Amenity only once."
+      ],
+      "page": 7
+    },
+    {
+      "name": "Group Package",
+      "source": "TwofellTravelAgent",
+      "className": "Ranger",
+      "classSource": "PHB",
+      "subclassShortName": "Travel Agent",
+      "subclassSource": "TwofellTravelAgent",
+      "level": 11,
+      "entries": [
+        "When you finish a long rest, choose a number of willing creatures equal to your Wisdom modifier (minimum of one creature). Until you finish your next long rest, each chosen creature gains the Amenity provided by your Featured Destination while it is within 30 feet of you, you aren't {@condition incapacitated}, and it can see or hear you.",
+        "A creature benefiting from this feature doesn't gain the Amenity granted to you by On-Site Expertise."
+      ],
+      "page": 7
+    },
+    {
+      "name": "Return Ticket",
+      "source": "TwofellTravelAgent",
+      "className": "Ranger",
+      "classSource": "PHB",
+      "subclassShortName": "Travel Agent",
+      "subclassSource": "TwofellTravelAgent",
+      "level": 15,
+      "entries": [
+        "You can lead your clients directly to the destination promised in your itinerary. You can spend 10 minutes consulting your Travelogue and preparing your traveling companions. At the end of that time, you and up to eight willing creatures of your choice within 30 feet of you teleport to your Featured Destination.",
+        "Each creature arrives in an unoccupied space chosen by the DM at or as close as possible to the location recorded in your Travelogue.",
+        "Once you use this feature, you can't use it again until you finish a long rest."
+      ],
+      "page": 7
+    }
+  ],
+  "optionalfeature": [
+    {
+      "name": "Aerial",
+      "source": "TwofellTravelAgent",
+      "featureType": ["TADP"],
+      "entries": [
+        "{@b Amenity.} You can float up to 2 feet above a solid surface on which you could normally stand. While floating this way, nonmagical difficult terrain caused by the ground doesn't cost you extra movement, and you don't trigger effects activated by touching or stepping on the ground.",
+        "{@b Excursion.} You can cast {@spell feather fall|PHB} without expending a spell slot or providing material components."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Astral",
+      "source": "TwofellTravelAgent",
+      "featureType": ["TADP"],
+      "entries": [
+        "{@b Amenity.} You can hold your breath for twice as long as normal. You also have advantage on Intelligence ({@skill Arcana}) checks made to identify portals, planar phenomena, and effects that alter gravity.",
+        "{@b Excursion.} As a bonus action, you teleport up to 30 feet to an unoccupied space you can see."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Arctic",
+      "source": "TwofellTravelAgent",
+      "featureType": ["TADP"],
+      "entries": [
+        "{@b Amenity.} You suffer no ill effects from extreme cold. Additionally, nonmagical ice and snow don't cost you extra movement.",
+        "{@b Excursion.} When you deal your Local Specialty damage to a creature, you can force it to make a Constitution saving throw. On a failed save, its speed becomes 0, and it can't take reactions until the start of your next turn."
+      ],
+      "page": 3
+    },
+    {
+      "name": "Coast",
+      "source": "TwofellTravelAgent",
+      "featureType": ["TADP"],
+      "entries": [
+        "{@b Amenity.} You gain proficiency with navigator's tools and water vehicles. Additionally, you can't become lost while traveling along a visible coastline except by magical means.",
+        "{@b Excursion.} When you deal your Local Specialty damage to a Large or smaller creature, you can force it to make a Strength saving throw. On a failed save, you push it up to 15 feet in a direction of your choice."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Desert",
+      "source": "TwofellTravelAgent",
+      "featureType": ["TADP"],
+      "entries": [
+        "{@b Amenity.} You suffer no ill effects from extreme heat and have advantage on Wisdom ({@skill Survival}) checks made to locate drinkable water. Additionally, your walking speed increases by 10 feet while moving on sand.",
+        "{@b Excursion.} When a creature you can see within 30 feet of you makes an attack roll against you, you can use your reaction to impose disadvantage on the roll."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Fey",
+      "source": "TwofellTravelAgent",
+      "featureType": ["TADP"],
+      "entries": [
+        "{@b Amenity.} You have advantage on saving throws against being {@condition charmed}. Additionally, when you successfully forage, you find twice as much food as you normally would.",
+        "{@b Excursion.} When you deal your Local Specialty damage to a creature, you can force it to make a Wisdom saving throw. On a failed save, it is {@condition charmed} by you until the end of your next turn."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Fiendish",
+      "source": "TwofellTravelAgent",
+      "featureType": ["TADP"],
+      "entries": [
+        "{@b Amenity.} You have advantage on saving throws against being {@condition frightened}, on Wisdom ({@skill Insight}) checks made to discern deception during a verbal bargain, and on Intelligence ({@skill Investigation}) checks made to discover deceptive language in a written contract.",
+        "{@b Excursion.} As an action, you cast {@spell command|PHB} at 1st level without expending a spell slot. Wisdom is your spellcasting ability for this spell. When you cast the spell in this way, you gain resistance to fire damage for 1 minute."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Forest",
+      "source": "TwofellTravelAgent",
+      "featureType": ["TADP"],
+      "entries": [
+        "{@b Amenity.} When you successfully forage, you find twice as much food as you normally would. You can also communicate simple ideas to Small or smaller beasts through sounds and gestures.",
+        "{@b Excursion.} As an action, choose yourself and up to a number of other willing creatures you can see within 30 feet of you equal to your Wisdom modifier (minimum of one other creature). For 10 minutes, each target has advantage on Dexterity ({@skill Stealth}) checks and can't be tracked by nonmagical means. The effect ends early on a target immediately after it makes an attack or casts a spell."
+      ],
+      "page": 4
+    },
+    {
+      "name": "Grassland",
+      "source": "TwofellTravelAgent",
+      "featureType": ["TADP"],
+      "entries": [
+        "{@b Amenity.} You can attempt to hide even when you are only lightly obscured by tall grass, heavy rain, falling snow, mist, or another natural phenomenon. Additionally, your walking speed increases by 5 feet.",
+        "{@b Excursion.} You can cast {@spell speak with animals|PHB} without expending a spell slot or providing material components. When you reach 11th level in this class, you can also cast {@spell speak with plants|PHB}."
+      ],
+      "page": 5
+    },
+    {
+      "name": "Haunted",
+      "source": "TwofellTravelAgent",
+      "featureType": ["TADP"],
+      "entries": [
+        "{@b Amenity.} After spending 1 minute focusing, you know whether an undead creature or cursed object is within 15 feet of you, though you don't learn its location or nature. This sense can't detect anything behind total cover.",
+        "{@b Excursion.} When you deal your Local Specialty damage to a creature, you can prevent it from regaining hit points until the start of your next turn. Until then, you also know its location while it is within 60 feet of you, even if it is {@condition invisible} or hidden."
+      ],
+      "page": 5
+    },
+    {
+      "name": "Holy",
+      "source": "TwofellTravelAgent",
+      "featureType": ["TADP"],
+      "entries": [
+        "{@b Amenity.} You have advantage on Intelligence ({@skill History}) and Intelligence ({@skill Religion}) checks concerning religions, religious practices, holy sites, divine rites, and celestials.",
+        "{@b Excursion.} As a bonus action, choose yourself or one creature you can see within 30 feet. The chosen creature regains hit points equal to {@dice 2d6} + your Wisdom modifier. The healing increases to {@dice 2d8} when you reach 11th level in this class."
+      ],
+      "page": 5
+    },
+    {
+      "name": "Mountain",
+      "source": "TwofellTravelAgent",
+      "featureType": ["TADP"],
+      "entries": [
+        "{@b Amenity.} {@b Highland Hiker.} You gain a climbing speed equal to your walking speed minus 10 feet, to a minimum of 5 feet. You are also acclimated to high altitude, including elevations above 20,000 feet.",
+        "{@b Excursion.} {@b Immovable Summit.} As a bonus action, you steady yourself for 1 minute. For the duration, you can't be knocked {@condition prone} or moved against your will while you aren't {@condition incapacitated}."
+      ],
+      "page": 5
+    },
+    {
+      "name": "Ruins",
+      "source": "TwofellTravelAgent",
+      "featureType": ["TADP"],
+      "entries": [
+        "{@b Amenity.} Your passive Wisdom ({@skill Perception}) score increases by 5 when used to notice traps, secret doors, or unstable structures.",
+        "{@b Excursion.} When you or another creature within 5 feet of you is hit by an attack, you can use your reaction to grant the target a +5 bonus to its AC until the start of its next turn, including against the triggering attack. The attack might miss as a result."
+      ],
+      "page": 5
+    },
+    {
+      "name": "Shadow",
+      "source": "TwofellTravelAgent",
+      "featureType": ["TADP"],
+      "entries": [
+        "{@b Amenity.} You gain {@sense darkvision} out to a range of 60 feet. If you already have darkvision, its range increases by 30 feet.",
+        "{@b Excursion.} As a bonus action, you become {@condition invisible} for 1 minute. The invisibility ends early immediately after you make an attack or cast a spell."
+      ],
+      "page": 5
+    },
+    {
+      "name": "Swamp",
+      "source": "TwofellTravelAgent",
+      "featureType": ["TADP"],
+      "entries": [
+        "{@b Amenity.} You have resistance to poison damage and advantage on saving throws against being {@condition poisoned}. Additionally, nonmagical mud and shallow water don't cost you extra movement.",
+        "{@b Excursion.} When you deal your Local Specialty damage to a Large or smaller creature standing on the ground, you can force it to make a Strength saving throw. On a failed save, the creature is {@condition restrained} for 1 minute. It can repeat the saving throw at the end of each of its turns, ending the effect on a success."
+      ],
+      "page": 6
+    },
+    {
+      "name": "Underdark",
+      "source": "TwofellTravelAgent",
+      "featureType": ["TADP"],
+      "entries": [
+        "{@b Amenity.} You always know your approximate depth below the surface. Additionally, you can cause yourself or an object you are carrying to shed dim light in a 10-foot radius. You can produce or extinguish this light using a bonus action.",
+        "{@b Excursion.} As a bonus action, you gain {@sense blindsight} out to a range of 10 feet for 1 minute. The range increases to 15 feet when you reach 11th level in this class."
+      ],
+      "page": 6
+    },
+    {
+      "name": "Underwater",
+      "source": "TwofellTravelAgent",
+      "featureType": ["TADP"],
+      "entries": [
+        "{@b Amenity.} You gain a swimming speed equal to your walking speed, and you can hold your breath for twice as long as normal.",
+        "{@b Excursion.} When you or a creature you can see within 30 feet of you takes cold or piercing damage, you can use your reaction to reduce that damage by {@dice 1d10} + your ranger level."
+      ],
+      "page": 6
+    },
+    {
+      "name": "Urban",
+      "source": "TwofellTravelAgent",
+      "featureType": ["TADP"],
+      "entries": [
+        "{@b Amenity.} You have advantage on ability checks made to interpret maps, obtain directions, or secure accommodations in a settlement. When you pay for accommodations, their quality is treated as one lifestyle category higher, to a maximum of Wealthy.",
+        "{@b Excursion.} As a bonus action, choose one willing creature within 30 feet of you that can see or hear you. That creature can use its reaction to move up to half its speed without provoking opportunity attacks. It then has advantage on the next attack roll it makes before the start of your next turn."
+      ],
+      "page": 6
+    },
+    {
+      "name": "Volcanic",
+      "source": "TwofellTravelAgent",
+      "featureType": ["TADP"],
+      "entries": [
+        "{@b Amenity.} You have resistance to fire damage caused by environmental hazards, such as lava or steam. You can also attempt to hide while lightly obscured by ash, smoke, or steam.",
+        "{@b Excursion.} When you deal your Local Specialty damage to a creature, you can cause flames to erupt around it. Each other creature within 5 feet of the target must make a Dexterity saving throw. A creature takes {@dice 2d6} fire damage on a failed save, or half as much damage on a successful one. The damage increases to {@dice 2d8} when you reach 11th level in this class."
+      ],
+      "page": 6
+    },
+    {
+      "name": "Wasteland",
+      "source": "TwofellTravelAgent",
+      "featureType": ["TADP"],
+      "entries": [
+        "{@b Amenity.} You have advantage on Wisdom ({@skill Survival}) checks made to scavenge, and Intelligence ({@skill Investigation}) checks to find hidden objects and treasure.",
+        "{@b Excursion.} As a bonus action, you gain temporary hit points equal to your ranger level + your Wisdom modifier. While you have any of these temporary hit points, difficult terrain doesn't cost you extra movement."
+      ],
+      "page": 6
+    }
+  ]
+}
