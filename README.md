@@ -95,6 +95,7 @@ Rules feedback is also welcome, but the formatted public release remains the mai
 ## Support
 
 Everything in this repository is free to load and use at your table. If you enjoyed the work and want to help me keep making more of it, you can support me through [Ko-fi](https://ko-fi.com/twofell).
+You can also request your own through [here](https://ko-fi.com/twofell/commissions)!
 
 ## Fan Content Notice
 
