@@ -1,0 +1,377 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+  "_meta": {
+    "sources": [
+      {
+        "json": "TwofellCircleBroodmother",
+        "abbreviation": "TF:CB",
+        "full": "Circle of the Broodmother",
+        "authors": ["Twofell"],
+        "convertedBy": ["Twofell"],
+        "version": "1.0.0",
+        "color": "e34f74",
+        "colorNight": "ff7394",
+        "url": "https://homebrewery.naturalcrit.com/share/XEbkTJXoctsb"
+      }
+    ],
+    "edition": "classic",
+    "status": "ready",
+    "dateAdded": 1788163200,
+    "dateLastModified": 1788163200
+  },
+  "subclass": [
+    {
+      "name": "Circle of the Broodmother",
+      "shortName": "Broodmother",
+      "source": "TwofellCircleBroodmother",
+      "className": "Druid",
+      "classSource": "PHB",
+      "edition": "classic",
+      "additionalSpells": [
+        {
+          "prepared": {
+            "3": ["invisibility|phb", "web|phb"],
+            "5": ["fear|phb", "vampiric touch|phb"],
+            "7": ["blight|phb", "greater invisibility|phb"],
+            "9": ["cloudkill|phb", "insect plague|phb"]
+          }
+        }
+      ],
+      "subclassFeatures": [
+        "Circle of the Broodmother|Druid|PHB|Broodmother|TwofellCircleBroodmother|2",
+        "Widow's Brood|Druid|PHB|Broodmother|TwofellCircleBroodmother|6",
+        "Virulent Brood|Druid|PHB|Broodmother|TwofellCircleBroodmother|10",
+        "Mercy's Kiss|Druid|PHB|Broodmother|TwofellCircleBroodmother|14"
+      ]
+    }
+  ],
+  "subclassFeature": [
+    {
+      "name": "Circle of the Broodmother",
+      "source": "TwofellCircleBroodmother",
+      "className": "Druid",
+      "classSource": "PHB",
+      "subclassShortName": "Broodmother",
+      "subclassSource": "TwofellCircleBroodmother",
+      "level": 2,
+      "entries": [
+        "Druids of the Circle of the Broodmother venerate Oraxia, the Lady of Webs. An ancient guardian abandoned within a realm that vanished from the world. There, a presence from beyond creation whispered in the voice of her absent master, twisting her devotion into madness and transforming her into the embodiment of sinister grace, and predatory perfection.",
+        "Her followers preserve the Lady’s fragmented traditions and teachings, seeking to mirror her evolution without sharing her fate. They awaken arachnid limbs, cultivate supernatural toxins, and nurture broods within the bodies of fallen prey. To them, the perfect predator does not kill through savagery alone, but through patience, and mercy of a swift final strike.",
+        {
+          "type": "entries",
+          "name": "Silken Stride",
+          "entries": [
+            "When you choose this circle at 2nd level, you can use your Wild Shape to awaken the arachnid form inspired by the greatness of the Lady of Webs.",
+            "As a bonus action, you can expend a use of your Wild Shape feature to channel the teachings of the Lady of Webs, rather than transforming into a beast form, and you gain 4 temporary hit points for each level you have in this class.",
+            "While this feature is active, you gain the following benefits:",
+            {
+              "type": "list",
+              "items": [
+                "You gain a climbing speed equal to your walking speed, and you can move up, down, and across vertical surfaces and upside down along ceilings while leaving your hands free.",
+                "You manifest spider limbs that are natural weapons, which you can use to make unarmed strikes. When you attack with them, you can use your Wisdom modifier, instead of Strength, for the attack and damage rolls. On a hit, they deal piercing damage equal to {@damage 1d6} + your Wisdom modifier.",
+                "Once on each of your turns when you hit a creature with a weapon attack or an unarmed strike, you can deal an additional {@damage 1d6} poison or necrotic damage to it. You choose the damage type each time you deal this additional damage."
+              ]
+            },
+            "These benefits last for 10 minutes, until you lose all these temporary hit points, or until you use your Wild Shape again."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Brood Forms",
+          "entries": [
+            "The Lady of Webs is considered to be the pinnacle of nature by her followers, who mirror her greatness by taking the shapes of creatures that reflect her many children.",
+            "When you use Wild Shape, you can transform into a creature from the Brood Forms table, provided you have reached the required druid level.",
+            {
+              "type": "table",
+              "caption": "Brood Forms",
+              "colLabels": ["Druid Level", "Brood Forms"],
+              "colStyles": ["col-3 text-center", "col-9"],
+              "rows": [
+                [
+                  "2nd",
+                  "{@creature Giant Wolf Spider|MM}, {@creature Swarm of Insects|MM} (as spiders)"
+                ],
+                ["4th", "{@creature Giant Spider|MM}"],
+                ["6th", "{@creature Carrion Crawler|MM}"],
+                [
+                  "10th",
+                  "{@creature Phase Spider|MM}, {@creature Giant Scorpion|MM} (as a spider)"
+                ],
+                [
+                  "14th",
+                  "{@creature Broodmother Ascendant|TwofellCircleBroodmother}"
+                ]
+              ]
+            },
+            "You can assume the form even if its creature type, challenge rating, or movement speeds would normally prevent you from doing so. Except for these allowances, the normal rules of Wild Shape apply."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Circle Spells",
+          "entries": [
+            "Your connection to the Lady of Webs grants you access to certain spells. At 3rd, 5th, 7th, and 9th level, you gain access to the spells listed for that level in the Circle of the Broodmother Spells table.",
+            "Once you gain access to one of these spells, you always have it prepared, and it doesn’t count against the number of spells you can prepare each day. If you gain access to a spell that doesn’t appear on the druid spell list, the spell is nonetheless a druid spell for you.",
+            {
+              "type": "table",
+              "caption": "Circle of the Broodmother Spells",
+              "colLabels": ["Druid Level", "Spells"],
+              "colStyles": ["col-3 text-center", "col-9"],
+              "rows": [
+                ["3rd", "{@spell invisibility|phb}, {@spell web|phb}"],
+                ["5th", "{@spell fear|phb}, {@spell vampiric touch|phb}"],
+                [
+                  "7th",
+                  "{@spell blight|phb}, {@spell greater invisibility|phb}"
+                ],
+                [
+                  "9th",
+                  "{@spell cloudkill|phb}, {@spell insect plague|phb}"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Toxin",
+          "entries": [
+            "Also at 2nd level, your attacks and magic infect creatures with supernatural toxins.",
+            "Whenever one or more creatures take poison or necrotic damage from you, you can give one {@condition Toxin|TwofellCircleBroodmother} counter to each of those creatures. A creature can have a maximum number of your {@condition Toxin|TwofellCircleBroodmother} counters equal to your proficiency bonus.",
+            "A creature’s speed is reduced by 5 feet for each of your {@condition Toxin|TwofellCircleBroodmother} counters it has. While a creature has a number of your {@condition Toxin|TwofellCircleBroodmother} counters equal to your proficiency bonus, it is also {@condition poisoned}.",
+            "At the end of each of its turns, a creature with one or more of your {@condition Toxin|TwofellCircleBroodmother} counters can make a Constitution saving throw against your druid spell save DC. On a successful save, it removes one {@condition Toxin|TwofellCircleBroodmother} counter. All your {@condition Toxin|TwofellCircleBroodmother} counters on a creature disappear if it has not gained one of your {@condition Toxin|TwofellCircleBroodmother} counters for 1 minute.",
+            "{@condition Toxin|TwofellCircleBroodmother} is a magical effect. A creature immune to the {@condition poisoned} condition can still accumulate {@condition Toxin|TwofellCircleBroodmother} counters and suffer their reduction to its speed, but it can’t become poisoned by this feature."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Widow's Brood",
+      "source": "TwofellCircleBroodmother",
+      "className": "Druid",
+      "classSource": "PHB",
+      "subclassShortName": "Broodmother",
+      "subclassSource": "TwofellCircleBroodmother",
+      "level": 6,
+      "entries": [
+        "Starting at 6th level, the dead provide nourishment from which your spiderlings emerge.",
+        "When a Small or larger hostile creature with one or more of your {@condition Toxin|TwofellCircleBroodmother} counters dies within 60 feet of you, you can use your reaction and expend a spell slot of 1st level or higher to produce a number of Spiderlings equal to the level of the expended spell slot. The Spiderlings emerge in the dead creature’s space or the nearest unoccupied space and collectively form a {@creature Spiderling Brood|TwofellCircleBroodmother}.",
+        "The Brood can contain a maximum number of Spiderlings equal to your proficiency bonus. If you already have a Spiderling Brood, the new Spiderlings join it rather than creating another Brood. The Brood disappears after 1 hour, when its last Spiderling dies, or when you die. Adding Spiderlings to the Brood restarts this duration.",
+        "The Brood is friendly to you and your companions and obeys your telepathic commands.",
+        "In combat, the Brood shares your initiative count, but it takes its turn immediately after yours. It obeys your telepathic commands, which require no action from you. If you issue it no commands, it takes the Dodge action and uses its movement to avoid danger. If you are {@condition incapacitated}, the Brood acts independently, focusing on protecting you and itself.",
+        "Additionally, attacks made by the Brood and attacks made using the natural weapons of your Brood Forms count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+      ]
+    },
+    {
+      "name": "Virulent Brood",
+      "source": "TwofellCircleBroodmother",
+      "className": "Druid",
+      "classSource": "PHB",
+      "subclassShortName": "Broodmother",
+      "subclassSource": "TwofellCircleBroodmother",
+      "level": 10,
+      "entries": [
+        "At 10th level, the {@condition Toxin|TwofellCircleBroodmother} running through your Brood becomes capable of spreading and binding prey within living webs. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "The additional poison or necrotic damage dealt by your Silken Stride increases to {@damage 2d6}.",
+            "Poison and necrotic damage dealt by your Silken Stride, your Brood Forms, and your Spiderling Brood ignores resistance to those damage types.",
+            "When your Spiderling Brood deals poison damage to a creature, you can give that creature one of your {@condition Toxin|TwofellCircleBroodmother} counters.",
+            "You can cast {@spell web|phb} once without expending a spell slot or material components. You regain the ability to cast it in this way when you finish a long rest.",
+            "When you cast {@spell web|phb}, you can remove any number of your {@condition Toxin|TwofellCircleBroodmother} counters from each creature in the spell’s area. A creature from which you remove at least one {@condition Toxin|TwofellCircleBroodmother} counter has disadvantage on the first saving throw it makes against that casting of the spell. If it fails that saving throw, it takes {@damage 1d10} poison damage for each {@condition Toxin|TwofellCircleBroodmother} counter removed from it."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mercy's Kiss",
+      "source": "TwofellCircleBroodmother",
+      "className": "Druid",
+      "classSource": "PHB",
+      "subclassShortName": "Broodmother",
+      "subclassSource": "TwofellCircleBroodmother",
+      "level": 14,
+      "entries": [
+        "At 14th level, you can sense when infected prey stands at the boundary between life and death. While your Silken Stride is active or you are in a Brood Form, you know when a creature you can see within 60 feet of you has one or more of your {@condition Toxin|TwofellCircleBroodmother} counters and has hit points equal to or less than 20 percent of its hit point maximum, rounded down.",
+        "As an action, you can choose one such creature within 60 feet of you and leap to an unoccupied space within 5 feet of it. This movement doesn’t expend your movement or provoke opportunity attacks.",
+        "You pierce the creature with your spider limbs and remove all your {@condition Toxin|TwofellCircleBroodmother} counters from it. If the creature doesn’t have the Legendary Resistance trait, legendary actions, or lair actions, it dies. Otherwise, it takes {@damage 1d10} piercing damage and {@damage 1d10} poison damage for each {@condition Toxin|TwofellCircleBroodmother} counter removed."
+      ]
+    }
+  ],
+  "condition": [
+    {
+      "name": "Toxin",
+      "source": "TwofellCircleBroodmother",
+      "entries": [
+        "Whenever one or more creatures take poison or necrotic damage from you, you can give one Toxin counter to each of those creatures. A creature can have a maximum number of your Toxin counters equal to your proficiency bonus.",
+        "A creature’s speed is reduced by 5 feet for each of your Toxin counters it has. While a creature has a number of your Toxin counters equal to your proficiency bonus, it is also {@condition poisoned}.",
+        "At the end of each of its turns, a creature with one or more of your Toxin counters can make a Constitution saving throw against your druid spell save DC. On a successful save, it removes one Toxin counter. All your Toxin counters on a creature disappear if it has not gained one of your Toxin counters for 1 minute.",
+        "Toxin is a magical effect. A creature immune to the {@condition poisoned} condition can still accumulate Toxin counters and suffer their reduction to its speed, but it can’t become poisoned by this feature."
+      ]
+    }
+  ],
+  "monster": [
+    {
+      "name": "Spiderling Brood",
+      "source": "TwofellCircleBroodmother",
+      "size": ["M"],
+      "type": {
+        "type": "beast",
+        "swarmSize": "T"
+      },
+      "alignment": ["U"],
+      "ac": [
+        {
+          "special": "12 + PB"
+        }
+      ],
+      "hp": {
+        "special": "(5 + twice PB) for each Spiderling in the Brood"
+      },
+      "speed": {
+        "walk": 30,
+        "climb": 30
+      },
+      "str": 6,
+      "dex": 16,
+      "con": 12,
+      "int": 4,
+      "wis": 12,
+      "cha": 6,
+      "save": {
+        "dex": "+3 plus PB"
+      },
+      "immune": ["poison"],
+      "conditionImmune": ["grappled", "prone", "restrained"],
+      "senses": ["blindsight 10 ft.", "darkvision 60 ft."],
+      "passive": 11,
+      "languages": ["understands the languages you speak"],
+      "pbNote": "equals your bonus",
+      "trait": [
+        {
+          "name": "Brood Segments",
+          "entries": [
+            "Each Spiderling in the Brood has a separate hit point segment equal to 5 + twice your proficiency bonus. Damage dealt to the Brood is applied to one segment at a time, with excess damage carrying over to the next segment. When a segment is reduced to 0 hit points, its Spiderling dies, reducing the Brood’s number of Spiderlings and its hit point maximum accordingly.",
+            "A new Spiderling added to the Brood adds one undamaged segment to it. The Brood can’t regain hit points by any other means."
+          ]
+        },
+        {
+          "name": "Spider Climb",
+          "entries": [
+            "The Brood can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+          ]
+        },
+        {
+          "name": "Swarm",
+          "entries": [
+            "The Brood can occupy another creature’s space and vice versa, and it can move through any opening large enough for a Tiny Spiderling."
+          ]
+        },
+        {
+          "name": "Telepathic Brood",
+          "entries": [
+            "While the Brood is within 120 feet of you, you can communicate telepathically with each Spiderling within it. The Spiderlings can telepathically communicate simple emotions, images, and anything they perceive through their senses."
+          ]
+        },
+        {
+          "name": "Web Walker",
+          "entries": [
+            "The Brood ignores movement restrictions caused by webbing."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Bites",
+          "entries": [
+            "{@i Melee Spell Attack:} your spell attack modifier to hit, reach 5 ft., one creature. {@h} {@damage 1d4} piercing damage for each Spiderling currently in the Brood, plus poison damage equal to your proficiency bonus."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Broodmother Ascendant",
+      "source": "TwofellCircleBroodmother",
+      "size": ["L"],
+      "type": "beast",
+      "alignment": ["U"],
+      "ac": [
+        {
+          "ac": 15,
+          "from": ["natural armor"]
+        }
+      ],
+      "hp": {
+        "average": 90,
+        "formula": "12d10 + 24"
+      },
+      "speed": {
+        "walk": 40,
+        "climb": 40
+      },
+      "str": 18,
+      "dex": 16,
+      "con": 14,
+      "int": 3,
+      "wis": 14,
+      "cha": 8,
+      "skill": {
+        "perception": "+6",
+        "stealth": "+7"
+      },
+      "resist": ["poison"],
+      "conditionImmune": ["poisoned"],
+      "senses": ["blindsight 10 ft.", "darkvision 60 ft."],
+      "passive": 16,
+      "languages": [],
+      "cr": "4",
+      "trait": [
+        {
+          "name": "Spider Climb",
+          "entries": [
+            "The Broodmother Ascendant can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+          ]
+        },
+        {
+          "name": "Web Sense",
+          "entries": [
+            "While in contact with a web, the Broodmother Ascendant knows the exact location of any other creature in contact with the same web."
+          ]
+        },
+        {
+          "name": "Web Walker",
+          "entries": [
+            "The Broodmother Ascendant ignores movement restrictions caused by webbing."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The Broodmother Ascendant makes two Foreleg attacks."
+          ]
+        },
+        {
+          "name": "Foreleg",
+          "entries": [
+            "{@i Melee Weapon Attack:} your spell attack modifier to hit, reach 10 ft., one target. {@h} 8 ({@damage 1d8 + 4}) piercing damage plus 3 ({@damage 1d6}) poison damage."
+          ]
+        },
+        {
+          "name": "Venomous Barb",
+          "entries": [
+            "{@i Ranged Weapon Attack:} your spell attack modifier to hit, range 30/120 ft., one target. {@h} 8 ({@damage 1d8 + 4}) piercing damage plus 7 ({@damage 2d6}) poison damage."
+          ]
+        },
+        {
+          "name": "Web {@recharge 5}",
+          "entries": [
+            "{@i Ranged Weapon Attack:} your spell attack modifier to hit, range 30/60 ft., one Large or smaller creature. {@h} The creature is {@condition restrained} by webbing. As an action, the restrained creature can make a Strength check against your druid spell save DC, escaping on a success. The webbing can also be attacked and destroyed (AC 10; 15 hit points; vulnerability to fire damage; immunity to poison and psychic damage)."
+          ]
+        }
+      ]
+    }
+  ]
+}

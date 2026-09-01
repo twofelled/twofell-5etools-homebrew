@@ -1,0 +1,663 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+  "_meta": {
+    "sources": [
+      {
+        "json": "TwofellAlchemicalEngineer",
+        "abbreviation": "TF:AE",
+        "full": "Alchemical Engineer",
+        "authors": ["Twofell"],
+        "convertedBy": ["Twofell"],
+        "version": "1.0.0",
+        "color": "b88a3c",
+        "colorNight": "e4b85f",
+        "url": "https://homebrewery.naturalcrit.com/share/FvgMmeVfLLaz"
+      }
+    ],
+    "edition": "classic",
+    "status": "ready",
+    "dateAdded": 1788163200,
+    "dateLastModified": 1788163200
+  },
+  "subclass": [
+    {
+      "name": "Alchemical Engineer",
+      "shortName": "Alchemical Engineer",
+      "source": "TwofellAlchemicalEngineer",
+      "className": "Artificer",
+      "classSource": "TCE",
+      "edition": "classic",
+      "additionalSpells": [
+        {
+          "prepared": {
+            "3": ["chromatic orb|phb", "grease|phb"],
+            "5": ["dragon's breath|xge", "heat metal|phb"],
+            "9": ["elemental weapon|phb", "life transference|xge"],
+            "13": ["fabricate|phb", "stone shape|phb"],
+            "17": ["creation|phb", "transmute rock|xge"]
+          }
+        }
+      ],
+      "subclassFeatures": [
+        "Alchemical Engineer|Artificer|TCE|Alchemical Engineer|TwofellAlchemicalEngineer|3",
+        "Metallic Projection|Artificer|TCE|Alchemical Engineer|TwofellAlchemicalEngineer|5",
+        "Advanced Alchemical Research|Artificer|TCE|Alchemical Engineer|TwofellAlchemicalEngineer|9",
+        "Completed Research|Artificer|TCE|Alchemical Engineer|TwofellAlchemicalEngineer|15"
+      ]
+    }
+  ],
+  "subclassFeature": [
+    {
+      "name": "Alchemical Engineer",
+      "source": "TwofellAlchemicalEngineer",
+      "className": "Artificer",
+      "classSource": "TCE",
+      "subclassShortName": "Alchemical Engineer",
+      "subclassSource": "TwofellAlchemicalEngineer",
+      "level": 3,
+      "entries": [
+        "An Alchemical Engineer does not consider a transmutation complete merely because it produces the intended result. Alchemical Engineers study successful reactions until they can be replicated with enough precision to manufacture their effects en masse.",
+        "Their Transmutation Engines carry the prime atom, Salt, through articulated arms and carefully positioned glyphs, transforming it into stable products. Some pursue the vital elements and Quintessence, while others refine Lead toward Gold through experimental metallurgy.",
+        {
+          "type": "entries",
+          "name": "Tool Proficiency",
+          "entries": [
+            "You gain proficiency with alchemist’s supplies. If you already have this proficiency, you gain proficiency with one other type of artisan’s tools of your choice."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Alchemical Engineer Spells",
+          "entries": [
+            "You always have certain spells prepared after you reach particular levels in this class, as shown in the Alchemical Engineer Spells table. These spells count as artificer spells for you, but they don’t count against the number of artificer spells you prepare.",
+            {
+              "type": "table",
+              "caption": "Alchemical Engineer Spells",
+              "colLabels": ["Artificer Level", "Spells"],
+              "colStyles": ["col-3 text-center", "col-9"],
+              "rows": [
+                ["3rd", "{@spell chromatic orb|phb}, {@spell grease|phb}"],
+                [
+                  "5th",
+                  "{@spell dragon's breath|xge}, {@spell heat metal|phb}"
+                ],
+                [
+                  "9th",
+                  "{@spell elemental weapon|phb}, {@spell life transference|xge}"
+                ],
+                ["13th", "{@spell fabricate|phb}, {@spell stone shape|phb}"],
+                [
+                  "17th",
+                  "{@spell creation|phb}, {@spell transmute rock|xge}"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Transmutation Engine",
+          "entries": [
+            "You construct a Transmutation Engine, a Tiny magical mechanism containing articulated arms, tracks, and alchemical glyphs. The engine can be worn, carried in one hand, or attached to an object you are carrying.",
+            "You can use the engine as a spellcasting focus for your artificer spells. When you do so, you must have a free hand to manipulate it.",
+            "If the engine is lost or destroyed, you can create a replacement over the course of 1 hour using alchemist’s supplies and 50 gp worth of metal and other raw materials, which the process consumes. This work can be performed during a short or long rest.",
+            {
+              "type": "entries",
+              "name": "Atoms",
+              "entries": [
+                "Your engine can contain a number of alchemical atoms equal to your proficiency bonus. Each atom occupies one space within this capacity, regardless of its type.",
+                "When you finish a long rest, every atom within the engine becomes Salt, and the engine produces enough additional Salt atoms to reach its maximum capacity.",
+                "An atom removed from the engine is inert unless it is placed within one of your Infusions. An atom that is expended remains unavailable until a feature returns it to Salt or until you finish a long rest.",
+                "Your Transmutation Die is a d6. It is used by several of your Bonding effects and later changes according to the metal within your engine."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Glyph of Duplication",
+              "entries": [
+                "Once during each of your turns, when you cast an artificer spell associated with one of the effects shown in the Elemental Duplication table, you can convert one Salt atom within the engine into the corresponding classical element.",
+                "The spell need not damage a creature for this conversion to occur. If the spell is associated with more than one element, you choose which atom is created. The new atom remains within the engine until used.",
+                {
+                  "type": "table",
+                  "caption": "Elemental Duplication",
+                  "colLabels": ["Symbol", "Atom", "Associated Spell Effect"],
+                  "colStyles": [
+                    "col-2 text-center",
+                    "col-3",
+                    "col-7"
+                  ],
+                  "rows": [
+                    ["🜁", "Air", "Lightning or thunder damage"],
+                    ["🜃", "Earth", "Acid or poison damage"],
+                    ["🜂", "Fire", "Fire damage"],
+                    ["🜄", "Water", "Cold damage or the restoration of hit points"]
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Glyph of Bonding",
+              "entries": [
+                "As a bonus action, you can bond one atom within the engine to a creature you can see within 60 feet of you. The atom produces the corresponding effect below. If an effect requires a saving throw, the DC equals your artificer spell save DC.",
+                {
+                  "type": "list",
+                  "style": "list-hang-notitle",
+                  "items": [
+                    {
+                      "type": "item",
+                      "name": "Salt 🜔.",
+                      "entry": "The target must succeed on a Strength saving throw or become {@condition restrained} by a growth of crystallized Salt until the start of your next turn. The Salt atom is expended."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Air 🜁.",
+                      "entry": "Move the target in any direction, up to 5 feet. An unwilling creature must succeed on a Strength saving throw to resist this movement. This movement doesn’t provoke opportunity attacks."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Earth 🜃.",
+                      "entry": "The target gains temporary hit points equal to one roll of your Transmutation Die plus your Intelligence modifier and can’t be moved against its will until the start of your next turn."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Fire 🜂.",
+                      "entry": "The target must make a Dexterity saving throw. It takes fire damage equal to one roll of your Transmutation Die plus your Intelligence modifier on a failed save, or half as much damage on a successful one."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Water 🜄.",
+                      "entry": "The first time the target takes damage before the start of your next turn, reduce that damage by one roll of your Transmutation Die plus your Intelligence modifier."
+                    }
+                  ]
+                },
+                "After an Air, Earth, Fire, or Water atom produces its effect, it returns to the engine as Salt. Other types of atoms are expended unless their descriptions say otherwise."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Atom Infusions",
+              "entries": [
+                "The following Infusions are available to an artificer who has the Transmutation Engine feature.",
+                "Each of these Infusions functions normally whether or not it contains an atom. An item’s Infused (Atom) property can be used only while the item contains the atom named in that property.",
+                {
+                  "type": "entries",
+                  "name": "Loading an Atom",
+                  "entries": [
+                    "As a bonus action while touching an item bearing one of these Infusions, you can transfer the atom required by that Infusion from your Transmutation Engine into the item. An item can contain only one atom at a time.",
+                    "The atom remains unavailable to the engine until the item expends it. A creature carrying or wearing the item can use its Infused property. Any saving throw required by the item uses your artificer spell save DC, and any reference to a Transmutation Die uses the die provided by your current metal.",
+                    "When an item expends an Air, Earth, Fire, or Water atom within 60 feet of you, that atom returns to your engine as Salt. If the item is further away, the atom remains unavailable until you finish a long rest.",
+                    "When you finish a long rest, every atom still loaded into an infused item dissipates before your engine replenishes its Salt. The items remain infused but must be loaded again."
+                  ]
+                },
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Saline Augmentation|TwofellAlchemicalEngineer"
+                },
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Pneumatic Soles|TwofellAlchemicalEngineer"
+                },
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Telluric Aegis|TwofellAlchemicalEngineer"
+                },
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Incendiary Channel|TwofellAlchemicalEngineer"
+                },
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Aqueous Adaptation|TwofellAlchemicalEngineer"
+                },
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Vitae Reservoir|TwofellAlchemicalEngineer"
+                },
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Mors Needle|TwofellAlchemicalEngineer"
+                },
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Quintessential Matrix|TwofellAlchemicalEngineer"
+                },
+                {
+                  "type": "refOptionalfeature",
+                  "optionalfeature": "Mercurial Actuator|TwofellAlchemicalEngineer"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Metallic Projection",
+      "source": "TwofellAlchemicalEngineer",
+      "className": "Artificer",
+      "classSource": "TCE",
+      "subclassShortName": "Alchemical Engineer",
+      "subclassSource": "TwofellAlchemicalEngineer",
+      "level": 5,
+      "entries": [
+        "You install a metallic core within your Transmutation Engine. The core begins as Lead and advances through the sequence shown below. The current metal determines your Transmutation Die.",
+        "Whenever an Air, Earth, Fire, or Water atom returns to Salt after producing a Bonding effect, the Quicksilver released during the transmutation advances your metallic core to the next metal after the effect is resolved. If the core was Gold, it returns to Lead instead.",
+        "The distance of your Air Bond also increases with the current metal, as shown in the Metallic Projection track.",
+        {
+          "type": "table",
+          "caption": "Metallic Projection",
+          "colLabels": ["Metal", "Transmutation Die", "Air Bond"],
+          "colStyles": ["col-4", "col-4 text-center", "col-4 text-center"],
+          "rows": [
+            ["Lead ♄", "{@dice 1d6}", "5 ft."],
+            ["Tin ♃", "{@dice 1d8}", "10 ft."],
+            ["Iron ♂", "{@dice 1d10}", "15 ft."],
+            ["Copper ♀", "{@dice 1d12}", "20 ft."],
+            ["Silver ☾", "{@dice 2d6}", "25 ft."],
+            ["Gold ☉", "{@dice 2d8}", "30 ft."]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Advanced Alchemical Research",
+      "source": "TwofellAlchemicalEngineer",
+      "className": "Artificer",
+      "classSource": "TCE",
+      "subclassShortName": "Alchemical Engineer",
+      "subclassSource": "TwofellAlchemicalEngineer",
+      "level": 9,
+      "entries": [
+        "Your research progresses beyond the standard operation of a Transmutation Engine. Choose Classical Alchemy or Experimental Metallurgy. Your choice grants you features now and again at 15th level. Once made, this choice can’t be changed.",
+        {
+          "type": "options",
+          "count": 1,
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Classical Alchemy",
+              "entries": [
+                "You pursue the accepted study of vital principles, adding the Glyph of Purification and Glyph of Animismus to your engine.",
+                {
+                  "type": "entries",
+                  "name": "Glyph of Purification",
+                  "entries": [
+                    "Immediately before you resolve a Bonding effect, you can expend one Salt atom to advance your metallic core by one stage. You resolve the effect using the new metal.",
+                    "If the bonded atom is Air, Earth, Fire, or Water, the metallic core advances normally after the effect is resolved. You can’t use this glyph while your metallic core is Gold."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Glyph of Animismus",
+                  "entries": [
+                    "As an action, you can transform two Salt atoms within your engine into one Vitae atom and one Mors atom. Your engine can contain only one of each at a time. Vitae and Mors can be used with your Glyph of Bonding.",
+                    {
+                      "type": "list",
+                      "style": "list-hang-notitle",
+                      "items": [
+                        {
+                          "type": "item",
+                          "name": "Vitae 🜍.",
+                          "entry": "The target regains hit points equal to two rolls of your Transmutation Die plus your Intelligence modifier and can end the {@condition poisoned} condition on itself. The Vitae atom is then expended."
+                        },
+                        {
+                          "type": "item",
+                          "name": "Mors 🜞.",
+                          "entry": "The target must make a Constitution saving throw. It takes necrotic damage equal to two rolls of your Transmutation Die on a failed save, or half as much damage on a successful one. On a failed save, it also can’t regain hit points until the start of your next turn. The Mors atom is then expended."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "Simultaneous Effects",
+                      "entries": [
+                        "A creature affected by two ongoing instances of the same Bonding effect gains the effect only once. Instantaneous damage, healing, and movement are resolved separately."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Experimental Metallurgy",
+              "entries": [
+                "You turn away from the accepted curriculum and subject the metallic sequence to less stable methods, adding the Glyph of Rejection and Glyph of Division to your engine.",
+                {
+                  "type": "entries",
+                  "name": "Glyph of Rejection",
+                  "entries": [
+                    "When an Air, Earth, Fire, or Water atom produces its Bonding effect while your metallic core is Tin or higher, you can reject the resulting material instead of projecting it. The atom becomes a Quicksilver atom instead of returning to Salt, and your metallic core moves one stage toward Lead instead of advancing toward Gold.",
+                    "Your engine can contain only one Quicksilver atom at a time. You can’t use Rejection while your metallic core is Lead or while your engine already contains a Quicksilver atom.",
+                    "Quicksilver can be used with your Glyph of Bonding.",
+                    {
+                      "type": "entries",
+                      "name": "Quicksilver ☿",
+                      "entries": [
+                        "The target can use its reaction to make one weapon attack, cast a cantrip with a casting time of 1 action, or take the Use an Object action. The Quicksilver atom is then expended."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Glyph of Division",
+                  "entries": [
+                    "When you use your Glyph of Bonding with an Air, Earth, Fire, or Water atom while your metallic core is Tin or higher, you can divide the metal and resolve the Bonding effect twice. The effects can have the same target or different eligible targets.",
+                    "For each effect, use the metal shown in the Divided Metals table instead of your current metal. After both effects are resolved, your metallic core returns to Lead. The atom is processed only once, and no additional atom or Salt is created.",
+                    {
+                      "type": "table",
+                      "caption": "Divided Metals",
+                      "colLabels": [
+                        "Current Metal",
+                        "First Effect",
+                        "Second Effect"
+                      ],
+                      "colStyles": ["col-4", "col-4", "col-4"],
+                      "rows": [
+                        ["Tin ♃", "Lead ♄", "Lead ♄"],
+                        ["Iron ♂", "Lead ♄", "Tin ♃"],
+                        ["Copper ♀", "Tin ♃", "Tin ♃"],
+                        ["Silver ☾", "Tin ♃", "Iron ♂"],
+                        ["Gold ☉", "Iron ♂", "Iron ♂"]
+                      ]
+                    },
+                    "Once you use this glyph, you can’t use it again until you finish a short or long rest."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Completed Research",
+      "source": "TwofellAlchemicalEngineer",
+      "className": "Artificer",
+      "classSource": "TCE",
+      "subclassShortName": "Alchemical Engineer",
+      "subclassSource": "TwofellAlchemicalEngineer",
+      "level": 15,
+      "entries": [
+        "Your chosen course of research reaches its final form. You gain the feature associated with the research path you chose at 9th level.",
+        {
+          "type": "entries",
+          "name": "The Quintessential Cycle",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Quintessential Cycle",
+              "entries": [
+                "Your Glyph of Purification no longer expends a Salt atom when you use it. You can still use the glyph only once for each Bonding effect.",
+                "You also add the Glyph of Unification and Glyph of Dispersion to your engine."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Cardinal Inputs",
+              "entries": [
+                "When you finish a short or long rest, you can replace four Salt atoms within your engine with one Air, Earth, Fire, and Water atom."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Glyph of Unification",
+              "entries": [
+                "As a bonus action, you can transform one Air, Earth, Fire, and Water atom within your engine into one Quintessence atom. Your engine can contain only one Quintessence atom at a time.",
+                "Once you create a Quintessence atom, you can’t create another until you finish a short or long rest."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Glyph of Dispersion",
+              "entries": [
+                "As a bonus action, you can separate one Quintessence atom within your engine into one Air, Earth, Fire, and Water atom.",
+                "Quintessence can also be used with your Glyph of Bonding."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Quintessence",
+              "entries": [
+                "Choose a willing creature as the target. It assumes a perfected form for 1 minute and gains the following benefits:",
+                {
+                  "type": "list",
+                  "items": [
+                    "It has resistance to all damage.",
+                    "It gains a flying speed equal to twice its walking speed and can hover.",
+                    "It can move through creatures and objects as if they were difficult terrain. If it ends its turn inside an object, it takes {@damage 2d8} force damage and is moved to the nearest unoccupied space.",
+                    "It can’t be {@condition charmed}, {@condition frightened}, {@condition paralyzed}, {@condition petrified}, {@condition poisoned}, or {@condition restrained}, and each of those conditions affecting it ends when the Bond begins.",
+                    "Once during each of its turns when it deals damage or restores hit points, it can deal or restore additional hit points equal to one roll of your Transmutation Die."
+                  ]
+                },
+                "The effect ends early if the creature is {@condition incapacitated}. When the effect ends, the Quintessence separates into four Salt atoms, which return to your engine. Once you bond Quintessence in this way, you can’t do so again until you finish a long rest."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "The Perfected Metal",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Glyph of Proliferation",
+              "entries": [
+                "When your engine contains a Quicksilver atom, you can use a bonus action to feed it into your current metallic core, creating a second identical core. The Quicksilver atom is expended, and both cores remain at the metal your core contained when you activated this glyph for the duration. As part of the same bonus action, you can use your Glyph of Bonding.",
+                "For 1 minute, your engine gains the following benefits:",
+                {
+                  "type": "list",
+                  "items": [
+                    "At the start of each of your turns, you can convert one Salt atom within your engine into an Air, Earth, Fire, or Water atom of your choice.",
+                    "Once during each of your turns when you produce a Bonding effect, the second core reproduces that effect. Resolve the effect a second time using the metal duplicated by this glyph, choosing the same target or another eligible target."
+                  ]
+                },
+                "Only the effect is produced twice. The bonded atom is processed once and returns to Salt or is expended normally. Proliferation never creates additional atoms or Salt.",
+                "You can’t use your Glyph of Rejection or Glyph of Division while Proliferation is active. When this effect ends, the duplicated core destabilizes and disappears as it turns into Salt while your original core remains at the metal duplicated by this glyph. When this effects ends, you restore Salt atoms up to the number that have been expended, not counting those placed on Infusions.",
+                "Once you activate this glyph, you can’t do so again until you finish a long rest."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Conservation of Matter",
+              "entries": [
+                "Proliferation repeats the result of a Bonding effect. It doesn’t create or process a second atom, and it can’t return more Salt than the original Bonding effect would have returned."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "optionalfeature": [
+    {
+      "name": "Saline Augmentation",
+      "source": "TwofellAlchemicalEngineer",
+      "featureType": ["AI"],
+      "prerequisite": [
+        {
+          "item": [
+            "A simple or martial weapon or a pair of gloves (requires attunement)"
+          ]
+        }
+      ],
+      "entries": [
+        "The item has 6 charges. When the wearer makes a Strength check or a Strength saving throw, it can expend 1 charge to add your Intelligence modifier to the roll. If the wearer would be knocked {@condition prone}, it can use its reaction to expend 1 charge to avoid being knocked prone. The item regains {@dice 1d6} expended charges daily at dawn.",
+        "{@b Infused (Salt).} While the item contains a Salt atom, the wearer can use a bonus action to expend it and become unnaturally dense for 1 minute. For the duration, it counts as one size larger when determining its carrying capacity and the weight it can push, drag, or lift; it has advantage on Strength checks and Strength saving throws; and it can’t be knocked {@condition prone}. The effect ends early if the wearer is {@condition incapacitated}."
+      ]
+    },
+    {
+      "name": "Pneumatic Soles",
+      "source": "TwofellAlchemicalEngineer",
+      "featureType": ["AI"],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 6,
+            "class": {
+              "name": "Artificer",
+              "source": "TCE"
+            }
+          },
+          "item": [
+            "A pair of boots (requires attunement)"
+          ]
+        }
+      ],
+      "entries": [
+        "While wearing these boots, a creature can teleport up to 15 feet as a bonus action to an unoccupied space it can see. The destination must be a space the creature occupied at some point during the current turn.",
+        "{@b Infused (Air).} While the boots contain an Air atom, the wearer can expend it as a reaction when hit by a ranged attack, interposing a violent crosswind. The wearer gains a bonus to its AC equal to your proficiency bonus against the triggering attack, potentially causing it to miss, and against all other ranged attacks until the start of its next turn."
+      ]
+    },
+    {
+      "name": "Telluric Aegis",
+      "source": "TwofellAlchemicalEngineer",
+      "featureType": ["AI"],
+      "prerequisite": [
+        {
+          "item": [
+            "A suit of armor or a shield"
+          ]
+        }
+      ],
+      "entries": [
+        "The wearer gains a +1 bonus to Armor Class while wearing the armor or wielding the shield. This bonus increases to +2 when you reach 10th level in this class.",
+        "{@b Infused (Earth).} While the item contains an Earth atom, the wearer can expend it as a reaction when it takes bludgeoning, piercing, or slashing damage. The wearer gains resistance to bludgeoning, piercing, and slashing damage until the start of its next turn, including against the triggering damage."
+      ]
+    },
+    {
+      "name": "Incendiary Channel",
+      "source": "TwofellAlchemicalEngineer",
+      "featureType": ["AI"],
+      "prerequisite": [
+        {
+          "item": [
+            "A simple or martial weapon or an artificer spellcasting focus (requires attunement)"
+          ]
+        }
+      ],
+      "entries": [
+        "If the infused item is a weapon, it grants a +1 bonus to attack and damage rolls made with it. If it is an artificer spellcasting focus, it grants a +1 bonus to spell attack rolls made with artificer spells cast through it, and those attacks ignore half cover. Either bonus increases to +2 when you reach 10th level in this class.",
+        "{@b Infused (Fire).} While the item contains a Fire atom, the wielder can expend it when it damages a creature to release a searing flash. The damaged creature and each other creature of the wielder’s choice within 5 feet of it must succeed on a Constitution saving throw against your artificer spell save DC or be {@condition blinded} until the start of the wielder’s next turn."
+      ]
+    },
+    {
+      "name": "Aqueous Adaptation",
+      "source": "TwofellAlchemicalEngineer",
+      "featureType": ["AI"],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 6,
+            "class": {
+              "name": "Artificer",
+              "source": "TCE"
+            }
+          },
+          "item": [
+            "A suit of armor, cloak, or shield (requires attunement)"
+          ]
+        }
+      ],
+      "entries": [
+        "The wearer has resistance to cold damage. It can also breathe underwater and gains a swimming speed equal to its walking speed.",
+        "{@b Infused (Water).} While the item contains a Water atom, the wearer can use a bonus action to expend it and briefly assume a fluid state. It immediately ends the {@condition grappled} and {@condition restrained} conditions on itself. Until the end of the turn, it can move through the space of any creature and through openings as narrow as 1 inch wide without squeezing, but it can’t end this movement in an occupied space."
+      ]
+    },
+    {
+      "name": "Vitae Reservoir",
+      "source": "TwofellAlchemicalEngineer",
+      "featureType": ["AI"],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 10,
+            "class": {
+              "name": "Artificer",
+              "source": "TCE"
+            }
+          },
+          "item": [
+            "An amulet, brooch, or suit of armor (requires attunement)"
+          ]
+        }
+      ],
+      "entries": [
+        "The wearer stabilizes whenever it is dying at the start of its turn. In addition, whenever the wearer rolls a Hit Die to regain hit points, double the number of hit points it restores.",
+        "{@b Infused (Vitae).} While the item contains a Vitae atom, the wearer can expend it when it fails an Intelligence, Wisdom, or Charisma saving throw to reroll the saving throw, potentially turning the failure into a success. It must use the new roll. If the effect would possess the wearer or transform its body, it makes this reroll with advantage."
+      ]
+    },
+    {
+      "name": "Mors Needle",
+      "source": "TwofellAlchemicalEngineer",
+      "featureType": ["AI"],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 10,
+            "class": {
+              "name": "Artificer",
+              "source": "TCE"
+            }
+          },
+          "item": [
+            "A simple or martial weapon or an artificer spellcasting focus (requires attunement)"
+          ]
+        }
+      ],
+      "entries": [
+        "If the infused item is a weapon, it grants a +2 bonus to attack and damage rolls made with it. If it is an artificer spellcasting focus, it grants a +2 bonus to spell attack rolls made with artificer spells cast through it, and those attacks ignore half cover.",
+        "{@b Infused (Mors).} While the item contains a Mors atom, the wielder can expend it when it damages a creature with the infused weapon, or with an artificer spell cast using the infused focus, to expose that creature’s mortality. The target must succeed on a Constitution saving throw against your artificer spell save DC or become vulnerable to the next instance of damage it takes before the start of the wielder’s next turn. A creature immune to necrotic damage is immune to this effect."
+      ]
+    },
+    {
+      "name": "Quintessential Matrix",
+      "source": "TwofellAlchemicalEngineer",
+      "featureType": ["AI"],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 14,
+            "class": {
+              "name": "Artificer",
+              "source": "TCE"
+            }
+          },
+          "item": [
+            "A suit of armor, amulet, or spellcasting focus (requires attunement)"
+          ]
+        }
+      ],
+      "entries": [
+        "The bearer gains a +1 bonus to Armor Class and saving throws.",
+        "{@b Infused (Quintessence).} While the item contains a Quintessence atom, the bonus to Armor Class and saving throws is a +2.",
+        "The bearer can use an action to expend it and cast {@spell wall of force|phb} from the item without expending a spell slot or providing material components. Intelligence is the spellcasting ability for this spell, and the bearer must concentrate on it as normal."
+      ]
+    },
+    {
+      "name": "Mercurial Actuator",
+      "source": "TwofellAlchemicalEngineer",
+      "featureType": ["AI"],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 10,
+            "class": {
+              "name": "Artificer",
+              "source": "TCE"
+            }
+          },
+          "item": [
+            "A helmet, pair of gloves, or pair of boots (requires attunement)"
+          ]
+        }
+      ],
+      "entries": [
+        "The wearer has advantage on initiative rolls. In addition, it can’t be surprised, provided it isn’t {@condition incapacitated}.",
+        "{@b Infused (Quicksilver).} While the item contains a Quicksilver atom, the wearer can use a bonus action to expend it and accelerate its reflexes for 1 minute. For the duration, its speed increases by 10 feet, it gains a +2 bonus to Armor Class, it has advantage on Dexterity saving throws, and it can take the Dash, Disengage, Search, or Use an Object action as a bonus action. The effect ends early if the wearer is {@condition incapacitated}."
+      ]
+    }
+  ]
+}

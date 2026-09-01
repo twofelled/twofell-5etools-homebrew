@@ -1,0 +1,249 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+  "_meta": {
+    "sources": [
+      {
+        "json": "TwofellStreetMagician",
+        "abbreviation": "TF:SM",
+        "full": "Street Magician",
+        "authors": ["Twofell"],
+        "convertedBy": ["Twofell"],
+        "version": "1.0.0",
+        "color": "b45b73",
+        "colorNight": "e987a2",
+        "url": "https://homebrewery.naturalcrit.com/share/rk2abX-gF9BE"
+      }
+    ],
+    "edition": "classic",
+    "status": "ready",
+    "dateAdded": 1788163200,
+    "dateLastModified": 1788163200
+  },
+  "subclass": [
+    {
+      "name": "Street Magician",
+      "shortName": "Street Magician",
+      "source": "TwofellStreetMagician",
+      "className": "Rogue",
+      "classSource": "PHB",
+      "edition": "classic",
+      "spellcastingAbility": "cha",
+      "subclassFeatures": [
+        "Street Magic|Rogue|PHB|Street Magician|TwofellStreetMagician|3",
+        "Magician's Strike|Rogue|PHB|Street Magician|TwofellStreetMagician|3",
+        "Something Up Your Sleeve|Rogue|PHB|Street Magician|TwofellStreetMagician|9",
+        "Practiced Hand|Rogue|PHB|Street Magician|TwofellStreetMagician|13",
+        "Grand Trick|Rogue|PHB|Street Magician|TwofellStreetMagician|17"
+      ]
+    }
+  ],
+  "subclassFeature": [
+    {
+      "name": "Street Magic",
+      "source": "TwofellStreetMagician",
+      "className": "Rogue",
+      "classSource": "PHB",
+      "subclassShortName": "Street Magician",
+      "subclassSource": "TwofellStreetMagician",
+      "level": 3,
+      "entries": [
+        "Street Magicians are performers that take the usual tricks and sleights of hand a little further than most expect. They still carry the usual: cards, coins, flowers and cheap wands, but somewhere along the way learned how to hide genuine magic among those tricks. Meant to both enhance and deceive their opponents as previously harmless tricks can prove to be fatal in their sleeves.",
+        "There are plenty of ways to play a Street Magician. You can be a performer that slowly pushed their tricks further, someone that stole a few routines from a mentor, or a failed magical student that realized fireballs get a better reaction when they come out of a deck of cards. Whatever the case, magic is simply another part of their performance and they love the show.",
+        "When you reach 3rd level, you gain the ability to cast spells through a collection of practiced Tricks.",
+        {
+          "type": "entries",
+          "name": "Cantrips",
+          "entries": [
+            "You learn the {@spell prestidigitation|phb} cantrip and two other cantrips of your choice from the wizard spell list. The latter two cantrips must be Evocation spells with a casting time of 1 action. You learn another wizard cantrip that meets these requirements at 10th level.",
+            "These cantrips and the spells you learn as Tricks are Street Magician spells for you."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Spellcasting Ability",
+          "entries": [
+            "Charisma is your spellcasting ability for your Street Magician spells, since you work your magic through practiced performances and convincing presentation. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a Street Magician spell you cast and when making an attack roll with one.",
+            {
+              "type": "abilityDc",
+              "name": "Spell",
+              "attributes": ["cha"]
+            },
+            {
+              "type": "abilityAttackMod",
+              "name": "Spell",
+              "attributes": ["cha"]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Trick Skill",
+          "entries": [
+            "Choose either {@skill Performance} or {@skill Sleight of Hand}. You gain proficiency in the chosen skill if you don’t already have it.",
+            "Whenever one of your Street Magician features calls for a Trick Check, you make the check using the skill chosen for this feature."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Enhanced Prestidigitation",
+          "entries": [
+            "When you cast {@spell prestidigitation|phb}, you can create one of the following magical effects instead of one of the spell’s normal effects:",
+            {
+              "type": "list",
+              "items": [
+                "You cause a playing card, coin, flower, handkerchief, or similarly sized object you are holding to vanish and immediately reappear in another empty hand.",
+                "You cause a playing card, piece of paper, or flammable Tiny object you are holding to harmlessly catch fire until the end of your next turn. The fire doesn’t damage the object, but it can ignite other flammable objects that aren’t being worn or carried.",
+                "You spray a stream of water from a prop you are holding toward a point you can see within 10 feet of you."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Tricks Known of 1st Level and Higher",
+          "entries": [
+            "You know three 1st-level wizard spells of your choice. Each spell must be an Evocation spell with a casting time of 1 action. These spells are your Tricks.",
+            "The Tricks Known column of the Street Magician Tricks table shows when you learn more Tricks. Each of these spells must be an Evocation spell from the wizard spell list, must have a casting time of 1 action, and can be no higher in level than the Maximum Trick Level shown for your rogue level.",
+            "See {@link spells able to be picked for Trick Spells|https://2014.5e.tools/spells.html#affirm%20gender_lewdhandbook,flstsource:aag=1~ai=1~bmt=1~egw=1~ftd=1~ggr=1~phb=1~sato=1~tce=1~xge=1~rmr=1~qftis=1~tofw=1~veor=1~mot=1~scag=1~eepc=1~erlw=1~vgm=1~lewdhandbook=1,flstlevel:0=1~1=1~2=1~3=1~4=1~5=1,flstclass:wizard=1,flstcomponents%20%26%20miscellaneous:,flstschool:v=1,flstcast%20time:action=1}.",
+            {
+              "type": "table",
+              "caption": "Street Magician Tricks",
+              "colLabels": [
+                "Rogue Level",
+                "Tricks Known",
+                "Maximum Trick Level"
+              ],
+              "colStyles": [
+                "col-4 text-center",
+                "col-4 text-center",
+                "col-4 text-center"
+              ],
+              "rows": [
+                ["3rd", 3, "1st"],
+                ["5th", 4, "1st"],
+                ["7th", 5, "2nd"],
+                ["9th", 6, "2nd"],
+                ["11th", 7, "2nd"],
+                ["13th", 8, "3rd"],
+                ["15th", 9, "3rd"],
+                ["17th", 10, "4th"],
+                ["19th", 11, "4th"]
+              ]
+            },
+            "Whenever you gain a level in this class, you can replace one Trick you know with another spell of your choice from the wizard spell list. The new spell must be an Evocation spell, must have a casting time of 1 action, and can be no higher in level than your Maximum Trick Level."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Trick Points",
+          "entries": [
+            "You have a number of Trick Points equal to your proficiency bonus. You can’t have more Trick Points than your proficiency bonus."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Performing a Trick",
+          "entries": [
+            "You can cast one of your Tricks without expending a spell slot. To do so, you must spend a number of Trick Points equal to the spell’s level.",
+            "When you perform a Trick, a number of your Sneak Attack dice equal to the spell’s level become unavailable until the start of your next turn. An unavailable Sneak Attack die can’t be rolled as part of your Sneak Attack or made unavailable to perform another Trick.",
+            "You can’t perform a Trick unless you have enough Trick Points and available Sneak Attack dice to do so.",
+            "If a Trick has an increased effect when cast at a higher level, you can cast it at a higher level, up to your Maximum Trick Level. The number of Trick Points you spend and Sneak Attack dice that become unavailable are determined by the level at which you cast the spell."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Trick Check",
+          "entries": [
+            "Whenever you perform a Trick, make an ability check using the skill chosen for your Trick Skill. The DC equals 10 + twice the level at which you cast the spell.",
+            "The spell is cast regardless of the result of the check. If you fail the check, something in the routine goes wrong after the spell takes effect. The Trick becomes Spoiled, and you can’t perform that Trick again until you use your action to reset it.",
+            "If the result of the check exceeds the DC by 5 or more, you regain 1 expended Trick Point after the spell is cast."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Quick Flourish",
+          "entries": [
+            "On your turn, if you haven’t performed a Trick, you can use a bonus action to cast {@spell prestidigitation|phb} and perform a brief flourish, provided you can see a hostile creature within 60 feet of you.",
+            "When you do so, make a Trick Check against DC 15. On a successful check, you regain 1 expended Trick Point."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Rehearse the Act",
+          "entries": [
+            "You regain all expended Trick Points when you finish a short or long rest. You can also regain all expended Trick Points by spending 1 minute rehearsing your routines, provided there are no hostile creatures that you can see or hear within 60 feet of you.",
+            "When you rehearse your act in this way, you also reset all of your Spoiled Tricks."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Tools of the Trade",
+          "entries": [
+            "You can use a playing card set or an arcane focus as a spellcasting focus for your Street Magician spells."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Magician's Strike",
+      "source": "TwofellStreetMagician",
+      "className": "Rogue",
+      "classSource": "PHB",
+      "subclassShortName": "Street Magician",
+      "subclassSource": "TwofellStreetMagician",
+      "level": 3,
+      "entries": [
+        "You learn to exploit the opening created by a well-timed magical performance. When you hit a creature with a spell attack made as part of one of your Tricks or Street Magician cantrips, you can deal your Sneak Attack damage with that attack if you have advantage on the attack roll.",
+        "You don’t need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn’t {@condition incapacitated}, and you don’t have disadvantage on the attack roll.",
+        "You can deal Sneak Attack damage in this way only once per turn, and you can roll only your currently available Sneak Attack dice."
+      ]
+    },
+    {
+      "name": "Something Up Your Sleeve",
+      "source": "TwofellStreetMagician",
+      "className": "Rogue",
+      "classSource": "PHB",
+      "subclassShortName": "Street Magician",
+      "subclassSource": "TwofellStreetMagician",
+      "level": 9,
+      "entries": [
+        "You keep a collection of unfinished routines for those moments when whatever is left in your sleeve is better than nothing.",
+        "Whenever you finish a long rest, choose six different Evocation spells from the wizard spell list and assign each one a number from 1 to 6. Each spell must have a casting time of 1 action and be of a level no higher than your Maximum Trick Level. These spells form your Emergency Hand until you finish your next long rest. They are Street Magician spells for you and don’t count against your number of Tricks Known.",
+        "As an action, roll a {@dice d6}. You then cast the spell corresponding to the number rolled as a Trick. You don’t expend Trick Points to perform this Trick, but you must still have enough available Sneak Attack dice to perform it and make its Trick Check as normal.",
+        "Once you use this feature, you can’t use it again until you finish a short or long rest."
+      ]
+    },
+    {
+      "name": "Practiced Hand",
+      "source": "TwofellStreetMagician",
+      "className": "Rogue",
+      "classSource": "PHB",
+      "subclassShortName": "Street Magician",
+      "subclassSource": "TwofellStreetMagician",
+      "level": 13,
+      "entries": [
+        "Your routines have become second nature, allowing you to work more complicated magic without compromising the rest of your performance.",
+        "When you perform a Trick of 2nd level or higher, one fewer Sneak Attack die becomes unavailable, to a minimum of one die.",
+        "In addition, when you use your Something Up Your Sleeve feature, roll the d6 twice and choose which of the two results to use.",
+        "When the result of a Trick Check exceeds its DC by 5 or more, you can reset one Spoiled Trick instead of regaining 1 expended Trick Point."
+      ]
+    },
+    {
+      "name": "Grand Trick",
+      "source": "TwofellStreetMagician",
+      "className": "Rogue",
+      "classSource": "PHB",
+      "subclassShortName": "Street Magician",
+      "subclassSource": "TwofellStreetMagician",
+      "level": 17,
+      "entries": [
+        "You perfect a single routine beyond everything else in your repertoire.",
+        "Choose one Evocation spell of 5th level or lower from the wizard spell list. The spell must have a casting time of 1 action. The chosen spell is a Street Magician spell for you, becomes your Grand Trick, and doesn’t count against your number of Tricks Known.",
+        "You can perform your Grand Trick as a 5th-level Trick, even though it exceeds your Maximum Trick Level. When you do so, you spend 5 Trick Points and otherwise follow the rules for Performing a Trick and making its Trick Check.",
+        "Once you perform your Grand Trick in this way, you can’t do so again until you finish a long rest.",
+        "If your Grand Trick is also one of your Tricks, you can still perform it normally at any level allowed by your Maximum Trick Level.",
+        "Whenever you gain a level in this class, you can replace your Grand Trick with another spell that meets these requirements."
+      ]
+    }
+  ]
+}
