@@ -1,0 +1,598 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "TwofellMasterUnseenHand",
+        "abbreviation": "TF:MUH",
+        "full": "Master of the Unseen Hand",
+        "authors": [
+          "Twofell"
+        ],
+        "convertedBy": [
+          "Twofell"
+        ],
+        "version": "1.0.0",
+        "color": "27bbaa"
+      }
+    ],
+    "edition": "classic",
+    "dateAdded": 1788659763,
+    "dateLastModified": 1788659763
+  },
+  "subclass": [
+    {
+      "name": "Master of the Unseen Hand",
+      "shortName": "Unseen Hand",
+      "source": "TwofellMasterUnseenHand",
+      "className": "Bard",
+      "classSource": "PHB",
+      "edition": "classic",
+      "subclassFeatures": [
+        "Master of the Unseen Hand|Bard|PHB|Unseen Hand|TwofellMasterUnseenHand|3",
+        "Many Hands|Bard|PHB|Unseen Hand|TwofellMasterUnseenHand|3",
+        "Skilled Handiwork|Bard|PHB|Unseen Hand|TwofellMasterUnseenHand|3",
+        "Practiced Hands|Bard|PHB|Unseen Hand|TwofellMasterUnseenHand|6",
+        "Forceful Hands|Bard|PHB|Unseen Hand|TwofellMasterUnseenHand|6",
+        "Sustained Force|Bard|PHB|Unseen Hand|TwofellMasterUnseenHand|10",
+        "Versatile Telekinesis|Bard|PHB|Unseen Hand|TwofellMasterUnseenHand|14"
+      ],
+      "additionalSpells": [
+        {
+          "known": {
+            "10": [
+              "telekinesis|phb"
+            ],
+            "3": [
+              "mage hand|phb"
+            ]
+          },
+          "innate": {
+            "10": {
+              "daily": {
+                "1": [
+                  "telekinesis|phb"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Master of the Unseen Hand",
+      "shortName": "Unseen Hand",
+      "source": "TwofellMasterUnseenHand",
+      "className": "Wizard",
+      "classSource": "PHB",
+      "edition": "classic",
+      "subclassFeatures": [
+        "Master of the Unseen Hand|Wizard|PHB|Unseen Hand|TwofellMasterUnseenHand|2",
+        "Many Hands|Wizard|PHB|Unseen Hand|TwofellMasterUnseenHand|2",
+        "Skilled Handiwork|Wizard|PHB|Unseen Hand|TwofellMasterUnseenHand|2",
+        "Practiced Hands|Wizard|PHB|Unseen Hand|TwofellMasterUnseenHand|6",
+        "Forceful Hands|Wizard|PHB|Unseen Hand|TwofellMasterUnseenHand|6",
+        "Sustained Force|Wizard|PHB|Unseen Hand|TwofellMasterUnseenHand|10",
+        "Versatile Telekinesis|Wizard|PHB|Unseen Hand|TwofellMasterUnseenHand|14"
+      ],
+      "additionalSpells": [
+        {
+          "known": {
+            "2": [
+              "mage hand|phb"
+            ]
+          },
+          "innate": {
+            "10": {
+              "daily": {
+                "1": [
+                  "telekinesis|phb"
+                ]
+              }
+            }
+          },
+          "prepared": {
+            "10": [
+              "telekinesis|phb"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "subclassFeature": [
+    {
+      "name": "Master of the Unseen Hand",
+      "source": "TwofellMasterUnseenHand",
+      "className": "Bard",
+      "classSource": "PHB",
+      "subclassShortName": "Unseen Hand",
+      "subclassSource": "TwofellMasterUnseenHand",
+      "level": 3,
+      "entries": [
+        "Masters of the Unseen Hand refine their studies into two related forms of magic. Using a simple spell like  {@i mage hands} to their absolute limit as they multiply into a collection of dexterous assistants capable of carrying out several delicate tasks at once, while their greater telekinetic power seizes creatures and heavy objects with overwhelming invisible force.",
+        "For a wizard, this discipline is an Arcane Tradition built upon keeping concentration while multitasking control upon multiple hands. For a bard, it is a Bard College whose force of will helps them conduct these hands as though directing an invisible ensemble.",
+        {
+          "type": "entries",
+          "name": "Master of the Unseen Hand Features",
+          "entries": [
+            {
+              "type": "table",
+              "colLabels": [
+                "Wizard Level",
+                "Bard Level",
+                "Feat"
+              ],
+              "rows": [
+                [
+                  "2nd",
+                  "3rd",
+                  "Many Hands, Skilled Handiwork"
+                ],
+                [
+                  "6th",
+                  "6th",
+                  "Practiced Hands, Forceful Hands"
+                ],
+                [
+                  "10th",
+                  "10th",
+                  "Sustained Force"
+                ],
+                [
+                  "14th",
+                  "14th",
+                  "Versatile Telekinesis"
+                ]
+              ]
+            },
+            "When you select this subclass, it becomes your subclass for that class. You can't select Master of the Unseen Hand as the subclass for another class."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Unseen Hand Level",
+          "entries": [
+            "Some features of this subclass refer to your {@b Unseen Hand level}. Your Unseen Hand level equals your combined levels in the bard and wizard classes. For example, if you are a 4th-level bard and a 6th-level wizard, your Unseen Hand level is 10.",
+            "Your Unseen Hand level determines the strength of features you already possess; it doesn't grant subclass features earlier than you're supposed to gain them. You gain each feature based on your level in the class through which you selected this subclass.",
+            {
+              "type": "entries",
+              "name": "Many Hands",
+              "entries": [
+                {
+                  "type": "table",
+                  "colLabels": [
+                    "Unseen Hand Level",
+                    "Number of Hands"
+                  ],
+                  "rows": [
+                    [
+                      "1st - 4th",
+                      "2"
+                    ],
+                    [
+                      "5th - 8th",
+                      "3"
+                    ],
+                    [
+                      "9th - 12th",
+                      "4"
+                    ],
+                    [
+                      "13th - 16th",
+                      "5"
+                    ],
+                    [
+                      "17th or higher",
+                      "6"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Many Hands",
+      "source": "TwofellMasterUnseenHand",
+      "className": "Bard",
+      "classSource": "PHB",
+      "subclassShortName": "Unseen Hand",
+      "subclassSource": "TwofellMasterUnseenHand",
+      "level": 3,
+      "entries": [
+        "You learn the {@spell mage hand|PHB} cantrip. It is a spell of the class through which you gained this subclass, and it doesn't count against the number of cantrips you know. If you already know {@spell mage hand|PHB} from that class, you learn another cantrip of your choice from that class's spell list.",
+        "When you cast {@spell mage hand|PHB}, you can create multiple spectral hands instead of creating one. The number of hands you create is shown in the Many Hands table. You choose the appearance of these hands each time you cast the spell.",
+        "The hands share the spell's duration and range. Each hand can move independently, can carry no more than 10 pounds, and vanishes if it ends its turn more than 30 feet from you. A hand also vanishes if you dismiss it (no action required). The spell ends when its last hand vanishes.",
+        "When you use your action to control the hands, you can move each of them up to 30 feet and command each hand to perform one task permitted by {@spell mage hand|PHB}. If a task would require an ability check, only one hand can attempt one per round. They can work together to lift one object that exceeds an individual hand's carrying capacity, so long as its weight doesn't exceed their combined carrying capacity.",
+        "You can also control only one of the hands as a bonus action, moving it and commanding it to perform one task permitted by the spell."
+      ]
+    },
+    {
+      "name": "Skilled Handiwork",
+      "source": "TwofellMasterUnseenHand",
+      "className": "Bard",
+      "classSource": "PHB",
+      "subclassShortName": "Unseen Hand",
+      "subclassSource": "TwofellMasterUnseenHand",
+      "level": 3,
+      "entries": [
+        "Hands summoned by the mage hand cantrip can apply the skills you have practiced. Each hand can hold and use a tool or musical instrument with which you are proficient. Your hands can perform simple, practiced tasks such as holding books open, turning its pages, writing dictated words, playing instruments, stirring a mixture, or organizing your equipment.",
+        "When you use your action to control the hands, you can command one hand to perform a task that requires an ability check using a tool, an instrument, or a skill in which you are proficient. You make the check as though you were performing the task yourself, provided you can see both the hand and the subject of its work. The task must be physically possible using only the hand and the objects within its reach.",
+        "A hand can hold your spellcasting focus, or a material component, but this doesn't allow you to provide a spell's components remotely, cast a spell from the hand's space, or ignore any components of a spell.",
+        {
+          "type": "entries",
+          "name": "Many Hands, One Will",
+          "entries": [
+            "The hands can look and behave independently. A scholar might surround herself with spectral scribes, while a bard conducts them as a silent ensemble of instruments and props."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Practiced Hands",
+      "source": "TwofellMasterUnseenHand",
+      "className": "Bard",
+      "classSource": "PHB",
+      "subclassShortName": "Unseen Hand",
+      "subclassSource": "TwofellMasterUnseenHand",
+      "level": 6,
+      "entries": [
+        "Your spectral hands coordinate with practiced efficiency. When two or more hands work together on a task permitted by your Skilled Handiwork, you have advantage on one ability check made for that task, provided it could reasonably benefit from the additional hands.",
+        "In addition, when you use your bonus action to control one hand, that hand can perform a task permitted by your Skilled Handiwork that requires an ability check. Once a hand makes an ability check on your turn, none of your other hands can make another ability check until the start of your next turn."
+      ]
+    },
+    {
+      "name": "Forceful Hands",
+      "source": "TwofellMasterUnseenHand",
+      "className": "Bard",
+      "classSource": "PHB",
+      "subclassShortName": "Unseen Hand",
+      "subclassSource": "TwofellMasterUnseenHand",
+      "level": 6,
+      "entries": [
+        "Your spectral hands can exert enough force to fight. When you use your action to control the hands created by your {@spell mage hand|PHB}, you can make the attacks described under Telekinetic Wielder.",
+        "You can replace any of those attacks with one Unseen Grasp maneuver.",
+        {
+          "type": "entries",
+          "name": "Telekinetic Wielder",
+          "entries": [
+            "As part of the action you use to control your hands, each hand you command to attack can pick up one nonmagical melee weapon within 5 feet of it. The weapon can't have the two-handed property and must weigh no more than the hand's carrying capacity. A hand can carry only one weapon at a time.",
+            "You can then command one hand carrying a weapon to attack a creature within 5 feet of that hand. Make a melee spell attack using the spellcasting ability of the class through which you gained this subclass. On a hit, the target takes damage equal to one roll of the weapon's damage die plus your spellcasting ability modifier. The damage is of a type dealt by the weapon. A versatile weapon uses its one-handed damage die for this attack.",
+            "You can make two attacks in this way when your Unseen Hand level reaches 10. Each attack must be made by a different hand wielding a different weapon, and the attacks can target the same creature or different ones.",
+            "When your Unseen Hand level reaches 10, your hands can wield magic weapons. You must be attuned to such a weapon if it requires attunement. The hand's attack benefits from the weapon's bonus to attack and damage rolls and from any of its properties that trigger when an attack made with it hits. A hand can't activate a magic weapon, and neither you nor the hand gains any other property that requires the weapon to be held or wielded."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Unseen Grasp",
+          "entries": [
+            "When you replace an attack with this option, choose one empty hand and one Medium or smaller creature within 5 feet of it. The target must succeed on a Strength saving throw against your spell save DC or suffer one of the following effects of your choice:",
+            {
+              "type": "list",
+              "items": [
+                "{@b Disarm.} The target releases one object of your choice that it is holding. If the object weighs no more than the hand's carrying capacity, the hand catches it.",
+                "{@b Drive.} The hand moves the target up to 10 feet toward or away from itself.",
+                "{@b Topple.} The target falls prone."
+              ]
+            },
+            "When your Unseen Hand level reaches 10, these maneuvers can affect a Large or smaller creature. A creature can be targeted by only one Unseen Grasp maneuver during the same action.",
+            "A hand must release anything it is carrying before it can attempt an Unseen Grasp maneuver."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Weapons Without Wielders",
+          "entries": [
+            "A Master's weapons do not spring from nothing. Each blade must be present on the battlefield or carried by their user before the hands can seize it and turn it against an enemy."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sustained Force",
+      "source": "TwofellMasterUnseenHand",
+      "className": "Bard",
+      "classSource": "PHB",
+      "subclassShortName": "Unseen Hand",
+      "subclassSource": "TwofellMasterUnseenHand",
+      "level": 10,
+      "entries": [
+        "You learn the {@spell telekinesis|PHB} spell. It counts as a spell of the class through which you gained this subclass",
+        "If you are a wizard, the spell is added to your spellbook and is always prepared for you. If {@spell telekinesis|PHB} is already in your spellbook, you can add one other wizard spell of 5th level or lower to your spellbook instead.",
+        "If you are a bard, {@spell telekinesis|PHB} doesn't count against the number of bard spells you know. If you already know {@spell telekinesis|PHB} as a bard spell, you can immediately replace that spell with another bard spell for which you have spell slots; the replacement spell counts against the number of bard spells you know as normal.",
+        "You can cast {@spell telekinesis|PHB} once without expending a spell slot. You regain the ability to cast it in this way when you finish a long rest.",
+        "While you concentrate on {@spell telekinesis|PHB}, you gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "You have advantage on Constitution saving throws made to maintain concentration on the spell.",
+            "After the turn on which you cast the spell, you can use a bonus action, rather than an action, to exert your will over the spell's target or to choose a new target. Provided you don't cast another spell using your action on that turn.",
+            "You can cast and control {@spell mage hand|PHB} normally. Controlling your {@spell mage hand|PHB} with your action doesn't prevent you from using {@spell telekinesis|PHB} with your bonus action on the same turn.",
+            "When you target yourself or a willing creature with the creature option of {@spell telekinesis|PHB}, no ability check is required, and the target isn't restrained. Whenever you exert your will over that target, you can move it up to 30 feet in any direction, but not beyond the spell's range. The target remains suspended between these movements."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Versatile Telekinesis",
+      "source": "TwofellMasterUnseenHand",
+      "className": "Bard",
+      "classSource": "PHB",
+      "subclassShortName": "Unseen Hand",
+      "subclassSource": "TwofellMasterUnseenHand",
+      "level": 14,
+      "entries": [
+        "Your {@spell telekinesis|PHB} can build from careful control into sudden, overwhelming force, granting you the following options. Once you use one of these options, you can't use that option again until the next time you cast {@spell telekinesis|PHB}.",
+        {
+          "type": "entries",
+          "name": "Violent Thrust",
+          "entries": [
+            "As an action, choose one Large or smaller creature or one unattended object that you can see within the spell's range. When your Unseen Hand level reaches 17, you can choose up to two creatures or objects, and a chosen creature can be Huge or smaller. A chosen object can weigh no more than 1,000 pounds.",
+            "Each chosen creature must make a Strength saving throw against your spell save DC. On a failed save, the creature takes {@dice 4d10} bludgeoning damage, is hurled up to 30 feet in a direction you choose, and falls prone. It must end this movement in an unoccupied space, and it can't end more than 10 feet higher than where it began. On a successful save, the creature takes half as much damage and isn't moved.",
+            "You can hurl each chosen object up to 30 feet to an unoccupied space you can see. Alternatively, you can hurl the object at a creature within 30 feet of it. Make a ranged spell attack against the creature. On a hit, the target takes {@dice 4d10} bludgeoning damage, and the object falls into an unoccupied space within 5 feet of it. On a miss, the object falls into an unoccupied space within 5 feet of the target.",
+            "If a hurled creature would enter another creature's space during this movement, the other creature must make a Dexterity saving throw against your spell save DC. On a failed save, the other creature takes {@dice 4d10} bludgeoning damage, and the hurled creature's movement ends in the nearest unoccupied space before the collision. On a successful save, the other creature takes no damage, and the hurled creature continues moving. The hurled creature takes no additional damage from the collision.",
+            "Using Violent Thrust releases any target currently held by telekinesis."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Fling Skyward",
+          "entries": [
+            "As an action, choose one Large or smaller creature currently restrained by your telekinesis. When your Unseen Hand level reaches 17, you can choose a Huge or smaller creature. The target must make a Strength saving throw against your spell save DC. On a failed save, you swing the target in a rising arc and fling it 120 feet straight upward. It remains suspended and restrained there until the start of your next turn, when it falls. On a successful save, the target isn't flung and remains restrained by telekinesis.",
+            "If the target strikes a solid surface before completing this movement, its upward movement ends. It takes {@dice 1d6} bludgeoning damage for every 15 feet of the 120-foot movement prevented by the collision, and then immediately falls.",
+            "On a failed save, the target is released from {@spell telekinesis|PHB} after being flung."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Master of the Unseen Hand",
+      "source": "TwofellMasterUnseenHand",
+      "className": "Wizard",
+      "classSource": "PHB",
+      "subclassShortName": "Unseen Hand",
+      "subclassSource": "TwofellMasterUnseenHand",
+      "level": 2,
+      "entries": [
+        "Masters of the Unseen Hand refine their studies into two related forms of magic. Using a simple spell like  {@i mage hands} to their absolute limit as they multiply into a collection of dexterous assistants capable of carrying out several delicate tasks at once, while their greater telekinetic power seizes creatures and heavy objects with overwhelming invisible force.",
+        "For a wizard, this discipline is an Arcane Tradition built upon keeping concentration while multitasking control upon multiple hands. For a bard, it is a Bard College whose force of will helps them conduct these hands as though directing an invisible ensemble.",
+        {
+          "type": "entries",
+          "name": "Master of the Unseen Hand Features",
+          "entries": [
+            {
+              "type": "table",
+              "colLabels": [
+                "Wizard Level",
+                "Bard Level",
+                "Feat"
+              ],
+              "rows": [
+                [
+                  "2nd",
+                  "3rd",
+                  "Many Hands, Skilled Handiwork"
+                ],
+                [
+                  "6th",
+                  "6th",
+                  "Practiced Hands, Forceful Hands"
+                ],
+                [
+                  "10th",
+                  "10th",
+                  "Sustained Force"
+                ],
+                [
+                  "14th",
+                  "14th",
+                  "Versatile Telekinesis"
+                ]
+              ]
+            },
+            "When you select this subclass, it becomes your subclass for that class. You can't select Master of the Unseen Hand as the subclass for another class."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Unseen Hand Level",
+          "entries": [
+            "Some features of this subclass refer to your {@b Unseen Hand level}. Your Unseen Hand level equals your combined levels in the bard and wizard classes. For example, if you are a 4th-level bard and a 6th-level wizard, your Unseen Hand level is 10.",
+            "Your Unseen Hand level determines the strength of features you already possess; it doesn't grant subclass features earlier than you're supposed to gain them. You gain each feature based on your level in the class through which you selected this subclass.",
+            {
+              "type": "entries",
+              "name": "Many Hands",
+              "entries": [
+                {
+                  "type": "table",
+                  "colLabels": [
+                    "Unseen Hand Level",
+                    "Number of Hands"
+                  ],
+                  "rows": [
+                    [
+                      "1st - 4th",
+                      "2"
+                    ],
+                    [
+                      "5th - 8th",
+                      "3"
+                    ],
+                    [
+                      "9th - 12th",
+                      "4"
+                    ],
+                    [
+                      "13th - 16th",
+                      "5"
+                    ],
+                    [
+                      "17th or higher",
+                      "6"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Many Hands",
+      "source": "TwofellMasterUnseenHand",
+      "className": "Wizard",
+      "classSource": "PHB",
+      "subclassShortName": "Unseen Hand",
+      "subclassSource": "TwofellMasterUnseenHand",
+      "level": 2,
+      "entries": [
+        "You learn the {@spell mage hand|PHB} cantrip. It is a spell of the class through which you gained this subclass, and it doesn't count against the number of cantrips you know. If you already know {@spell mage hand|PHB} from that class, you learn another cantrip of your choice from that class's spell list.",
+        "When you cast {@spell mage hand|PHB}, you can create multiple spectral hands instead of creating one. The number of hands you create is shown in the Many Hands table. You choose the appearance of these hands each time you cast the spell.",
+        "The hands share the spell's duration and range. Each hand can move independently, can carry no more than 10 pounds, and vanishes if it ends its turn more than 30 feet from you. A hand also vanishes if you dismiss it (no action required). The spell ends when its last hand vanishes.",
+        "When you use your action to control the hands, you can move each of them up to 30 feet and command each hand to perform one task permitted by {@spell mage hand|PHB}. If a task would require an ability check, only one hand can attempt one per round. They can work together to lift one object that exceeds an individual hand's carrying capacity, so long as its weight doesn't exceed their combined carrying capacity.",
+        "You can also control only one of the hands as a bonus action, moving it and commanding it to perform one task permitted by the spell."
+      ]
+    },
+    {
+      "name": "Skilled Handiwork",
+      "source": "TwofellMasterUnseenHand",
+      "className": "Wizard",
+      "classSource": "PHB",
+      "subclassShortName": "Unseen Hand",
+      "subclassSource": "TwofellMasterUnseenHand",
+      "level": 2,
+      "entries": [
+        "Hands summoned by the mage hand cantrip can apply the skills you have practiced. Each hand can hold and use a tool or musical instrument with which you are proficient. Your hands can perform simple, practiced tasks such as holding books open, turning its pages, writing dictated words, playing instruments, stirring a mixture, or organizing your equipment.",
+        "When you use your action to control the hands, you can command one hand to perform a task that requires an ability check using a tool, an instrument, or a skill in which you are proficient. You make the check as though you were performing the task yourself, provided you can see both the hand and the subject of its work. The task must be physically possible using only the hand and the objects within its reach.",
+        "A hand can hold your spellcasting focus, or a material component, but this doesn't allow you to provide a spell's components remotely, cast a spell from the hand's space, or ignore any components of a spell.",
+        {
+          "type": "entries",
+          "name": "Many Hands, One Will",
+          "entries": [
+            "The hands can look and behave independently. A scholar might surround herself with spectral scribes, while a bard conducts them as a silent ensemble of instruments and props."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Practiced Hands",
+      "source": "TwofellMasterUnseenHand",
+      "className": "Wizard",
+      "classSource": "PHB",
+      "subclassShortName": "Unseen Hand",
+      "subclassSource": "TwofellMasterUnseenHand",
+      "level": 6,
+      "entries": [
+        "Your spectral hands coordinate with practiced efficiency. When two or more hands work together on a task permitted by your Skilled Handiwork, you have advantage on one ability check made for that task, provided it could reasonably benefit from the additional hands.",
+        "In addition, when you use your bonus action to control one hand, that hand can perform a task permitted by your Skilled Handiwork that requires an ability check. Once a hand makes an ability check on your turn, none of your other hands can make another ability check until the start of your next turn."
+      ]
+    },
+    {
+      "name": "Forceful Hands",
+      "source": "TwofellMasterUnseenHand",
+      "className": "Wizard",
+      "classSource": "PHB",
+      "subclassShortName": "Unseen Hand",
+      "subclassSource": "TwofellMasterUnseenHand",
+      "level": 6,
+      "entries": [
+        "Your spectral hands can exert enough force to fight. When you use your action to control the hands created by your {@spell mage hand|PHB}, you can make the attacks described under Telekinetic Wielder.",
+        "You can replace any of those attacks with one Unseen Grasp maneuver.",
+        {
+          "type": "entries",
+          "name": "Telekinetic Wielder",
+          "entries": [
+            "As part of the action you use to control your hands, each hand you command to attack can pick up one nonmagical melee weapon within 5 feet of it. The weapon can't have the two-handed property and must weigh no more than the hand's carrying capacity. A hand can carry only one weapon at a time.",
+            "You can then command one hand carrying a weapon to attack a creature within 5 feet of that hand. Make a melee spell attack using the spellcasting ability of the class through which you gained this subclass. On a hit, the target takes damage equal to one roll of the weapon's damage die plus your spellcasting ability modifier. The damage is of a type dealt by the weapon. A versatile weapon uses its one-handed damage die for this attack.",
+            "You can make two attacks in this way when your Unseen Hand level reaches 10. Each attack must be made by a different hand wielding a different weapon, and the attacks can target the same creature or different ones.",
+            "When your Unseen Hand level reaches 10, your hands can wield magic weapons. You must be attuned to such a weapon if it requires attunement. The hand's attack benefits from the weapon's bonus to attack and damage rolls and from any of its properties that trigger when an attack made with it hits. A hand can't activate a magic weapon, and neither you nor the hand gains any other property that requires the weapon to be held or wielded."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Unseen Grasp",
+          "entries": [
+            "When you replace an attack with this option, choose one empty hand and one Medium or smaller creature within 5 feet of it. The target must succeed on a Strength saving throw against your spell save DC or suffer one of the following effects of your choice:",
+            {
+              "type": "list",
+              "items": [
+                "{@b Disarm.} The target releases one object of your choice that it is holding. If the object weighs no more than the hand's carrying capacity, the hand catches it.",
+                "{@b Drive.} The hand moves the target up to 10 feet toward or away from itself.",
+                "{@b Topple.} The target falls prone."
+              ]
+            },
+            "When your Unseen Hand level reaches 10, these maneuvers can affect a Large or smaller creature. A creature can be targeted by only one Unseen Grasp maneuver during the same action.",
+            "A hand must release anything it is carrying before it can attempt an Unseen Grasp maneuver."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Weapons Without Wielders",
+          "entries": [
+            "A Master's weapons do not spring from nothing. Each blade must be present on the battlefield or carried by their user before the hands can seize it and turn it against an enemy."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sustained Force",
+      "source": "TwofellMasterUnseenHand",
+      "className": "Wizard",
+      "classSource": "PHB",
+      "subclassShortName": "Unseen Hand",
+      "subclassSource": "TwofellMasterUnseenHand",
+      "level": 10,
+      "entries": [
+        "You learn the {@spell telekinesis|PHB} spell. It counts as a spell of the class through which you gained this subclass",
+        "If you are a wizard, the spell is added to your spellbook and is always prepared for you. If {@spell telekinesis|PHB} is already in your spellbook, you can add one other wizard spell of 5th level or lower to your spellbook instead.",
+        "If you are a bard, {@spell telekinesis|PHB} doesn't count against the number of bard spells you know. If you already know {@spell telekinesis|PHB} as a bard spell, you can immediately replace that spell with another bard spell for which you have spell slots; the replacement spell counts against the number of bard spells you know as normal.",
+        "You can cast {@spell telekinesis|PHB} once without expending a spell slot. You regain the ability to cast it in this way when you finish a long rest.",
+        "While you concentrate on {@spell telekinesis|PHB}, you gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "You have advantage on Constitution saving throws made to maintain concentration on the spell.",
+            "After the turn on which you cast the spell, you can use a bonus action, rather than an action, to exert your will over the spell's target or to choose a new target. Provided you don't cast another spell using your action on that turn.",
+            "You can cast and control {@spell mage hand|PHB} normally. Controlling your {@spell mage hand|PHB} with your action doesn't prevent you from using {@spell telekinesis|PHB} with your bonus action on the same turn.",
+            "When you target yourself or a willing creature with the creature option of {@spell telekinesis|PHB}, no ability check is required, and the target isn't restrained. Whenever you exert your will over that target, you can move it up to 30 feet in any direction, but not beyond the spell's range. The target remains suspended between these movements."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Versatile Telekinesis",
+      "source": "TwofellMasterUnseenHand",
+      "className": "Wizard",
+      "classSource": "PHB",
+      "subclassShortName": "Unseen Hand",
+      "subclassSource": "TwofellMasterUnseenHand",
+      "level": 14,
+      "entries": [
+        "Your {@spell telekinesis|PHB} can build from careful control into sudden, overwhelming force, granting you the following options. Once you use one of these options, you can't use that option again until the next time you cast {@spell telekinesis|PHB}.",
+        {
+          "type": "entries",
+          "name": "Violent Thrust",
+          "entries": [
+            "As an action, choose one Large or smaller creature or one unattended object that you can see within the spell's range. When your Unseen Hand level reaches 17, you can choose up to two creatures or objects, and a chosen creature can be Huge or smaller. A chosen object can weigh no more than 1,000 pounds.",
+            "Each chosen creature must make a Strength saving throw against your spell save DC. On a failed save, the creature takes {@dice 4d10} bludgeoning damage, is hurled up to 30 feet in a direction you choose, and falls prone. It must end this movement in an unoccupied space, and it can't end more than 10 feet higher than where it began. On a successful save, the creature takes half as much damage and isn't moved.",
+            "You can hurl each chosen object up to 30 feet to an unoccupied space you can see. Alternatively, you can hurl the object at a creature within 30 feet of it. Make a ranged spell attack against the creature. On a hit, the target takes {@dice 4d10} bludgeoning damage, and the object falls into an unoccupied space within 5 feet of it. On a miss, the object falls into an unoccupied space within 5 feet of the target.",
+            "If a hurled creature would enter another creature's space during this movement, the other creature must make a Dexterity saving throw against your spell save DC. On a failed save, the other creature takes {@dice 4d10} bludgeoning damage, and the hurled creature's movement ends in the nearest unoccupied space before the collision. On a successful save, the other creature takes no damage, and the hurled creature continues moving. The hurled creature takes no additional damage from the collision.",
+            "Using Violent Thrust releases any target currently held by telekinesis."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Fling Skyward",
+          "entries": [
+            "As an action, choose one Large or smaller creature currently restrained by your telekinesis. When your Unseen Hand level reaches 17, you can choose a Huge or smaller creature. The target must make a Strength saving throw against your spell save DC. On a failed save, you swing the target in a rising arc and fling it 120 feet straight upward. It remains suspended and restrained there until the start of your next turn, when it falls. On a successful save, the target isn't flung and remains restrained by telekinesis.",
+            "If the target strikes a solid surface before completing this movement, its upward movement ends. It takes {@dice 1d6} bludgeoning damage for every 15 feet of the 120-foot movement prevented by the collision, and then immediately falls.",
+            "On a failed save, the target is released from {@spell telekinesis|PHB} after being flung."
+          ]
+        }
+      ]
+    }
+  ]
+}

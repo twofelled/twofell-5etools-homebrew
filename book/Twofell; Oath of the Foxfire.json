@@ -1,0 +1,395 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "TwofellOathFoxfire",
+        "abbreviation": "TF:OF",
+        "full": "Oath of the Foxfire",
+        "authors": [
+          "Twofell"
+        ],
+        "convertedBy": [
+          "Twofell"
+        ],
+        "version": "1.0.0",
+        "color": "b45bdb"
+      }
+    ],
+    "edition": "classic",
+    "dateAdded": 1788659766,
+    "dateLastModified": 1788659766
+  },
+  "subclass": [
+    {
+      "name": "Oath of the Foxfire",
+      "shortName": "Foxfire",
+      "source": "TwofellOathFoxfire",
+      "className": "Paladin",
+      "classSource": "PHB",
+      "edition": "classic",
+      "subclassFeatures": [
+        "Oath of the Foxfire|Paladin|PHB|Foxfire|TwofellOathFoxfire|3",
+        "Oath Spells|Paladin|PHB|Foxfire|TwofellOathFoxfire|3",
+        "Channel Divinity|Paladin|PHB|Foxfire|TwofellOathFoxfire|3",
+        "One-Tailed Fox|Paladin|PHB|Foxfire|TwofellOathFoxfire|3",
+        "Aura of Cleansing|Paladin|PHB|Foxfire|TwofellOathFoxfire|7",
+        "Three-Tailed Fox|Paladin|PHB|Foxfire|TwofellOathFoxfire|7",
+        "Six-Tailed Fox|Paladin|PHB|Foxfire|TwofellOathFoxfire|15",
+        "Purifying Smite|Paladin|PHB|Foxfire|TwofellOathFoxfire|15",
+        "Nine-Tailed Fox|Paladin|PHB|Foxfire|TwofellOathFoxfire|20"
+      ],
+      "additionalSpells": [
+        {
+          "prepared": {
+            "3": [
+              "faerie fire|phb",
+              "sanctuary|phb"
+            ],
+            "5": [
+              "moonbeam|phb",
+              "see invisibility|phb"
+            ],
+            "9": [
+              "speak with dead|phb",
+              "spirit guardians|phb"
+            ],
+            "13": [
+              "banishment|phb",
+              "guardian of faith|phb"
+            ],
+            "17": [
+              "dispel evil and good|phb",
+              "hallow|phb"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "subclassFeature": [
+    {
+      "name": "Oath of the Foxfire",
+      "source": "TwofellOathFoxfire",
+      "className": "Paladin",
+      "classSource": "PHB",
+      "subclassShortName": "Foxfire",
+      "subclassSource": "TwofellOathFoxfire",
+      "level": 3,
+      "entries": [
+        "Paladins who swear the Oath of the Foxfire serve as exorcists and mediators between the living and the dead. Each is accompanied by a spirit fox whose flames help reveal what is concealed. Their task is to shelter peaceful spirits, and burn corruption from those it has claimed. As the bond between Paladin and spirit deepens, the fox develops additional tails and reveals more of its kitsune nature.",
+        "These Paladins do not assume every lingering spirit is malicious, instead they seek to uncover the truth behind their actions. Hoping to preserve spirits that mean no harm, and cleanse those that can still be saved. Only spirits beyond redemption are consigned to the foxfire.",
+        {
+          "type": "entries",
+          "name": "Oath of the Foxfire Features",
+          "entries": [
+            {
+              "type": "table",
+              "colLabels": [
+                "Paladin Level",
+                "Feature"
+              ],
+              "rows": [
+                [
+                  "3rd",
+                  "Oath Spells, Channel Divinity, One-Tailed Fox"
+                ],
+                [
+                  "7th",
+                  "Aura of Cleansing, Three-Tailed Fox"
+                ],
+                [
+                  "15th",
+                  "Six-Tailed Fox, Purifying Smite"
+                ],
+                [
+                  "20th",
+                  "Nine-Tailed Fox"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Tenets of the Foxfire",
+          "entries": [
+            "The tenets of the Oath of the Foxfire teach a Paladin to temper vigilance with compassion.",
+            "{@b See Beyond the Veil.} Seek the truth even when it is concealed by magic or deception.",
+            "{@b Cleanse Before Condemning.} Corruption does not always destroy the person or spirit beneath it.",
+            "{@b Honor the Dead.} Protect the spirits of the departed, for they represent what awaits beyond death.",
+            "{@b Leave No Evil.} When a spirit is truly beyond redemption, show it no mercy and leave none of its corruption behind."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Oath Spells",
+      "source": "TwofellOathFoxfire",
+      "className": "Paladin",
+      "classSource": "PHB",
+      "subclassShortName": "Foxfire",
+      "subclassSource": "TwofellOathFoxfire",
+      "level": 3,
+      "entries": [
+        "You gain oath spells at the Paladin levels listed.",
+        {
+          "type": "entries",
+          "name": "Oath of the Foxfire Spells",
+          "entries": [
+            {
+              "type": "table",
+              "colLabels": [
+                "Paladin Level",
+                "Spells"
+              ],
+              "rows": [
+                [
+                  "3rd",
+                  "{@i faerie fire, sanctuary}"
+                ],
+                [
+                  "5th",
+                  "{@i moonbeam, see invisibility}"
+                ],
+                [
+                  "9th",
+                  "{@i speak with dead, spirit guardians}"
+                ],
+                [
+                  "13th",
+                  "{@i banishment, guardian of faith}"
+                ],
+                [
+                  "17th",
+                  "{@i dispel evil and good, hallow}"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Between Two Worlds",
+          "entries": [
+            "Foxfire is not ordinary flame. It clings to spirits, and the stains left by supernatural corruption. Casting a cold light that harms what cannot be redeemed without consuming what remains innocent beneath it."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Channel Divinity",
+      "source": "TwofellOathFoxfire",
+      "className": "Paladin",
+      "classSource": "PHB",
+      "subclassShortName": "Foxfire",
+      "subclassSource": "TwofellOathFoxfire",
+      "level": 3,
+      "entries": [
+        "When you take this oath at 3rd level, you gain the following two Channel Divinity options.",
+        {
+          "type": "entries",
+          "name": "Revealing Foxfire",
+          "entries": [
+            "As an action, you present your holy symbol and wreathe one creature you can see within 30 feet of you in foxfire. You learn whether the creature is charmed, cursed, or possessed, though you don't learn the source of such an effect.",
+            "The creature must then make a Charisma saving throw. On a failed save, it takes {@dice 2d8} fire damage, and for 1 minute it can't benefit from being invisible, shapechanged, or magically disguised. If it is shapechanged or magically disguised when it fails this saving throw, its true form is revealed for the duration."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Cleanse the Spirit",
+          "entries": [
+            "As an action, you present your holy symbol and choose one charmed, cursed, frightened, or possessed creature you can see within 30 feet of you. Choose one such effect afflicting the target. The target immediately repeats a saving throw against the effect, treating a roll on the d20 lower than your Paladin level as equal to your Paladin level. If the effect doesn't normally allow a saving throw, the target instead makes a Charisma saving throw against your Paladin spell save DC.",
+            "On a successful save, the chosen effect ends. If a creature caused that effect and is on the same plane of existence, foxfire briefly surrounds it and it takes {@dice 4d6} radiant damage."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "One-Tailed Fox",
+      "source": "TwofellOathFoxfire",
+      "className": "Paladin",
+      "classSource": "PHB",
+      "subclassShortName": "Foxfire",
+      "subclassSource": "TwofellOathFoxfire",
+      "level": 3,
+      "entries": [
+        "Also at 3rd level, the kitsune spirits entrust you with a one-tailed spirit fox formed from foxfire. It is friendly to you and your companions and uses the Magical Fox stat block.",
+        "You determine its appearance, though it often resembles a canid surrounded by flames.",
+        "In combat, the fox shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction independently, but the only action it takes on its turn is the Dodge action unless you use a bonus action to command it to take another action. That action can be one in its stat block or another action available to it. If you are incapacitated, the fox can take any action of its choice.",
+        "The fox can't willingly move more than 60 feet away from you. If it is farther than 60 feet from you at the end of a turn, it disappears and reappears in an unoccupied space within 5 feet of you.",
+        "If the fox is reduced to 0 hit points, it disappears, leaving behind only a fading flame. You can use an action and expend a spell slot of 1st level or higher to cause it to reappear within 5 feet of you with all its hit points restored. It also reappears with all its hit points when you finish a long rest.",
+        "{@creature Magical Fox|TwofellOathFoxfire}"
+      ]
+    },
+    {
+      "name": "Aura of Cleansing",
+      "source": "TwofellOathFoxfire",
+      "className": "Paladin",
+      "classSource": "PHB",
+      "subclassShortName": "Foxfire",
+      "subclassSource": "TwofellOathFoxfire",
+      "level": 7,
+      "entries": [
+        "Starting at 7th level, mote of spectral fire circles around you and wards nearby souls against supernatural corruption. You and friendly creatures within 10 feet of you have resistance to necrotic damage, have advantage on saving throws against being charmed or frightened, and can't be possessed while within the aura.",
+        "At 18th level, the range of this aura increases to 30 feet.",
+        {
+          "type": "entries",
+          "name": "Divided but united",
+          "entries": [
+            "The Paladin and Fox can hold two places on the battlefield at once. Their auras soaring across the battlefield as which cannot be protected by the former, shall be covered by the companion. Carrying their will and protecting the soul beyond the Paladin's immediate reach."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Three-Tailed Fox",
+      "source": "TwofellOathFoxfire",
+      "className": "Paladin",
+      "classSource": "PHB",
+      "subclassShortName": "Foxfire",
+      "subclassSource": "TwofellOathFoxfire",
+      "level": 7,
+      "entries": [
+        "Also at 7th level, your spirit fox develops three tails and becomes a conduit for your divine power.",
+        "Whenever you use Divine Sense, its effect originates from both you and your fox. Your Aura of Cleansing also emanates from your fox. A creature within both instances of the aura gains its benefits only once.",
+        "The fox gains the following additional benefits.",
+        "{@b Carried Mercy.} When you use Lay on Hands, you can treat a creature within 5 feet of your fox as though it were within your reach.",
+        "{@b Lesser Smite.} When your fox hits a creature with Foxfire, you can expend a 1st-level spell slot to use Divine Smite through the attack. Foxfire counts as a melee weapon attack for the purpose of Divine Smite.",
+        "Your fox can also deliver the effects of any 1st-level Paladin spell with “Smite” in its name that is currently affecting you, treating its Foxfire as a melee weapon attack for that spell.",
+        "When you cast such a spell and choose for the fox to deliver it, you can use your action to command the fox to use Foxfire against a creature within its range. If the attack misses, the spell continues according to its normal duration."
+      ]
+    },
+    {
+      "name": "Six-Tailed Fox",
+      "source": "TwofellOathFoxfire",
+      "className": "Paladin",
+      "classSource": "PHB",
+      "subclassShortName": "Foxfire",
+      "subclassSource": "TwofellOathFoxfire",
+      "level": 15,
+      "entries": [
+        "At 15th level, your spirit fox develops six tails. It gains a flying speed of 40 feet and can hover, and the damage of its Foxfire increases to {@dice 2d6} + your proficiency bonus.",
+        "Your fox can now use Divine Smite through Foxfire using a spell slot of 2nd level or lower. It can also deliver a Paladin spell of 2nd level or lower with “Smite” in its name.",
+        "When you cast such a spell and choose for the fox to deliver it, the fox can immediately use Foxfire as part of the same bonus action used to cast the spell."
+      ]
+    },
+    {
+      "name": "Purifying Smite",
+      "source": "TwofellOathFoxfire",
+      "className": "Paladin",
+      "classSource": "PHB",
+      "subclassShortName": "Foxfire",
+      "subclassSource": "TwofellOathFoxfire",
+      "level": 15,
+      "entries": [
+        "Also at 15th level, you learn to strike through the cleansing flame carried by your companion.",
+        "Once on each of your turns, when you hit a creature illuminated by your fox's Foxfire with a melee weapon attack, the attack deals an additional {@dice 1d8} radiant damage.",
+        "You can then choose yourself or one friendly creature within your Aura of Cleansing. The chosen creature can immediately repeat a saving throw against one effect causing it to be charmed, frightened, cursed, or possessed.",
+        "If the effect doesn't normally allow a saving throw, the creature instead makes a Charisma saving throw against your Paladin spell save DC. On a successful save, the effect ends."
+      ]
+    },
+    {
+      "name": "Nine-Tailed Fox",
+      "source": "TwofellOathFoxfire",
+      "className": "Paladin",
+      "classSource": "PHB",
+      "subclassShortName": "Foxfire",
+      "subclassSource": "TwofellOathFoxfire",
+      "level": 20,
+      "entries": [
+        "At 20th level, you and your companion can reveal the full power of your bond.",
+        "Your fox can now use Divine Smite through Foxfire using a spell slot of any level. It can also deliver any Paladin spell with “Smite” in its name.",
+        "As an action while your fox is manifested, you wreathe yourself in flames and cause the fox to assume a Large, nine-tailed form for 1 minute.",
+        "For the duration, the fox's flying speed increases to 60 feet, the damage of its Foxfire increases to {@dice 3d6} + your proficiency bonus, and both of you emit bright light in a 30-foot radius and dim light for an additional 30 feet.",
+        "The transformation grants the following additional benefits.",
+        "{@b Relentless Foxfire.} Once on each of your turns when you hit a creature with an attack, your fox can immediately use Foxfire against that creature without requiring an action or your bonus action.",
+        "{@b Ninefold Judgment.} As a bonus action, choose one creature within 60 feet of either you or your fox and apply one of the following effects:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Cleanse.} The target regains hit points equal to {@dice 2d8} + your Charisma modifier, and you end one of the following conditions affecting it: blinded, charmed, deafened, frightened, paralyzed, poisoned, or stunned. You can instead end one curse or possession affecting it. If the target is willing, you and your fox can each teleport to unoccupied spaces within 5 feet of it before or after cleansing it.",
+            "{@b Scorch.} The target must make a Charisma saving throw against your Paladin spell save DC. It takes {@dice 5d8} fire or radiant damage, chosen when you use this effect, on a failed save, or half as much damage on a successful one."
+          ]
+        },
+        "Once you use this feature, you can't use it again until you finish a long rest."
+      ]
+    }
+  ],
+  "monster": [
+    {
+      "name": "Magical Fox",
+      "source": "TwofellOathFoxfire",
+      "size": [
+        "S"
+      ],
+      "type": "fey",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "special": "13 + your proficiency bonus"
+        }
+      ],
+      "hp": {
+        "special": "5 + five times your Paladin level"
+      },
+      "speed": {
+        "walk": 40
+      },
+      "str": 8,
+      "dex": 16,
+      "con": 14,
+      "int": 10,
+      "wis": 14,
+      "cha": 14,
+      "immune": [
+        "fire"
+      ],
+      "conditionImmune": [
+        "charmed",
+        "frightened"
+      ],
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "languages": [
+        "understands the languages you speak; telepathy 60 ft. with you"
+      ],
+      "trait": [
+        {
+          "name": "Alignment",
+          "entries": [
+            "Your alignment."
+          ]
+        },
+        {
+          "name": "Saving Throws",
+          "entries": [
+            "Dex +3 plus your proficiency bonus, Wis +2 plus your proficiency bonus"
+          ]
+        },
+        {
+          "name": "Skills",
+          "entries": [
+            "Perception +2 plus your proficiency bonus"
+          ]
+        },
+        {
+          "name": "Passive Perception",
+          "entries": [
+            "12 + your proficiency bonus"
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Foxfire",
+          "entries": [
+            "{@i Ranged Spell Attack:} your spell attack modifier to hit, range 60 ft., one target. {@i Hit:} {@dice 1d6} + your proficiency bonus fire or radiant damage, chosen when the attack hits. The target sheds dim light in a 5-foot radius and can't benefit from being invisible until the start of the fox's next turn. The fox has advantage on this attack against Undead."
+          ]
+        }
+      ]
+    }
+  ]
+}

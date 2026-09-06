@@ -9,6 +9,19 @@ Each compendium is kept in its own file, with its subclasses, feats, backgrounds
 
 ## Available Books
 
+### Complete collection
+
+[Download Twofell; Subclasses and Content](https://raw.githubusercontent.com/twofelled/twofell-5etools-homebrew/refs/heads/main/book/Twofell%3B%20Subclasses%20and%20Content.json) combines all eight releases below, including the Bard and Wizard versions of Master of the Unseen Hand, companion creatures, conditions, infusions, items, feats, backgrounds, and other supporting content. Load this collection or the individual releases; installing both is unnecessary.
+
+### New subclasses
+
+| Release | Contents | JSON |
+| --- | --- | --- |
+| Master of the Unseen Hand | Shared Bard College and Wizard Arcane Tradition, with separate class progression and all telekinetic options. | [Load JSON](https://raw.githubusercontent.com/twofelled/twofell-5etools-homebrew/refs/heads/main/book/Twofell%3B%20Master%20of%20the%20Unseen%20Hand.json) |
+| Oath of the Foxfire | Paladin oath, oath spells, Channel Divinity options, and the Magical Fox companion. | [Load JSON](https://raw.githubusercontent.com/twofelled/twofell-5etools-homebrew/refs/heads/main/book/Twofell%3B%20Oath%20of%20the%20Foxfire.json) |
+
+### Other individual releases
+
 | Book | Contents | 5e.tools JSON | Original Version |
 | --- | --- | --- | --- |
 | **The Idol Compendium** | The Idol Agency patron, Pact of the Song, Pact Songs, Eldritch Invocations, performer backgrounds, feats, equipment, magic items and tools for creating an Agency. | [Load the 5e.tools book](https://raw.githubusercontent.com/twofelled/twofell-5etools-homebrew/refs/heads/main/book/Twofell%3B%20The%20Idol%20Compendium.json) | [Read on The Homebrewery](https://homebrewery.naturalcrit.com/share/Caw0m3qu1aRS) |
