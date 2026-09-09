@@ -1,4 +1,5 @@
 # Twofell's Homebrew in 5e.tools
+
 [![Format](https://img.shields.io/badge/format-5e.tools%20homebrew-5b3a70?style=for-the-badge)](https://5e.tools/)
 [![Rules](https://img.shields.io/badge/rules-D%26D%205e%20%282014%29-8b2635?style=for-the-badge)](https://2014.5e.tools/)
 [![Support](https://img.shields.io/badge/support-Twofell-f96854?style=for-the-badge)](https://ko-fi.com/twofell)
@@ -90,7 +91,7 @@ If loading from a URL is unavailable:
 ## Support
 
 Everything in this repository is free to load and use at your table. If you enjoyed the work and want to help me keep making more of it, you can support me through [Ko-fi](https://ko-fi.com/twofell).
-You can also request your own through [here](https://ko-fi.com/twofell/commissions)!
+You can also request your own through here: [commissions](https://ko-fi.com/twofell/commissions)!
 
 ## Fan Content Notice
 
