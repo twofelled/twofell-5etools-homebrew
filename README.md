@@ -87,45 +87,6 @@ If loading from a URL is unavailable:
 4. Upload the downloaded file.
 5. Refresh the site if the book does not appear immediately.
 
-## Troubleshooting
-
-### Updated content does not appear
-
-5e.tools stores homebrew in your browser. Remove the previous version of the book, load the current raw URL again and refresh the page. If the old version still appears, perform a hard refresh.
-
-A different browser or browser profile keeps its own homebrew collection, so a book loaded in one will not automatically appear in another.
-
-### A feature, item or section fails to load
-
-First, make sure you are using the 2014 version of 5e.tools and the current raw URL from this README. If the problem remains, [open an issue](https://github.com/twofelled/twofell-5etools-homebrew/issues) and include the book, the affected entry and any error shown by 5e.tools.
-
-### The book appears more than once
-
-Remove every installed copy through **Manage Homebrew**, refresh the page and load only the current version from this repository.
-
-## Repository Conventions
-
-- Each finished compendium is stored as its own book under `book/`.
-- The JSON keeps the wording and structure of the public release unless a change is needed for 5e.tools to render it correctly.
-- Renderer tags are used for spells, conditions, items, rolls and other references where appropriate.
-- Shared rules will only be separated into another file if more than one book comes to depend on them.
-- Files are written for D&D 5e using the 2014 rules unless the book says otherwise.
-- Books do not need to be installed together unless a future entry is explicitly marked as a dependency.
-
-## Feedback and Corrections
-
-If something is missing, refuses to render or links to the wrong entry, report it through the repository's [Issues](https://github.com/twofelled/twofell-5etools-homebrew/issues) page.
-
-Rules feedback is also welcome, but the formatted public release remains the main version of each brew. Any mechanical revision will be made there before the corresponding 5e.tools book is updated.
-
-## Useful References
-
-- [5e.tools Homebrew Repository](https://github.com/TheGiddyLimit/homebrew) — examples, naming conventions and contribution guidance.
-- [5e.tools Data Repository](https://github.com/5etools-mirror-3/5etools-src/tree/main/data) — official data structures used as references.
-- [5e.tools Renderer Demo](https://5e.tools/renderdemo.html) — examples of renderer entries and inline tags.
-- [5e.tools Text Converter](https://5e.tools/converter.html) — a starting point for supported conversions.
-- [5etools Language Server for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=revilowaldow.5etools-language-server) — live validation and editing assistance.
-
 ## Support
 
 Everything in this repository is free to load and use at your table. If you enjoyed the work and want to help me keep making more of it, you can support me through [Ko-fi](https://ko-fi.com/twofell).
