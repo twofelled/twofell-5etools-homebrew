@@ -25,8 +25,8 @@ Each compendium is kept in its own file, with its subclasses, feats, backgrounds
 | Book | Contents | 5e.tools JSON | Original Version |
 | --- | --- | --- | --- |
 | **The Idol Compendium** | The Idol Agency patron, Pact of the Song, Pact Songs, Eldritch Invocations, performer backgrounds, feats, equipment, magic items and tools for creating an Agency. | [Load the 5e.tools book](https://raw.githubusercontent.com/twofelled/twofell-5etools-homebrew/refs/heads/main/book/Twofell%3B%20The%20Idol%20Compendium.json) | [Read on The Homebrewery](https://homebrewery.naturalcrit.com/share/Caw0m3qu1aRS) |
-| **The Travel Agent Ranger Archetype** | A ranger archetype built around recording visited environments in a Travelogue and turning them into Featured Destinations, each with its own Amenity, Excursion and Local Specialty. | [Load the 5e.tools book](https://raw.githubusercontent.com/twofelled/twofell-5etools-homebrew/refs/heads/main/book/Twofell%3B%20The%20Travel%20Agent%20Ranger%20Archetype.json) | [Read on The Homebrewery](https://homebrewery.naturalcrit.com/share/_guXdHBsJuVf) |
-| **The Professor Arcane Tradition** | A wizard tradition that turns one familiar spell into a personal Thesis Spell, gathering Insight from others and spending it on Revisions that change how the spell is cast. | [Load the 5e.tools book](https://raw.githubusercontent.com/twofelled/twofell-5etools-homebrew/refs/heads/main/book/Twofell%3B%20The%20Professor%20Arcane%20Tradition.json) | [Read on The Homebrewery](https://homebrewery.naturalcrit.com/share/T1HoPZbj1NfZ) |
+| **The Travel Agent Ranger Archetype** | A ranger archetype built around recording visited environments in a Travelogue and turning them into Featured Destinations, each with its own Amenity, Excursion and Local Specialty. | [Load the 5e.tools book](https://raw.githubusercontent.com/twofelled/twofell-5etools-homebrew/refs/heads/main/book/Twofel%3B%20Travel%20Agent%20Ranger%20Archetype.json) | [Read on The Homebrewery](https://homebrewery.naturalcrit.com/share/_guXdHBsJuVf) |
+| **The Professor Arcane Tradition** | A wizard tradition that turns one familiar spell into a personal Thesis Spell, gathering Insight from others and spending it on Revisions that change how the spell is cast. | [Load the 5e.tools book](https://raw.githubusercontent.com/twofelled/twofell-5etools-homebrew/refs/heads/main/book/Twofell%3B%20Professor%20Arcane%20Tradition.json) | [Read on The Homebrewery](https://homebrewery.naturalcrit.com/share/T1HoPZbj1NfZ) |
 | **Circle of the Broodmother** | A druid circle that raises a Spiderling Brood, uses the Toxin condition and can assume the form of a Broodmother Ascendant. | [Load the 5e.tools book](https://raw.githubusercontent.com/twofelled/twofell-5etools-homebrew/refs/heads/main/book/Twofell%3B%20Circle%20of%20the%20Broodmother.json) | [Read on The Homebrewery](https://homebrewery.naturalcrit.com/share/XEbkTJXoctsb) |
 | **Street Magician** | A roguish archetype that performs carefully selected Evocation spells as Tricks and combines stagecraft with precise sneak attacks. | [Load the 5e.tools book](https://raw.githubusercontent.com/twofelled/twofell-5etools-homebrew/refs/heads/main/book/Twofell%3B%20Street%20Magician.json) | [Read on The Homebrewery](https://homebrewery.naturalcrit.com/share/rk2abX-gF9BE) |
 | **Alchemical Engineer** | An artificer specialist whose Transmutation Engine produces alchemical atoms, metallic projections and nine new Artificer Infusions. | [Load the 5e.tools book](https://raw.githubusercontent.com/twofelled/twofell-5etools-homebrew/refs/heads/main/book/Twofell%3B%20Alchemical%20Engineer.json) | [Read on The Homebrewery](https://homebrewery.naturalcrit.com/share/FvgMmeVfLLaz) |
@@ -50,13 +50,13 @@ https://raw.githubusercontent.com/twofelled/twofell-5etools-homebrew/refs/heads/
 #### The Travel Agent Ranger Archetype
 
 ```text
-https://raw.githubusercontent.com/twofelled/twofell-5etools-homebrew/refs/heads/main/book/Twofell%3B%20The%20Travel%20Agent%20Ranger%20Archetype.json
+https://raw.githubusercontent.com/twofelled/twofell-5etools-homebrew/refs/heads/main/book/Twofel%3B%20Travel%20Agent%20Ranger%20Archetype.json
 ```
 
 #### The Professor Arcane Tradition
 
 ```text
-https://raw.githubusercontent.com/twofelled/twofell-5etools-homebrew/refs/heads/main/book/Twofell%3B%20The%20Professor%20Arcane%20Tradition.json
+https://raw.githubusercontent.com/twofelled/twofell-5etools-homebrew/refs/heads/main/book/Twofell%3B%20Professor%20Arcane%20Tradition.json
 ```
 
 #### Circle of the Broodmother
